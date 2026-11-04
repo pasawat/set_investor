@@ -46,6 +46,12 @@ const short = (s, n = 300) => String(s).replace(/\s+/g, ' ').slice(0, n);
     console.log('first item:', short(JSON.stringify(first), 800));
   }
 
+  // accept the cookie banner like a normal visitor
+  try {
+    const ok = page.getByRole('button', { name: 'ยอมรับ', exact: true });
+    if (await ok.isVisible({ timeout: 3000 })) { await ok.click({ timeout: 4000 }); console.log('cookie banner accepted'); await page.waitForTimeout(1500); }
+  } catch (e) { console.log('cookie banner: none/skip'); }
+
   // ---------- 2. what filters does the UI offer?
   console.log('\n===== 2. visible filter controls');
   const ui = await page.evaluate(() => {
@@ -62,38 +68,46 @@ const short = (s, n = 300) => String(s).replace(/\s+/g, ' ').slice(0, n);
 
   // ---------- 3. try clicking filter labels the way a person would; watch what the page requests
   console.log('\n===== 3. click security-type options (observe requests only)');
-  for (const label of ['ประเภทหลักทรัพย์', 'ETF', 'DR', 'หุ้น']) {
-    const loc = page.getByText(label, { exact: false }).first();
+  for (const label of ['ETF', 'DR', 'หุ้น']) {
+    const loc = page.getByRole('button', { name: label, exact: true }).first();
     const n = seen.length;
     try {
-      if (await loc.isVisible({ timeout: 2000 })) {
-        await loc.click({ timeout: 4000 });
-        await page.waitForTimeout(3500);
-        console.log(`clicked "${label}": new news calls=${seen.length - n}`);
-        if (seen.length > n) console.log('   ', summarize(lastSeen()));
-      } else console.log(`"${label}" not visible`);
+      await loc.click({ timeout: 6000 });
+      await page.waitForTimeout(4000);
+      console.log(`clicked button "${label}": new news calls=${seen.length - n}`);
+      if (seen.length > n) console.log('   ', summarize(lastSeen()));
     } catch (e) { console.log(`"${label}" click failed:`, e.message.split('\n')[0]); }
-    await sleep(1500);
+    await sleep(2000);
+  }
+  // date-range presets a visitor can press
+  for (const label of ['5D']) {
+    const n = seen.length;
+    try {
+      await page.getByRole('button', { name: label, exact: true }).first().click({ timeout: 6000 });
+      await page.waitForTimeout(4000);
+      console.log(`clicked "${label}": new news calls=${seen.length - n}`);
+      if (seen.length > n) console.log('   ', summarize(lastSeen()));
+    } catch (e) { console.log(`"${label}" click failed:`, e.message.split('\n')[0]); }
   }
 
   // ---------- 4. pagination as a person would (next page / load more)
   console.log('\n===== 4. pagination');
-  for (const label of ['ถัดไป', 'Next', 'โหลดเพิ่ม', 'ดูเพิ่มเติม', '2']) {
-    const loc = page.getByRole('button', { name: label }).or(page.getByText(label, { exact: true })).first();
+  for (const label of ['2']) {
     const n = seen.length;
     try {
-      if (await loc.isVisible({ timeout: 1500 })) {
-        await loc.click({ timeout: 4000 });
-        await page.waitForTimeout(3500);
-        console.log(`clicked "${label}": new news calls=${seen.length - n}`);
-        if (seen.length > n) { console.log('   ', summarize(lastSeen())); break; }
-      }
-    } catch {}
+      await page.getByRole('button', { name: label, exact: true }).first().click({ timeout: 6000 });
+      await page.waitForTimeout(4000);
+      console.log(`clicked page "${label}": new news calls=${seen.length - n}`);
+      if (seen.length > n) console.log('   ', summarize(lastSeen()));
+    } catch (e) { console.log(`page "${label}" click failed:`, e.message.split('\n')[0]); }
   }
 
   // ---------- 5. open a detail page by navigating to a listed news link
   console.log('\n===== 5. detail page + attachments');
-  const links = await page.$$eval('a[href*="newsdetails"]', (as) => as.slice(0, 40).map((a) => ({ t: a.innerText.trim().slice(0, 70), h: a.href })));
+  // only SET's own news links (exclude share buttons to Facebook/LINE/X)
+  const links = await page.$$eval('a[href*="newsdetails"]', (as) => as
+    .filter((a) => a.href.startsWith('https://www.set.or.th/') && a.innerText.trim().length > 3)
+    .slice(0, 40).map((a) => ({ t: a.innerText.trim().slice(0, 70), h: a.href })));
   console.log('detail links on page:', links.length);
   links.slice(0, 5).forEach((l) => console.log(' -', l.t, '=>', l.h));
   const targets = [links.find((l) => /งบการเงิน/.test(l.t)), links[0]].filter(Boolean);
