@@ -1,0 +1,22 @@
+name: dry-run
+
+# Manual live check. Reads SET news like an ordinary visitor; never sends LINE messages.
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  dry-run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: npm ci
+      - run: npx playwright install --with-deps chromium
+      - name: Live listing capture
+        run: node src/capture-listing.js
