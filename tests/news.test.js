@@ -1,6 +1,6 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
-import { parseNewsResponse, uniqueById, computeWindow, inWindow } from '../src/news.js';
+import { parseNewsResponse, newsKey, uniqueItems, computeWindow, inWindow } from '../src/news.js';
 
 const spg = {
   id: '17937493938141',
@@ -33,9 +33,16 @@ test('parseNewsResponse coerces fields to strings and tolerates null/empty input
   assert.equal(item.tag, '');
 });
 
-test('uniqueById keeps the first occurrence and original order', () => {
-  const out = uniqueById([spg, untagged, { ...spg, headline: 'dup' }]);
-  assert.deepEqual(out.map((i) => i.id), ['17937493938141', '2']);
+test('newsKey combines id and symbol: one announcement id is published once per symbol', () => {
+  assert.equal(newsKey({ id: '107312501', symbol: 'BIDU80' }), '107312501|BIDU80');
+  assert.notEqual(newsKey({ id: '1', symbol: 'A' }), newsKey({ id: '1', symbol: 'B' }));
+});
+
+test('uniqueItems keeps one announcement for many symbols, drops exact repeats, keeps first and order', () => {
+  const a = { ...spg, id: '107312501', symbol: 'BIDU80', url: 'u1' };
+  const b = { ...spg, id: '107312501', symbol: 'BKNG80', url: 'u2' };
+  const out = uniqueItems([a, untagged, b, { ...a, headline: 'dup' }]);
+  assert.deepEqual(out.map((i) => i.symbol), ['BIDU80', 'ABC', 'BKNG80']);
   assert.equal(out[0].headline, spg.headline);
 });
 

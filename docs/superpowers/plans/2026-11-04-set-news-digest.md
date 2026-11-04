@@ -31,7 +31,7 @@
 3. สรุปที่มีตัวเลขไม่อยู่ในต้นฉบับ → ติดธง `unverified` และแสดงสีแดง (Task 8, 10)
 4. เนื้อข่าวที่มีข้อความเหมือนคำสั่ง ("ignore previous instructions") → ถูกส่งเป็นข้อมูล ไม่เปลี่ยนพฤติกรรม (Task 9)
 5. ข้อความ LINE ยาวเกิน 5,000 ตัวอักษร หรือเกิน 5 ข้อความ → แบ่ง แล้วตัดท้ายพร้อมบอกลิงก์รายงานเต็ม (Task 11)
-6. id ข่าวซ้ำข้ามหน้า (หน้าเว็บโหลดทับซ้อนตอนไล่หน้า) → นับครั้งเดียว (Task 2, 5)
+6. id ประกาศเดียวใช้กับหลาย symbol (ตัวอย่างจริง: 1 id = DR 107 ตัว) → ต้องไม่ถูกตัดทิ้ง ส่วนแถวซ้ำจริง (id+symbol เดียวกัน) นับครั้งเดียว (Task 2, 3, 5, 7)
 
 ---
 
@@ -55,9 +55,9 @@
 - Create: `src/news.js`, `tests/news.test.js`
 
 **Interfaces:**
-- Produces: `parseNewsResponse(json): NewsItem[]` (รวม `newsGroups[].newsInfoList` และ `paginateNews.newsInfoList`); `NewsItem = { id, datetime, symbol, headline, tag, url, product }` (string ทั้งหมด); `uniqueById(items): NewsItem[]`; `computeWindow(now: Date, lastSuccess: Date|null, lookbackDays): { from: Date, to: Date }`; `inWindow(item, window): boolean`
+- Produces: `parseNewsResponse(json): NewsItem[]` (รวม `newsGroups[].newsInfoList` และ `paginateNews.newsInfoList`); `NewsItem = { id, datetime, symbol, headline, tag, url, product }` (string ทั้งหมด); `newsKey(item): string` (`${id}|${symbol}` — id เดียวถูกใช้กับหลาย symbol จึงไม่ unique); `uniqueItems(items): NewsItem[]`; `computeWindow(now: Date, lastSuccess: Date|null, lookbackDays): { from: Date, to: Date }`; `inWindow(item, window): boolean`
 
-- [ ] **Step 1: เขียนเทสต์ล้ม**: (ก) `parseNewsResponse` กับ JSON ตัวอย่างจริงจาก spike — รายการ `{"id":"17937493938141","datetime":"2026-11-04T08:02:54+07:00","symbol":"SPG","headline":"งบการเงิน ไตรมาสที่ 3/2569 (สอบทานแล้ว)","tag":"financial-statement","url":"https://www.set.or.th/th/market/news-and-alert/newsdetails?id=17937493938141&symbol=SPG","product":"S"}` ใน `newsGroups` และอีกตัวใน `paginateNews` → ได้ 2 รายการ, `tag` ว่างยังคงเป็น `""`; (ข) `uniqueById` ตัด id ซ้ำ คงลำดับแรก; (ค) `computeWindow` เมื่อ `lastSuccess=null` และ now = จันทร์ 07:30 น. ไทย → `from` = ศุกร์ 16:30 น. ไทย; เมื่อ `lastSuccess` เก่ากว่า 5 วัน → `from` = now − 5 วัน; (ง) `inWindow` ถูกต้องข้ามโซนเวลา (item `+07:00`, window เป็น UTC)
+- [ ] **Step 1: เขียนเทสต์ล้ม**: (ก) `parseNewsResponse` กับ JSON ตัวอย่างจริงจาก spike — รายการ `{"id":"17937493938141","datetime":"2026-11-04T08:02:54+07:00","symbol":"SPG","headline":"งบการเงิน ไตรมาสที่ 3/2569 (สอบทานแล้ว)","tag":"financial-statement","url":"https://www.set.or.th/th/market/news-and-alert/newsdetails?id=17937493938141&symbol=SPG","product":"S"}` ใน `newsGroups` และอีกตัวใน `paginateNews` → ได้ 2 รายการ, `tag` ว่างยังคงเป็น `""`; (ข) `uniqueItems` ตัดเฉพาะแถวที่ id+symbol ซ้ำ (id เดียวหลาย symbol ต้องอยู่ครบ) คงลำดับแรก; (ค) `computeWindow` เมื่อ `lastSuccess=null` และ now = จันทร์ 07:30 น. ไทย → `from` = ศุกร์ 16:30 น. ไทย; เมื่อ `lastSuccess` เก่ากว่า 5 วัน → `from` = now − 5 วัน; (ง) `inWindow` ถูกต้องข้ามโซนเวลา (item `+07:00`, window เป็น UTC)
 - [ ] **Step 2: รัน** `node --test tests/news.test.js` → FAIL
 - [ ] **Step 3: Implement** ตาม signature; ใช้ `Date` ล้วน (offset +07:00 คงที่ ไม่ต้องใช้ไลบรารีวันที่); ข้ามวันเสาร์-อาทิตย์เมื่อหา "วันทำการก่อนหน้า"
 - [ ] **Step 4: รัน** → PASS
@@ -70,7 +70,7 @@
 
 **Interfaces:**
 - Consumes: `NewsItem` จาก Task 2
-- Produces: `State = { sentIds: string[], lastSuccessAt: string|null }`; `emptyState(): State`; `filterNew(items, state): NewsItem[]`; `markSent(state, ids, at: Date): State` (คืนอ็อบเจ็กต์ใหม่ ไม่แก้ของเดิม, เก็บ `sentIds` ล่าสุดไม่เกิน 5,000 รายการ); `parseState(text): State`; `serializeState(state): string`
+- Produces: `State = { sentIds: string[], lastSuccessAt: string|null }`; `emptyState(): State`; `filterNew(items, state): NewsItem[]`; `markSent(state, keys: string[], at: Date): State` (keys = `newsKey`; `filterNew` เทียบด้วย `newsKey`) (คืนอ็อบเจ็กต์ใหม่ ไม่แก้ของเดิม, เก็บ `sentIds` ล่าสุดไม่เกิน 5,000 รายการ); `parseState(text): State`; `serializeState(state): string`
 
 - [ ] **Step 1: เทสต์ล้ม**: `filterNew` ตัด id ที่เคยส่ง; `markSent` ไม่แก้ state เดิมและต่ออายุ `lastSuccessAt`; `parseState('')` และ JSON เสียคืน `emptyState()`; ครบ 5,000 แล้วตัดตัวเก่าสุดออก
 - [ ] **Step 2: รัน** → FAIL
@@ -98,7 +98,7 @@
 - Create: `src/robots.js`, `src/listing.js`, `src/guards.js`, `src/capture-listing.js` (สคริปต์ชั่วคราว ลบใน Task 12), `.github/workflows/dry-run.yml`, `tests/robots.test.js`, `tests/compliance.test.js`
 
 **Interfaces:**
-- Consumes: `parseNewsResponse`, `uniqueById` (Task 2); `publishToDataBranch` (Task 4); `Config` (Task 1)
+- Consumes: `parseNewsResponse`, `uniqueItems`, `newsKey` (Task 2); `publishToDataBranch` (Task 4); `Config` (Task 1)
 - Produces: `isPathAllowed(robotsText: string, path: string, agent = '*'): boolean`; `assertNewsPathAllowed(fetchImpl = fetch): Promise<void>` (ดึง `https://www.set.or.th/robots.txt`, throw ถ้า `/th/market/news-and-alert/news` ถูกห้าม); `fetchListing(config, window): Promise<{ items: NewsItem[], totalCount: number, rawResponses: unknown[] }>`; `isSetNewsUrl(url: string): boolean` (จริงเฉพาะ `https://www.set.or.th/th/market/news-and-alert/newsdetails?...`) ใน `guards.js`
 
 - [ ] **Step 1: เทสต์ล้ม** `tests/robots.test.js`: ใช้ robots.txt จริงของ SET (`Disallow: /dat/`, `/data/`, `/set/` ฯลฯ) → `isPathAllowed(txt,'/th/market/news-and-alert/news')===true`, `isPathAllowed(txt,'/dat/x')===false`; ใช้ robots ของ weblink (`User-agent: *` / `Disallow: /`) → `/dat/news/a.pdf` false; `isSetNewsUrl` ปฏิเสธ `weblink.set.or.th`, `facebook.com`, `www.set.or.th/dat/…`

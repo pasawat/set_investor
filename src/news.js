@@ -27,13 +27,21 @@ export function parseNewsResponse(json) {
   return [...grouped, ...paged].map(toItem);
 }
 
-/** Drop repeated ids, keeping the first occurrence and original order. */
-export function uniqueById(items) {
+/**
+ * Identity of a news row. One announcement id is published once per security
+ * (e.g. one id shared by 107 DR symbols), each with its own detail URL, so the
+ * id alone is NOT unique.
+ */
+export const newsKey = (item) => `${item.id}|${item.symbol}`;
+
+/** Drop repeated rows (same id and symbol), keeping the first occurrence and original order. */
+export function uniqueItems(items) {
   const seen = new Set();
   const out = [];
   for (const item of items) {
-    if (seen.has(item.id)) continue;
-    seen.add(item.id);
+    const key = newsKey(item);
+    if (seen.has(key)) continue;
+    seen.add(key);
     out.push(item);
   }
   return out;

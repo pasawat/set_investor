@@ -1,4 +1,5 @@
-// Cross-run state: which news ids were already sent, and when the last run succeeded.
+// Cross-run state: which news rows (id|symbol keys) were already sent, and when the last run succeeded.
+import { newsKey } from './news.js';
 
 const MAX_IDS = 5000;
 
@@ -6,17 +7,17 @@ export const emptyState = () => ({ sentIds: [], lastSuccessAt: null });
 
 export function filterNew(items, state) {
   const sent = new Set(state.sentIds);
-  return items.filter((item) => !sent.has(item.id));
+  return items.filter((item) => !sent.has(newsKey(item)));
 }
 
 /** Returns a new state; the input is never mutated. */
-export function markSent(state, ids, at) {
+export function markSent(state, keys, at) {
   const merged = [...state.sentIds];
   const have = new Set(merged);
-  for (const id of ids) {
-    if (!have.has(id)) {
-      have.add(id);
-      merged.push(id);
+  for (const key of keys) {
+    if (!have.has(key)) {
+      have.add(key);
+      merged.push(key);
     }
   }
   return { sentIds: merged.slice(-MAX_IDS), lastSuccessAt: at.toISOString() };

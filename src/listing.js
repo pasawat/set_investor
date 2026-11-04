@@ -7,7 +7,7 @@
 //      (?source=company&securityType=S,L,X&fromDate=YYYY-MM-DD&toDate=YYYY-MM-DD)
 //   2. fallback: press ETF / DR / a date preset / "ค้นหา" on the default page
 import { chromium } from 'playwright';
-import { parseNewsResponse, uniqueById } from './news.js';
+import { parseNewsResponse, uniqueItems } from './news.js';
 
 const LIST_API = '/api/cms/v1/news/set';
 const DAY_MS = 24 * 3600 * 1000;
@@ -116,11 +116,11 @@ async function readListing(browser, config, window) {
   const collected = [];
   const take = (json) => collected.push(...parseNewsResponse(json));
   take(hit.json);
-  const totalCount = (hit.json.paginateNews && hit.json.paginateNews.totalCount) || uniqueById(collected).length;
+  const totalCount = (hit.json.paginateNews && hit.json.paginateNews.totalCount) || uniqueItems(collected).length;
 
   let pagesRead = 1;
   let stop = 'complete';
-  for (let n = 1; n < 100 && uniqueById(collected).length < totalCount; n++) {
+  for (let n = 1; n < 100 && uniqueItems(collected).length < totalCount; n++) {
     const next = page.locator('[aria-label="Go to next page"]').first();
     if ((await next.count()) === 0) {
       stop = 'no-next-control';
@@ -150,7 +150,7 @@ async function readListing(browser, config, window) {
     .$$eval('ul.pagination [aria-label]', (els) => els.map((e) => e.getAttribute('aria-label')))
     .catch(() => []);
 
-  const items = uniqueById(collected);
+  const items = uniqueItems(collected);
   return {
     items,
     totalCount,
