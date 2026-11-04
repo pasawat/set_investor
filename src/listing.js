@@ -118,16 +118,37 @@ async function readListing(browser, config, window) {
   take(hit.json);
   const totalCount = (hit.json.paginateNews && hit.json.paginateNews.totalCount) || uniqueById(collected).length;
 
+  let pagesRead = 1;
+  let stop = 'complete';
   for (let n = 1; n < 100 && uniqueById(collected).length < totalCount; n++) {
     const next = page.locator('[aria-label="Go to next page"]').first();
-    if ((await next.count()) === 0 || (await next.getAttribute('aria-disabled')) === 'true') break;
+    if ((await next.count()) === 0) {
+      stop = 'no-next-control';
+      break;
+    }
+    if ((await next.getAttribute('aria-disabled')) === 'true') {
+      stop = 'next-disabled';
+      break;
+    }
     await sleep(config.delayMs);
     const before = responses.length;
-    await retry(() => next.click({ timeout: 8000 }), config.retries, 1500);
+    try {
+      await retry(() => next.click({ timeout: 8000 }), config.retries, 1500);
+    } catch (e) {
+      stop = `click-failed: ${e.message.split('\n')[0]}`;
+      break;
+    }
     const r = await waitFor((x) => x.json && x.json.paginateNews, before, 20000);
-    if (!r) break;
+    if (!r) {
+      stop = 'no-response-after-click';
+      break;
+    }
     take(r.json);
+    pagesRead++;
   }
+  const paginationLabels = await page
+    .$$eval('ul.pagination [aria-label]', (els) => els.map((e) => e.getAttribute('aria-label')))
+    .catch(() => []);
 
   const items = uniqueById(collected);
   return {
@@ -135,6 +156,9 @@ async function readListing(browser, config, window) {
     totalCount,
     complete: items.length >= totalCount,
     method,
+    pagesRead,
+    stop,
+    paginationLabels,
     rawResponses: responses.map((r) => ({ url: r.url, json: r.json })),
   };
 }

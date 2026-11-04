@@ -20,6 +20,8 @@ const ids = result.items.map((i) => i.id);
 
 console.log('method:', result.method);
 console.log('totalCount shown by page:', result.totalCount, '| unique items collected:', result.items.length, '| complete:', result.complete);
+console.log('pagesRead:', result.pagesRead, '| stop:', result.stop);
+console.log('pagination labels:', JSON.stringify(result.paginationLabels));
 console.log('by product:', JSON.stringify(byProduct));
 console.log('duplicate ids:', ids.length - new Set(ids).size);
 console.log('sample:', JSON.stringify(result.items.slice(0, 3)));
