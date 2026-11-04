@@ -1,0 +1,104 @@
+import { test } from 'node:test';
+import assert from 'node:assert/strict';
+import { readFileSync } from 'node:fs';
+import { extractDetail, readDetails } from '../src/detail.js';
+
+const fixture = (name) => readFileSync(new URL(`./fixtures/detail-${name}.html`, import.meta.url), 'utf8');
+
+test('financial statement: only the disclaimer is on the page, so the content is attachment-only (zip)', () => {
+  const d = extractDetail(fixture('financial'));
+  assert.equal(d.title, 'งบการเงิน ไตรมาสที่ 3/2569 (สอบทานแล้ว)');
+  assert.equal(d.text, '');
+  assert.equal(d.attachmentOnly, true);
+  assert.equal(d.attachments.length, 1);
+  assert.equal(d.attachments[0].text, 'รายละเอียดแบบเต็ม');
+  assert.match(d.attachments[0].href, /\.zip$/);
+});
+
+test('NAV report: body text is on the page, disclaimer and menus are excluded, link kept as text', () => {
+  const d = extractDetail(fixture('nav'));
+  assert.equal(d.attachmentOnly, false);
+  assert.match(d.text, /มูลค่าหน่วย \(บาทต่อหน่วย\) : 6\.7100/);
+  assert.match(d.text, /242,243,547\.33/);
+  assert.doesNotMatch(d.text, /ข้อสงวนสิทธิ์/);
+  assert.doesNotMatch(d.text, /สารสนเทศฉบับนี้จัดทำและเผยแพร่/);
+  assert.doesNotMatch(d.text, /เว็บไซต์ในกลุ่ม/);
+  assert.match(d.attachments[0].href, /\.pdf$/);
+});
+
+test('DR announcement: disclaimer only, attachment-only', () => {
+  const d = extractDetail(fixture('dr'));
+  assert.equal(d.text, '');
+  assert.equal(d.attachmentOnly, true);
+  assert.match(d.attachments[0].href, /\.pdf$/);
+});
+
+test('ordinary announcement: full body on the page', () => {
+  const d = extractDetail(fixture('other'));
+  assert.equal(d.attachmentOnly, false);
+  assert.match(d.text, /TAKUNI-W2/);
+  assert.match(d.text, /ราคาการใช้สิทธิ/);
+});
+
+test('attachments exclude share buttons and site-wide files outside the news block', () => {
+  for (const name of ['financial', 'nav', 'dr', 'other']) {
+    const hrefs = extractDetail(fixture(name)).attachments.map((a) => a.href);
+    assert.equal(hrefs.some((h) => /facebook|listedCompanies/.test(h)), false, name);
+  }
+});
+
+// ---- readDetails with a fake browser: no network
+const item = (url, id = '1', symbol = 'S') => ({ id, symbol, url, datetime: '', headline: 'h', tag: '', product: 'S' });
+const cfg = { delayMs: 0, retries: 3, retryDelayMs: 0 };
+const GOOD = 'https://www.set.or.th/th/market/news-and-alert/newsdetails?id=1&symbol=S';
+
+function fakeLaunch({ html = fixture('nav'), failTimes = 0 } = {}) {
+  const calls = { goto: [] };
+  let fails = failTimes;
+  const page = {
+    goto: async (url) => {
+      calls.goto.push(url);
+      if (fails > 0) { fails--; throw new Error('timeout'); }
+    },
+    waitForSelector: async () => {},
+    content: async () => html,
+    close: async () => {},
+  };
+  const browser = {
+    newContext: async () => ({ newPage: async () => page }),
+    close: async () => {},
+  };
+  return { launch: async () => browser, calls };
+}
+
+test('readDetails refuses non-SET-news urls without opening a page', async () => {
+  const f = fakeLaunch();
+  const [r] = await readDetails([item('https://www.facebook.com/sharer.php?u=x')], cfg, { launch: f.launch });
+  assert.equal(r.ok, false);
+  assert.match(r.error, /refus/i);
+  assert.equal(f.calls.goto.length, 0);
+});
+
+test('readDetails returns the parsed page for a valid url', async () => {
+  const f = fakeLaunch();
+  const [r] = await readDetails([item(GOOD)], cfg, { launch: f.launch });
+  assert.equal(r.ok, true);
+  assert.equal(r.id, '1|S');
+  assert.match(r.text, /242,243,547\.33/);
+  assert.deepEqual(f.calls.goto, [GOOD]);
+});
+
+test('readDetails retries a failing page up to 3 times then succeeds', async () => {
+  const f = fakeLaunch({ failTimes: 2 });
+  const [r] = await readDetails([item(GOOD)], cfg, { launch: f.launch });
+  assert.equal(r.ok, true);
+  assert.equal(f.calls.goto.length, 3);
+});
+
+test('readDetails reports ok:false after retries are exhausted, without throwing', async () => {
+  const f = fakeLaunch({ failTimes: 9 });
+  const [r] = await readDetails([item(GOOD)], cfg, { launch: f.launch });
+  assert.equal(r.ok, false);
+  assert.match(r.error, /timeout/);
+  assert.equal(f.calls.goto.length, 3);
+});
