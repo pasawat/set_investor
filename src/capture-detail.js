@@ -41,7 +41,7 @@ const launch = async () => {
 
 const results = await readDetails(pick, config, { launch });
 for (const r of results) {
-  console.log(`${r.id} ok=${r.ok} attachmentOnly=${r.attachmentOnly} textChars=${r.text.length} attachments=${JSON.stringify(r.attachments.map((a) => a.href))}${r.error ? ' error=' + r.error : ''}`);
+  console.log(`${r.id} ok=${r.ok} attachmentOnly=${r.attachmentOnly} textChars=${r.text.length} attachments=${JSON.stringify(r.attachments.map((a) => a.href))}${r.error ? ' error=' + r.error : ''}\n    title=${JSON.stringify(r.title)} text=${JSON.stringify(r.text.slice(0, 90))}`);
 }
 console.log('\nURLs the browser was told to open:');
 opened.forEach((u) => console.log(' ', u));

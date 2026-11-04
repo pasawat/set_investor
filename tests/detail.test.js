@@ -102,3 +102,23 @@ test('readDetails reports ok:false after retries are exhausted, without throwing
   assert.match(r.error, /timeout/);
   assert.equal(f.calls.goto.length, 3);
 });
+
+test('an unrelated .raw-html earlier on the page (e.g. cookie banner) is not mistaken for the news body', () => {
+  const banner = '<div class="cookie"><div class="raw-html">เว็บไซต์นี้ใช้คุกกี้เพื่อพัฒนาประสบการณ์ของผู้ใช้งาน</div></div>';
+  const d = extractDetail(fixture('nav').replace('<body>', `<body>${banner}`));
+  assert.match(d.text, /242,243,547\.33/);
+  assert.doesNotMatch(d.text, /คุกกี้/);
+});
+
+test('readDetails waits for the news block itself, not just any .raw-html', async () => {
+  const waited = [];
+  const f = fakeLaunch();
+  const browser = await f.launch();
+  const ctx = await browser.newContext();
+  const page = await ctx.newPage();
+  const original = page.waitForSelector;
+  page.waitForSelector = async (sel, opts) => { waited.push(sel); return original(sel, opts); };
+  await readDetails([item(GOOD)], cfg, { launch: async () => ({ newContext: async () => ({ newPage: async () => page }), close: async () => {} }) });
+  assert.ok(waited.some((s) => /\.card-content \.raw-html/.test(s)), `waited for: ${waited.join(' | ')}`);
+  assert.ok(waited.some((s) => /div\.news/.test(s)), `waited for: ${waited.join(' | ')}`);
+});

@@ -31,7 +31,7 @@ export function extractDetail(html) {
   const attachments = news
     ? news.querySelectorAll('a.btn-download').map((a) => ({ text: a.text.trim(), href: a.getAttribute('href') || '' }))
     : [];
-  const body = root.querySelector('.raw-html');
+  const body = root.querySelector('.card-content .raw-html'); // scoped: other .raw-html (cookie banner) exist on the page
   const text = body ? cleanBody(body.structuredText) : '';
   return { title, text, attachments, attachmentOnly: text === '' && attachments.length > 0 };
 }
@@ -68,7 +68,8 @@ export async function readDetails(items, config, deps = {}) {
         const page = await context.newPage();
         try {
           await page.goto(item.url, { waitUntil: 'domcontentloaded', timeout: 60000 });
-          await page.waitForSelector('.raw-html', { timeout: 20000 });
+          await page.waitForSelector('div.news .title h2', { timeout: 20000 });
+          await page.waitForSelector('.card-content .raw-html', { timeout: 20000 });
           done = { id, ok: true, ...extractDetail(await page.content()) };
         } catch (e) {
           lastError = e.message.split('\n')[0];
