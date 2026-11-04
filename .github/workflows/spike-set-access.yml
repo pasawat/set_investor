@@ -1,0 +1,37 @@
+# THROWAWAY SPIKE: checks whether GitHub-hosted runners can reach set.or.th
+# and which API the news page calls. Delete after the spike.
+name: spike-set-access
+
+on:
+  push:
+    branches: [claude/stoic-faraday-m33yg9]
+    paths: [".github/workflows/spike-set-access.yml", "spike/**"]
+  workflow_dispatch:
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: 1) Plain HTTP probe (curl)
+        run: |
+          UA='Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36'
+          echo "runner egress IP: $(curl -s https://api.ipify.org)"
+          for url in \
+            "https://www.set.or.th/th/market/news-and-alert/news" \
+            "https://www.set.or.th/robots.txt"; do
+            echo "=== $url"
+            curl -sS -m 30 -A "$UA" -o /tmp/body.txt -D /tmp/head.txt -w "http=%{http_code} size=%{size_download} type=%{content_type}\n" "$url" || echo "curl failed"
+            head -n 12 /tmp/head.txt
+            echo "--- body head:"; head -c 600 /tmp/body.txt; echo
+          done
+
+      - name: 2) Browser probe (Playwright, capture XHR/API calls)
+        working-directory: spike
+        run: |
+          npm init -y >/dev/null
+          npm i playwright@1.49.1 >/dev/null
+          npx playwright install --with-deps chromium >/dev/null
+          node probe.js
