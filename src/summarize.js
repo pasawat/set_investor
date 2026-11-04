@@ -108,6 +108,8 @@ export async function summarizeGroup(client, group, sampleDetails, config) {
   if (readable.length === 0) {
     return { key, status: 'attachment_only', text: `${group.template} — ${NOTE_ATTACHMENT}\n${note}`, unverified: [], usage: NO_USAGE };
   }
-  const source = `${group.template}\n${readable.map((d) => d.text).join('\n')}`;
+  // The model also sees the template and the sample labels (symbols such as ABBV80), so they count as source.
+  const labels = readable.map((d) => d.id.split('|')[1] || '').join('\n');
+  const source = `${group.template}\n${labels}\n${readable.map((d) => d.text).join('\n')}`;
   return run(client, key, config.models.template, group, sampleDetails, source, config, note);
 }
