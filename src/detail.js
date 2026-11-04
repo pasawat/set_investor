@@ -26,7 +26,8 @@ export function extractDetail(html) {
   // `pre` must be absent from blockTextElements so it is parsed as markup:
   // the announcement body sits in <pre><div class="raw-html">. (`pre: false` would drop its content.)
   const root = parse(html, { blockTextElements: { script: true, noscript: true, style: true } });
-  const news = root.querySelector('div.news');
+  // The page has an empty decoy div.news before the real block: pick the one holding the headline.
+  const news = root.querySelectorAll('div.news').find((n) => n.querySelector('.title h2')) || null;
   const title = news ? (news.querySelector('.title h2')?.text || '').trim() : '';
   const attachments = news
     ? news.querySelectorAll('a.btn-download').map((a) => ({ text: a.text.trim(), href: a.getAttribute('href') || '' }))

@@ -122,3 +122,12 @@ test('readDetails waits for the news block itself, not just any .raw-html', asyn
   assert.ok(waited.some((s) => /\.card-content \.raw-html/.test(s)), `waited for: ${waited.join(' | ')}`);
   assert.ok(waited.some((s) => /div\.news/.test(s)), `waited for: ${waited.join(' | ')}`);
 });
+
+test('an empty div.news before the real news block (seen on the live page) does not hide title or attachments', () => {
+  const decoy = '<div class="news"></div>';
+  for (const name of ['financial', 'nav']) {
+    const d = extractDetail(fixture(name).replace('<body>', `<body>${decoy}`));
+    assert.notEqual(d.title, '', name);
+    assert.equal(d.attachments.length, 1, name);
+  }
+});
