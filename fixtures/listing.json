@@ -1,8 +1,8 @@
 {
-  "capturedAt": "2026-11-04T05:53:55.307Z",
+  "capturedAt": "2026-11-04T05:56:13.912Z",
   "window": {
     "from": "2026-11-03T09:30:00.000Z",
-    "to": "2026-11-04T05:53:55.307Z"
+    "to": "2026-11-04T05:56:13.912Z"
   },
   "items": [
     {
@@ -1242,6 +1242,18 @@
   "totalCount": 464,
   "complete": false,
   "method": "url-query",
+  "pagesRead": 24,
+  "stop": "next-disabled",
+  "paginationLabels": [
+    "Go to previous page",
+    "Go to page 1",
+    "Go to page 20",
+    "Go to page 21",
+    "Go to page 22",
+    "Go to page 23",
+    "Go to page 24",
+    "Go to next page"
+  ],
   "rawResponses": [
     {
       "url": "https://www.set.or.th/api/cms/v1/news/set?fromDate=03/11/2026&toDate=03/11/2026&perPage=10&orderBy=date&lang=th",
@@ -1514,7 +1526,7 @@
               "viewClarification": null,
               "marketAlertTypeId": null,
               "tag": "",
-              "percentPriceChange": 0,
+              "percentPriceChange": -0.531915,
               "view": 0,
               "product": "X"
             },
@@ -1529,7 +1541,7 @@
               "viewClarification": null,
               "marketAlertTypeId": null,
               "tag": "",
-              "percentPriceChange": 2.752294,
+              "percentPriceChange": 1.834862,
               "view": 0,
               "product": "X"
             },
@@ -1694,7 +1706,7 @@
               "viewClarification": null,
               "marketAlertTypeId": null,
               "tag": "",
-              "percentPriceChange": 0.46729,
+              "percentPriceChange": 0,
               "view": 0,
               "product": "X"
             },
@@ -1946,7 +1958,7 @@
               "viewClarification": null,
               "marketAlertTypeId": null,
               "tag": "",
-              "percentPriceChange": -0.719424,
+              "percentPriceChange": 0.719424,
               "view": 0,
               "product": "X"
             },
@@ -2078,7 +2090,7 @@
               "viewClarification": null,
               "marketAlertTypeId": null,
               "tag": "",
-              "percentPriceChange": 2.222222,
+              "percentPriceChange": 2.962963,
               "view": 0,
               "product": "X"
             },
@@ -2273,7 +2285,7 @@
               "viewClarification": null,
               "marketAlertTypeId": null,
               "tag": "",
-              "percentPriceChange": -0.42735,
+              "percentPriceChange": 0,
               "view": 0,
               "product": "X"
             },
@@ -2375,7 +2387,7 @@
               "viewClarification": null,
               "marketAlertTypeId": null,
               "tag": "",
-              "percentPriceChange": null,
+              "percentPriceChange": 3.448276,
               "view": 0,
               "product": "X"
             },
@@ -2807,7 +2819,7 @@
               "viewClarification": null,
               "marketAlertTypeId": null,
               "tag": "",
-              "percentPriceChange": 2.409639,
+              "percentPriceChange": 0,
               "view": 0,
               "product": "X"
             },
@@ -2927,7 +2939,7 @@
               "viewClarification": null,
               "marketAlertTypeId": null,
               "tag": "",
-              "percentPriceChange": -0.740741,
+              "percentPriceChange": 0.740741,
               "view": 0,
               "product": "X"
             },
@@ -3134,7 +3146,7 @@
               "viewClarification": null,
               "marketAlertTypeId": null,
               "tag": "",
-              "percentPriceChange": -1.30719,
+              "percentPriceChange": -0.653595,
               "view": 0,
               "product": "X"
             },
@@ -3239,7 +3251,7 @@
               "viewClarification": null,
               "marketAlertTypeId": null,
               "tag": "",
-              "percentPriceChange": 0,
+              "percentPriceChange": -0.531915,
               "view": 0,
               "product": "X"
             },
@@ -3296,7 +3308,7 @@
               "viewClarification": null,
               "marketAlertTypeId": null,
               "tag": "",
-              "percentPriceChange": 0,
+              "percentPriceChange": -0.666667,
               "view": 0,
               "product": "X"
             },
@@ -3431,7 +3443,7 @@
               "viewClarification": null,
               "marketAlertTypeId": null,
               "tag": "",
-              "percentPriceChange": -2.919708,
+              "percentPriceChange": -0.729927,
               "view": 0,
               "product": "X"
             },
@@ -3446,7 +3458,7 @@
               "viewClarification": null,
               "marketAlertTypeId": null,
               "tag": "",
-              "percentPriceChange": -5.607477,
+              "percentPriceChange": -4.672897,
               "view": 0,
               "product": "X"
             },
@@ -3566,7 +3578,7 @@
               "viewClarification": null,
               "marketAlertTypeId": null,
               "tag": "",
-              "percentPriceChange": 3.75,
+              "percentPriceChange": 3.125,
               "view": 0,
               "product": "X"
             },
@@ -3713,7 +3725,7 @@
               "viewClarification": null,
               "marketAlertTypeId": null,
               "tag": "",
-              "percentPriceChange": 4.132231,
+              "percentPriceChange": 3.305785,
               "view": 0,
               "product": "X"
             },
