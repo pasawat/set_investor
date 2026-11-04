@@ -1,0 +1,15 @@
+{
+  "name": "set-news-digest",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Daily summary of SET news (stocks, ETF, DR) delivered to LINE",
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "test": "node --test \"tests/**/*.test.js\""
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^1.4.0",
+    "playwright": "1.49.1"
+  }
+}
