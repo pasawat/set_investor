@@ -36,12 +36,18 @@ const items = (j) => {
   // ---- Q0: what does the browser send that bare fetch lacks?
   console.log('\n===== Q0: auth/session analysis');
   const browser = await chromium.launch();
-  const ctx = await browser.newContext({ locale: 'th-TH', userAgent: UA });
+  const ctx = await browser.newContext({ locale: 'th-TH' }); // no UA override (round 1 worked without it)
   CTX = ctx;
   const page0 = await ctx.newPage();
   let apiReq = null;
   page0.on('request', (rq) => { if (rq.url().includes('/api/cms/v1/news/set') && !apiReq) apiReq = rq; });
-  await page0.goto(BASE + '/th/market/news-and-alert/news', { waitUntil: 'networkidle', timeout: 60000 });
+  const t0 = Date.now();
+  const apiWait = page0.waitForResponse((r) => r.url().includes('/api/cms/v1/news/set'), { timeout: 60000 }).catch(() => null);
+  await page0.goto(BASE + '/th/market/news-and-alert/news', { waitUntil: 'domcontentloaded', timeout: 60000 })
+    .catch((e) => console.log('goto err:', e.message.split('\n')[0]));
+  const apiRes = await apiWait;
+  console.log(`news API seen: ${apiRes ? apiRes.status() : 'NO'} after ${Date.now() - t0}ms`);
+  await page0.waitForTimeout(3000);
   if (apiReq) {
     const h = await apiReq.allHeaders();
     const redacted = Object.fromEntries(Object.entries(h).map(([k, v]) => [k, /cookie|authorization|token/i.test(k) ? `<${k} len=${v.length}>` : v]));
@@ -121,7 +127,7 @@ const items = (j) => {
         calls.push({ st: res.status(), u, ct, s });
       }
     });
-    try { await page.goto(t.url, { waitUntil: 'networkidle', timeout: 60000 }); } catch (e) { console.log('goto err', e.message); }
+    try { await page.goto(t.url, { waitUntil: 'domcontentloaded', timeout: 60000 }); await page.waitForTimeout(10000); } catch (e) { console.log('goto err', e.message.split('\n')[0]); }
     calls.filter((c) => /news|attach|pdf/i.test(c.u)).forEach((c) => console.log(`[${c.st}] ${c.u}\n   ${c.ct}\n   ${short(c.s, 700)}`));
     const links = await page.$$eval('a', (as) => as.map((a) => ({ t: a.innerText.trim().slice(0, 60), h: a.href }))
       .filter((x) => /pdf|download|attach|file|zip|\.xls|\.doc/i.test(x.h) || /pdf|ดาวน์โหลด|ไฟล์|แนบ/i.test(x.t)));
