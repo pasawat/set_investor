@@ -6,12 +6,18 @@ const BASE = 'https://www.set.or.th';
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 const short = (s, n = 300) => String(s).replace(/\s+/g, ' ').slice(0, n);
 
+let CTX = null; // browser context holding the session cookies
 async function get(path) {
-  const res = await fetch(BASE + path, { headers: { 'User-Agent': UA, Accept: 'application/json', Referer: BASE + '/th/market/news-and-alert/news' } });
+  const res = await CTX.request.get(BASE + path, { headers: { Accept: 'application/json', Referer: BASE + '/th/market/news-and-alert/news' } });
   const text = await res.text();
   let json = null;
   try { json = JSON.parse(text); } catch {}
-  return { status: res.status, type: res.headers.get('content-type'), text, json };
+  return { status: res.status(), type: res.headers()['content-type'], text, json };
+}
+// Same call but with plain node fetch + cookies copied from the browser (tells us if Playwright is needed in prod)
+async function getPlain(path, cookieHeader, extra = {}) {
+  const res = await fetch(BASE + path, { headers: { 'User-Agent': UA, Accept: 'application/json', Referer: BASE + '/th/market/news-and-alert/news', Cookie: cookieHeader, ...extra } });
+  return res.status;
 }
 const items = (j) => {
   if (!j) return [];
@@ -26,6 +32,36 @@ const items = (j) => {
   const dd = (x) => String(x).padStart(2, '0');
   const D = `${dd(d.getUTCDate())}/${dd(d.getUTCMonth() + 1)}/${d.getUTCFullYear()}`;
   console.log('probe date:', D);
+
+  // ---- Q0: what does the browser send that bare fetch lacks?
+  console.log('\n===== Q0: auth/session analysis');
+  const browser = await chromium.launch();
+  const ctx = await browser.newContext({ locale: 'th-TH', userAgent: UA });
+  CTX = ctx;
+  const page0 = await ctx.newPage();
+  let apiReq = null;
+  page0.on('request', (rq) => { if (rq.url().includes('/api/cms/v1/news/set') && !apiReq) apiReq = rq; });
+  await page0.goto(BASE + '/th/market/news-and-alert/news', { waitUntil: 'networkidle', timeout: 60000 });
+  if (apiReq) {
+    const h = await apiReq.allHeaders();
+    const redacted = Object.fromEntries(Object.entries(h).map(([k, v]) => [k, /cookie|authorization|token/i.test(k) ? `<${k} len=${v.length}>` : v]));
+    console.log('browser API request url:', apiReq.url());
+    console.log('browser API request headers:', JSON.stringify(redacted));
+  } else console.log('no news API request captured');
+  const cookies = await ctx.cookies();
+  console.log('cookies set after page load:', cookies.map((c) => `${c.name}(len=${c.value.length}, httpOnly=${c.httpOnly})`).join(', '));
+  const cookieHeader = cookies.map((c) => `${c.name}=${c.value}`).join('; ');
+  const testPath = `/api/cms/v1/news/set?sourceId=company&securityTypeIds=S&fromDate=${D}&toDate=${D}&perPage=5&orderBy=date&lang=th`;
+  console.log('node fetch, no cookies  ->', await getPlain(testPath, ''));
+  console.log('node fetch, with cookies ->', await getPlain(testPath, cookieHeader));
+  if (apiReq) {
+    const h = await apiReq.allHeaders();
+    const keep = {};
+    for (const [k, v] of Object.entries(h)) if (!/^(cookie|host|connection|content-length|accept-encoding)$/i.test(k)) keep[k] = v;
+    console.log('node fetch, cookies + browser headers ->', await getPlain(testPath, cookieHeader, keep));
+  }
+  const viaCtx = await get(testPath);
+  console.log('playwright context request ->', viaCtx.status);
 
   // ---- Q1: security types (ETF / DR ids)
   console.log('\n===== Q1: security types in stock list');
@@ -71,8 +107,6 @@ const items = (j) => {
   console.log('tags in sample:', JSON.stringify(byTag));
   const targets = [pool.find((x) => /financial/.test(x.tag || '')), pool.find((x) => !/financial/.test(x.tag || ''))].filter(Boolean);
 
-  const browser = await chromium.launch();
-  const ctx = await browser.newContext({ locale: 'th-TH', userAgent: UA });
   for (const t of targets) {
     console.log(`\n--- detail: ${t.url} (tag=${t.tag}) "${t.headline}"`);
     const page = await ctx.newPage();
@@ -105,8 +139,6 @@ const items = (j) => {
       } catch (e) { console.log('pdf fetch err', e.message); }
     }
   }
-  await browser.close();
-
   // ---- Q4: rate behaviour (modest): 20 sequential calls, 250ms apart
   console.log('\n===== Q4: sequential call behaviour');
   const codes = {};
@@ -116,4 +148,5 @@ const items = (j) => {
     await sleep(250);
   }
   console.log('status distribution over 20 calls:', JSON.stringify(codes));
+  await browser.close();
 })().catch((e) => { console.log('FATAL', e); process.exit(1); });
