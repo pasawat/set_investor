@@ -21,7 +21,9 @@ jobs:
           echo "runner egress IP: $(curl -s https://api.ipify.org)"
           for url in \
             "https://www.set.or.th/th/market/news-and-alert/news" \
-            "https://www.set.or.th/robots.txt"; do
+            "https://www.set.or.th/robots.txt" \
+            "https://weblink.set.or.th/robots.txt" \
+            "https://media.set.or.th/robots.txt"; do
             echo "=== $url"
             curl -sS -m 30 -A "$UA" -o /tmp/body.txt -D /tmp/head.txt -w "http=%{http_code} size=%{size_download} type=%{content_type}\n" "$url" || echo "curl failed"
             head -n 12 /tmp/head.txt
@@ -34,4 +36,4 @@ jobs:
           npm init -y >/dev/null
           npm i playwright@1.49.1 >/dev/null
           npx playwright install --with-deps chromium >/dev/null
-          node probe5.js
+          node probe6.js
