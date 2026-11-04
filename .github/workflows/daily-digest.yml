@@ -1,0 +1,35 @@
+name: daily-digest
+
+# Weekdays 07:30 Bangkok (00:30 UTC). The schedule only runs when the repository variable
+# DIGEST_ENABLED is 'true' (Settings > Secrets and variables > Actions > Variables),
+# and GitHub only runs schedules from the default branch.
+on:
+  schedule:
+    - cron: '30 0 * * 1-5'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: daily-digest
+  cancel-in-progress: false
+
+jobs:
+  digest:
+    if: ${{ github.event_name == 'workflow_dispatch' || vars.DIGEST_ENABLED == 'true' }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: npm ci
+      - run: npx playwright install --with-deps chromium
+      - name: Send digest
+        run: node src/main.js
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          LINE_CHANNEL_ACCESS_TOKEN: ${{ secrets.LINE_CHANNEL_ACCESS_TOKEN }}
+          LINE_USER_ID: ${{ secrets.LINE_USER_ID }}

@@ -1,6 +1,8 @@
 name: dry-run
 
-# Manual live check. Reads SET news like an ordinary visitor; never sends LINE messages.
+# Manual rehearsal of the whole pipeline. Reads SET news like an ordinary visitor,
+# publishes the report (not the state) to the `data` branch, and never sends LINE messages.
+# Without an ANTHROPIC_API_KEY secret it runs with AI summaries off (original-text excerpts).
 on:
   workflow_dispatch:
 
@@ -10,7 +12,7 @@ permissions:
 jobs:
   dry-run:
     runs-on: ubuntu-latest
-    timeout-minutes: 20
+    timeout-minutes: 40
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
@@ -18,5 +20,7 @@ jobs:
           node-version: 22
       - run: npm ci
       - run: npx playwright install --with-deps chromium
-      - name: Live detail capture
-        run: node src/capture-detail.js
+      - name: Dry run
+        run: node src/main.js --dry-run --capture
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
