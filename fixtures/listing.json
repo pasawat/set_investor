@@ -1,8 +1,8 @@
 {
-  "capturedAt": "2026-11-04T05:56:13.912Z",
+  "capturedAt": "2026-11-04T05:59:54.467Z",
   "window": {
     "from": "2026-11-03T09:30:00.000Z",
-    "to": "2026-11-04T05:56:13.912Z"
+    "to": "2026-11-04T05:59:54.467Z"
   },
   "items": [
     {
@@ -78,12 +78,1263 @@
       "product": "X"
     },
     {
+      "id": "107312501",
+      "datetime": "2026-11-04T08:08:20+07:00",
+      "symbol": "ABBV80",
+      "headline": "แจ้งข้อมูลการถือครองหลักทรัพย์อ้างอิงต่างประเทศ (Underlying) ของตราสารแสดงสิทธิในหลักทรัพย์ต่างประเทศ (Depositary Receipt) ที่ออกโดย ธนาคารกรุงไทย จำกัด (มหาชน) ของเดือนตุลาคม พ.ศ. 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107312501&symbol=ABBV80",
+      "product": "X"
+    },
+    {
+      "id": "107312501",
+      "datetime": "2026-11-04T08:08:20+07:00",
+      "symbol": "ADVANT80",
+      "headline": "แจ้งข้อมูลการถือครองหลักทรัพย์อ้างอิงต่างประเทศ (Underlying) ของตราสารแสดงสิทธิในหลักทรัพย์ต่างประเทศ (Depositary Receipt) ที่ออกโดย ธนาคารกรุงไทย จำกัด (มหาชน) ของเดือนตุลาคม พ.ศ. 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107312501&symbol=ADVANT80",
+      "product": "X"
+    },
+    {
+      "id": "107312501",
+      "datetime": "2026-11-04T08:08:20+07:00",
+      "symbol": "AIRBUS80",
+      "headline": "แจ้งข้อมูลการถือครองหลักทรัพย์อ้างอิงต่างประเทศ (Underlying) ของตราสารแสดงสิทธิในหลักทรัพย์ต่างประเทศ (Depositary Receipt) ที่ออกโดย ธนาคารกรุงไทย จำกัด (มหาชน) ของเดือนตุลาคม พ.ศ. 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107312501&symbol=AIRBUS80",
+      "product": "X"
+    },
+    {
+      "id": "107312501",
+      "datetime": "2026-11-04T08:08:20+07:00",
+      "symbol": "AJINO80",
+      "headline": "แจ้งข้อมูลการถือครองหลักทรัพย์อ้างอิงต่างประเทศ (Underlying) ของตราสารแสดงสิทธิในหลักทรัพย์ต่างประเทศ (Depositary Receipt) ที่ออกโดย ธนาคารกรุงไทย จำกัด (มหาชน) ของเดือนตุลาคม พ.ศ. 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107312501&symbol=AJINO80",
+      "product": "X"
+    },
+    {
+      "id": "107312501",
+      "datetime": "2026-11-04T08:08:20+07:00",
+      "symbol": "AMAT80",
+      "headline": "แจ้งข้อมูลการถือครองหลักทรัพย์อ้างอิงต่างประเทศ (Underlying) ของตราสารแสดงสิทธิในหลักทรัพย์ต่างประเทศ (Depositary Receipt) ที่ออกโดย ธนาคารกรุงไทย จำกัด (มหาชน) ของเดือนตุลาคม พ.ศ. 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107312501&symbol=AMAT80",
+      "product": "X"
+    },
+    {
+      "id": "107312501",
+      "datetime": "2026-11-04T08:08:20+07:00",
+      "symbol": "AMD80",
+      "headline": "แจ้งข้อมูลการถือครองหลักทรัพย์อ้างอิงต่างประเทศ (Underlying) ของตราสารแสดงสิทธิในหลักทรัพย์ต่างประเทศ (Depositary Receipt) ที่ออกโดย ธนาคารกรุงไทย จำกัด (มหาชน) ของเดือนตุลาคม พ.ศ. 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107312501&symbol=AMD80",
+      "product": "X"
+    },
+    {
+      "id": "107312501",
+      "datetime": "2026-11-04T08:08:20+07:00",
+      "symbol": "AMEC80",
+      "headline": "แจ้งข้อมูลการถือครองหลักทรัพย์อ้างอิงต่างประเทศ (Underlying) ของตราสารแสดงสิทธิในหลักทรัพย์ต่างประเทศ (Depositary Receipt) ที่ออกโดย ธนาคารกรุงไทย จำกัด (มหาชน) ของเดือนตุลาคม พ.ศ. 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107312501&symbol=AMEC80",
+      "product": "X"
+    },
+    {
+      "id": "107312501",
+      "datetime": "2026-11-04T08:08:20+07:00",
+      "symbol": "AMZN80",
+      "headline": "แจ้งข้อมูลการถือครองหลักทรัพย์อ้างอิงต่างประเทศ (Underlying) ของตราสารแสดงสิทธิในหลักทรัพย์ต่างประเทศ (Depositary Receipt) ที่ออกโดย ธนาคารกรุงไทย จำกัด (มหาชน) ของเดือนตุลาคม พ.ศ. 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107312501&symbol=AMZN80",
+      "product": "X"
+    },
+    {
+      "id": "107312501",
+      "datetime": "2026-11-04T08:08:20+07:00",
+      "symbol": "ANET80",
+      "headline": "แจ้งข้อมูลการถือครองหลักทรัพย์อ้างอิงต่างประเทศ (Underlying) ของตราสารแสดงสิทธิในหลักทรัพย์ต่างประเทศ (Depositary Receipt) ที่ออกโดย ธนาคารกรุงไทย จำกัด (มหาชน) ของเดือนตุลาคม พ.ศ. 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107312501&symbol=ANET80",
+      "product": "X"
+    },
+    {
+      "id": "107312501",
+      "datetime": "2026-11-04T08:08:20+07:00",
+      "symbol": "AVGO80",
+      "headline": "แจ้งข้อมูลการถือครองหลักทรัพย์อ้างอิงต่างประเทศ (Underlying) ของตราสารแสดงสิทธิในหลักทรัพย์ต่างประเทศ (Depositary Receipt) ที่ออกโดย ธนาคารกรุงไทย จำกัด (มหาชน) ของเดือนตุลาคม พ.ศ. 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107312501&symbol=AVGO80",
+      "product": "X"
+    },
+    {
+      "id": "107312501",
+      "datetime": "2026-11-04T08:08:20+07:00",
+      "symbol": "BABA80",
+      "headline": "แจ้งข้อมูลการถือครองหลักทรัพย์อ้างอิงต่างประเทศ (Underlying) ของตราสารแสดงสิทธิในหลักทรัพย์ต่างประเทศ (Depositary Receipt) ที่ออกโดย ธนาคารกรุงไทย จำกัด (มหาชน) ของเดือนตุลาคม พ.ศ. 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107312501&symbol=BABA80",
+      "product": "X"
+    },
+    {
+      "id": "107312501",
+      "datetime": "2026-11-04T08:08:20+07:00",
+      "symbol": "BE80",
+      "headline": "แจ้งข้อมูลการถือครองหลักทรัพย์อ้างอิงต่างประเทศ (Underlying) ของตราสารแสดงสิทธิในหลักทรัพย์ต่างประเทศ (Depositary Receipt) ที่ออกโดย ธนาคารกรุงไทย จำกัด (มหาชน) ของเดือนตุลาคม พ.ศ. 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107312501&symbol=BE80",
+      "product": "X"
+    },
+    {
+      "id": "107312501",
+      "datetime": "2026-11-04T08:08:20+07:00",
+      "symbol": "BIDU80",
+      "headline": "แจ้งข้อมูลการถือครองหลักทรัพย์อ้างอิงต่างประเทศ (Underlying) ของตราสารแสดงสิทธิในหลักทรัพย์ต่างประเทศ (Depositary Receipt) ที่ออกโดย ธนาคารกรุงไทย จำกัด (มหาชน) ของเดือนตุลาคม พ.ศ. 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107312501&symbol=BIDU80",
+      "product": "X"
+    },
+    {
+      "id": "107312501",
+      "datetime": "2026-11-04T08:08:20+07:00",
+      "symbol": "BKNG80",
+      "headline": "แจ้งข้อมูลการถือครองหลักทรัพย์อ้างอิงต่างประเทศ (Underlying) ของตราสารแสดงสิทธิในหลักทรัพย์ต่างประเทศ (Depositary Receipt) ที่ออกโดย ธนาคารกรุงไทย จำกัด (มหาชน) ของเดือนตุลาคม พ.ศ. 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107312501&symbol=BKNG80",
+      "product": "X"
+    },
+    {
+      "id": "107312501",
+      "datetime": "2026-11-04T08:08:20+07:00",
+      "symbol": "BOEING80",
+      "headline": "แจ้งข้อมูลการถือครองหลักทรัพย์อ้างอิงต่างประเทศ (Underlying) ของตราสารแสดงสิทธิในหลักทรัพย์ต่างประเทศ (Depositary Receipt) ที่ออกโดย ธนาคารกรุงไทย จำกัด (มหาชน) ของเดือนตุลาคม พ.ศ. 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107312501&symbol=BOEING80",
+      "product": "X"
+    },
+    {
+      "id": "107312501",
+      "datetime": "2026-11-04T08:08:20+07:00",
+      "symbol": "BRKB80",
+      "headline": "แจ้งข้อมูลการถือครองหลักทรัพย์อ้างอิงต่างประเทศ (Underlying) ของตราสารแสดงสิทธิในหลักทรัพย์ต่างประเทศ (Depositary Receipt) ที่ออกโดย ธนาคารกรุงไทย จำกัด (มหาชน) ของเดือนตุลาคม พ.ศ. 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107312501&symbol=BRKB80",
+      "product": "X"
+    },
+    {
+      "id": "107312501",
+      "datetime": "2026-11-04T08:08:20+07:00",
+      "symbol": "BYDCOM80",
+      "headline": "แจ้งข้อมูลการถือครองหลักทรัพย์อ้างอิงต่างประเทศ (Underlying) ของตราสารแสดงสิทธิในหลักทรัพย์ต่างประเทศ (Depositary Receipt) ที่ออกโดย ธนาคารกรุงไทย จำกัด (มหาชน) ของเดือนตุลาคม พ.ศ. 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107312501&symbol=BYDCOM80",
+      "product": "X"
+    },
+    {
+      "id": "107312501",
+      "datetime": "2026-11-04T08:08:20+07:00",
+      "symbol": "CAMBRI80",
+      "headline": "แจ้งข้อมูลการถือครองหลักทรัพย์อ้างอิงต่างประเทศ (Underlying) ของตราสารแสดงสิทธิในหลักทรัพย์ต่างประเทศ (Depositary Receipt) ที่ออกโดย ธนาคารกรุงไทย จำกัด (มหาชน) ของเดือนตุลาคม พ.ศ. 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107312501&symbol=CAMBRI80",
+      "product": "X"
+    },
+    {
+      "id": "107312501",
+      "datetime": "2026-11-04T08:08:20+07:00",
+      "symbol": "CAT80",
+      "headline": "แจ้งข้อมูลการถือครองหลักทรัพย์อ้างอิงต่างประเทศ (Underlying) ของตราสารแสดงสิทธิในหลักทรัพย์ต่างประเทศ (Depositary Receipt) ที่ออกโดย ธนาคารกรุงไทย จำกัด (มหาชน) ของเดือนตุลาคม พ.ศ. 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107312501&symbol=CAT80",
+      "product": "X"
+    },
+    {
+      "id": "107312501",
+      "datetime": "2026-11-04T08:08:20+07:00",
+      "symbol": "CATL80",
+      "headline": "แจ้งข้อมูลการถือครองหลักทรัพย์อ้างอิงต่างประเทศ (Underlying) ของตราสารแสดงสิทธิในหลักทรัพย์ต่างประเทศ (Depositary Receipt) ที่ออกโดย ธนาคารกรุงไทย จำกัด (มหาชน) ของเดือนตุลาคม พ.ศ. 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107312501&symbol=CATL80",
+      "product": "X"
+    },
+    {
+      "id": "107312501",
+      "datetime": "2026-11-04T08:08:20+07:00",
+      "symbol": "CBRS80",
+      "headline": "แจ้งข้อมูลการถือครองหลักทรัพย์อ้างอิงต่างประเทศ (Underlying) ของตราสารแสดงสิทธิในหลักทรัพย์ต่างประเทศ (Depositary Receipt) ที่ออกโดย ธนาคารกรุงไทย จำกัด (มหาชน) ของเดือนตุลาคม พ.ศ. 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107312501&symbol=CBRS80",
+      "product": "X"
+    },
+    {
+      "id": "107312501",
+      "datetime": "2026-11-04T08:08:20+07:00",
+      "symbol": "CH30080",
+      "headline": "แจ้งข้อมูลการถือครองหลักทรัพย์อ้างอิงต่างประเทศ (Underlying) ของตราสารแสดงสิทธิในหลักทรัพย์ต่างประเทศ (Depositary Receipt) ที่ออกโดย ธนาคารกรุงไทย จำกัด (มหาชน) ของเดือนตุลาคม พ.ศ. 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107312501&symbol=CH30080",
+      "product": "X"
+    },
+    {
+      "id": "107312501",
+      "datetime": "2026-11-04T08:08:20+07:00",
+      "symbol": "CHAI80",
+      "headline": "แจ้งข้อมูลการถือครองหลักทรัพย์อ้างอิงต่างประเทศ (Underlying) ของตราสารแสดงสิทธิในหลักทรัพย์ต่างประเทศ (Depositary Receipt) ที่ออกโดย ธนาคารกรุงไทย จำกัด (มหาชน) ของเดือนตุลาคม พ.ศ. 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107312501&symbol=CHAI80",
+      "product": "X"
+    },
+    {
+      "id": "107312501",
+      "datetime": "2026-11-04T08:08:20+07:00",
+      "symbol": "CHNEXT80",
+      "headline": "แจ้งข้อมูลการถือครองหลักทรัพย์อ้างอิงต่างประเทศ (Underlying) ของตราสารแสดงสิทธิในหลักทรัพย์ต่างประเทศ (Depositary Receipt) ที่ออกโดย ธนาคารกรุงไทย จำกัด (มหาชน) ของเดือนตุลาคม พ.ศ. 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107312501&symbol=CHNEXT80",
+      "product": "X"
+    },
+    {
+      "id": "107312501",
+      "datetime": "2026-11-04T08:08:20+07:00",
+      "symbol": "CHSTAR5080",
+      "headline": "แจ้งข้อมูลการถือครองหลักทรัพย์อ้างอิงต่างประเทศ (Underlying) ของตราสารแสดงสิทธิในหลักทรัพย์ต่างประเทศ (Depositary Receipt) ที่ออกโดย ธนาคารกรุงไทย จำกัด (มหาชน) ของเดือนตุลาคม พ.ศ. 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107312501&symbol=CHSTAR5080",
+      "product": "X"
+    },
+    {
+      "id": "107312501",
+      "datetime": "2026-11-04T08:08:20+07:00",
+      "symbol": "CNRE80",
+      "headline": "แจ้งข้อมูลการถือครองหลักทรัพย์อ้างอิงต่างประเทศ (Underlying) ของตราสารแสดงสิทธิในหลักทรัพย์ต่างประเทศ (Depositary Receipt) ที่ออกโดย ธนาคารกรุงไทย จำกัด (มหาชน) ของเดือนตุลาคม พ.ศ. 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107312501&symbol=CNRE80",
+      "product": "X"
+    },
+    {
+      "id": "107312501",
+      "datetime": "2026-11-04T08:08:20+07:00",
+      "symbol": "COHR80",
+      "headline": "แจ้งข้อมูลการถือครองหลักทรัพย์อ้างอิงต่างประเทศ (Underlying) ของตราสารแสดงสิทธิในหลักทรัพย์ต่างประเทศ (Depositary Receipt) ที่ออกโดย ธนาคารกรุงไทย จำกัด (มหาชน) ของเดือนตุลาคม พ.ศ. 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107312501&symbol=COHR80",
+      "product": "X"
+    },
+    {
+      "id": "107312501",
+      "datetime": "2026-11-04T08:08:20+07:00",
+      "symbol": "COIN80",
+      "headline": "แจ้งข้อมูลการถือครองหลักทรัพย์อ้างอิงต่างประเทศ (Underlying) ของตราสารแสดงสิทธิในหลักทรัพย์ต่างประเทศ (Depositary Receipt) ที่ออกโดย ธนาคารกรุงไทย จำกัด (มหาชน) ของเดือนตุลาคม พ.ศ. 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107312501&symbol=COIN80",
+      "product": "X"
+    },
+    {
+      "id": "107312501",
+      "datetime": "2026-11-04T08:08:20+07:00",
+      "symbol": "COSTCO80",
+      "headline": "แจ้งข้อมูลการถือครองหลักทรัพย์อ้างอิงต่างประเทศ (Underlying) ของตราสารแสดงสิทธิในหลักทรัพย์ต่างประเทศ (Depositary Receipt) ที่ออกโดย ธนาคารกรุงไทย จำกัด (มหาชน) ของเดือนตุลาคม พ.ศ. 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107312501&symbol=COSTCO80",
+      "product": "X"
+    },
+    {
+      "id": "107312501",
+      "datetime": "2026-11-04T08:08:20+07:00",
+      "symbol": "CRDO80",
+      "headline": "แจ้งข้อมูลการถือครองหลักทรัพย์อ้างอิงต่างประเทศ (Underlying) ของตราสารแสดงสิทธิในหลักทรัพย์ต่างประเทศ (Depositary Receipt) ที่ออกโดย ธนาคารกรุงไทย จำกัด (มหาชน) ของเดือนตุลาคม พ.ศ. 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107312501&symbol=CRDO80",
+      "product": "X"
+    },
+    {
+      "id": "107312501",
+      "datetime": "2026-11-04T08:08:20+07:00",
+      "symbol": "CRM80",
+      "headline": "แจ้งข้อมูลการถือครองหลักทรัพย์อ้างอิงต่างประเทศ (Underlying) ของตราสารแสดงสิทธิในหลักทรัพย์ต่างประเทศ (Depositary Receipt) ที่ออกโดย ธนาคารกรุงไทย จำกัด (มหาชน) ของเดือนตุลาคม พ.ศ. 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107312501&symbol=CRM80",
+      "product": "X"
+    },
+    {
+      "id": "107312501",
+      "datetime": "2026-11-04T08:08:20+07:00",
+      "symbol": "CRWD80",
+      "headline": "แจ้งข้อมูลการถือครองหลักทรัพย์อ้างอิงต่างประเทศ (Underlying) ของตราสารแสดงสิทธิในหลักทรัพย์ต่างประเทศ (Depositary Receipt) ที่ออกโดย ธนาคารกรุงไทย จำกัด (มหาชน) ของเดือนตุลาคม พ.ศ. 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107312501&symbol=CRWD80",
+      "product": "X"
+    },
+    {
+      "id": "107312501",
+      "datetime": "2026-11-04T08:08:20+07:00",
+      "symbol": "CYPC80",
+      "headline": "แจ้งข้อมูลการถือครองหลักทรัพย์อ้างอิงต่างประเทศ (Underlying) ของตราสารแสดงสิทธิในหลักทรัพย์ต่างประเทศ (Depositary Receipt) ที่ออกโดย ธนาคารกรุงไทย จำกัด (มหาชน) ของเดือนตุลาคม พ.ศ. 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107312501&symbol=CYPC80",
+      "product": "X"
+    },
+    {
+      "id": "107312501",
+      "datetime": "2026-11-04T08:08:20+07:00",
+      "symbol": "DBO80",
+      "headline": "แจ้งข้อมูลการถือครองหลักทรัพย์อ้างอิงต่างประเทศ (Underlying) ของตราสารแสดงสิทธิในหลักทรัพย์ต่างประเทศ (Depositary Receipt) ที่ออกโดย ธนาคารกรุงไทย จำกัด (มหาชน) ของเดือนตุลาคม พ.ศ. 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107312501&symbol=DBO80",
+      "product": "X"
+    },
+    {
+      "id": "107312501",
+      "datetime": "2026-11-04T08:08:20+07:00",
+      "symbol": "DELL80",
+      "headline": "แจ้งข้อมูลการถือครองหลักทรัพย์อ้างอิงต่างประเทศ (Underlying) ของตราสารแสดงสิทธิในหลักทรัพย์ต่างประเทศ (Depositary Receipt) ที่ออกโดย ธนาคารกรุงไทย จำกัด (มหาชน) ของเดือนตุลาคม พ.ศ. 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107312501&symbol=DELL80",
+      "product": "X"
+    },
+    {
+      "id": "107312501",
+      "datetime": "2026-11-04T08:08:20+07:00",
+      "symbol": "DEYE80",
+      "headline": "แจ้งข้อมูลการถือครองหลักทรัพย์อ้างอิงต่างประเทศ (Underlying) ของตราสารแสดงสิทธิในหลักทรัพย์ต่างประเทศ (Depositary Receipt) ที่ออกโดย ธนาคารกรุงไทย จำกัด (มหาชน) ของเดือนตุลาคม พ.ศ. 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107312501&symbol=DEYE80",
+      "product": "X"
+    },
+    {
+      "id": "107312501",
+      "datetime": "2026-11-04T08:08:20+07:00",
+      "symbol": "DISCO80",
+      "headline": "แจ้งข้อมูลการถือครองหลักทรัพย์อ้างอิงต่างประเทศ (Underlying) ของตราสารแสดงสิทธิในหลักทรัพย์ต่างประเทศ (Depositary Receipt) ที่ออกโดย ธนาคารกรุงไทย จำกัด (มหาชน) ของเดือนตุลาคม พ.ศ. 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107312501&symbol=DISCO80",
+      "product": "X"
+    },
+    {
+      "id": "107312501",
+      "datetime": "2026-11-04T08:08:20+07:00",
+      "symbol": "DOLLARG80",
+      "headline": "แจ้งข้อมูลการถือครองหลักทรัพย์อ้างอิงต่างประเทศ (Underlying) ของตราสารแสดงสิทธิในหลักทรัพย์ต่างประเทศ (Depositary Receipt) ที่ออกโดย ธนาคารกรุงไทย จำกัด (มหาชน) ของเดือนตุลาคม พ.ศ. 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107312501&symbol=DOLLARG80",
+      "product": "X"
+    },
+    {
+      "id": "107312501",
+      "datetime": "2026-11-04T08:08:20+07:00",
+      "symbol": "ESTEE80",
+      "headline": "แจ้งข้อมูลการถือครองหลักทรัพย์อ้างอิงต่างประเทศ (Underlying) ของตราสารแสดงสิทธิในหลักทรัพย์ต่างประเทศ (Depositary Receipt) ที่ออกโดย ธนาคารกรุงไทย จำกัด (มหาชน) ของเดือนตุลาคม พ.ศ. 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107312501&symbol=ESTEE80",
+      "product": "X"
+    },
+    {
+      "id": "107312501",
+      "datetime": "2026-11-04T08:08:20+07:00",
+      "symbol": "FABRINET80",
+      "headline": "แจ้งข้อมูลการถือครองหลักทรัพย์อ้างอิงต่างประเทศ (Underlying) ของตราสารแสดงสิทธิในหลักทรัพย์ต่างประเทศ (Depositary Receipt) ที่ออกโดย ธนาคารกรุงไทย จำกัด (มหาชน) ของเดือนตุลาคม พ.ศ. 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107312501&symbol=FABRINET80",
+      "product": "X"
+    },
+    {
+      "id": "107312501",
+      "datetime": "2026-11-04T08:08:20+07:00",
+      "symbol": "FERRARI80",
+      "headline": "แจ้งข้อมูลการถือครองหลักทรัพย์อ้างอิงต่างประเทศ (Underlying) ของตราสารแสดงสิทธิในหลักทรัพย์ต่างประเทศ (Depositary Receipt) ที่ออกโดย ธนาคารกรุงไทย จำกัด (มหาชน) ของเดือนตุลาคม พ.ศ. 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107312501&symbol=FERRARI80",
+      "product": "X"
+    },
+    {
+      "id": "107312501",
+      "datetime": "2026-11-04T08:08:20+07:00",
+      "symbol": "GANFENG80",
+      "headline": "แจ้งข้อมูลการถือครองหลักทรัพย์อ้างอิงต่างประเทศ (Underlying) ของตราสารแสดงสิทธิในหลักทรัพย์ต่างประเทศ (Depositary Receipt) ที่ออกโดย ธนาคารกรุงไทย จำกัด (มหาชน) ของเดือนตุลาคม พ.ศ. 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107312501&symbol=GANFENG80",
+      "product": "X"
+    },
+    {
+      "id": "107312501",
+      "datetime": "2026-11-04T08:08:20+07:00",
+      "symbol": "GEELY80",
+      "headline": "แจ้งข้อมูลการถือครองหลักทรัพย์อ้างอิงต่างประเทศ (Underlying) ของตราสารแสดงสิทธิในหลักทรัพย์ต่างประเทศ (Depositary Receipt) ที่ออกโดย ธนาคารกรุงไทย จำกัด (มหาชน) ของเดือนตุลาคม พ.ศ. 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107312501&symbol=GEELY80",
+      "product": "X"
+    },
+    {
+      "id": "107312501",
+      "datetime": "2026-11-04T08:08:20+07:00",
+      "symbol": "GEV80",
+      "headline": "แจ้งข้อมูลการถือครองหลักทรัพย์อ้างอิงต่างประเทศ (Underlying) ของตราสารแสดงสิทธิในหลักทรัพย์ต่างประเทศ (Depositary Receipt) ที่ออกโดย ธนาคารกรุงไทย จำกัด (มหาชน) ของเดือนตุลาคม พ.ศ. 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107312501&symbol=GEV80",
+      "product": "X"
+    },
+    {
+      "id": "107312501",
+      "datetime": "2026-11-04T08:08:20+07:00",
+      "symbol": "GIGA80",
+      "headline": "แจ้งข้อมูลการถือครองหลักทรัพย์อ้างอิงต่างประเทศ (Underlying) ของตราสารแสดงสิทธิในหลักทรัพย์ต่างประเทศ (Depositary Receipt) ที่ออกโดย ธนาคารกรุงไทย จำกัด (มหาชน) ของเดือนตุลาคม พ.ศ. 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107312501&symbol=GIGA80",
+      "product": "X"
+    },
+    {
+      "id": "107312501",
+      "datetime": "2026-11-04T08:08:20+07:00",
+      "symbol": "GLW80",
+      "headline": "แจ้งข้อมูลการถือครองหลักทรัพย์อ้างอิงต่างประเทศ (Underlying) ของตราสารแสดงสิทธิในหลักทรัพย์ต่างประเทศ (Depositary Receipt) ที่ออกโดย ธนาคารกรุงไทย จำกัด (มหาชน) ของเดือนตุลาคม พ.ศ. 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107312501&symbol=GLW80",
+      "product": "X"
+    },
+    {
+      "id": "107312501",
+      "datetime": "2026-11-04T08:08:20+07:00",
+      "symbol": "GOLDUS80",
+      "headline": "แจ้งข้อมูลการถือครองหลักทรัพย์อ้างอิงต่างประเทศ (Underlying) ของตราสารแสดงสิทธิในหลักทรัพย์ต่างประเทศ (Depositary Receipt) ที่ออกโดย ธนาคารกรุงไทย จำกัด (มหาชน) ของเดือนตุลาคม พ.ศ. 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107312501&symbol=GOLDUS80",
+      "product": "X"
+    },
+    {
+      "id": "107312501",
+      "datetime": "2026-11-04T08:08:20+07:00",
+      "symbol": "GOOG80",
+      "headline": "แจ้งข้อมูลการถือครองหลักทรัพย์อ้างอิงต่างประเทศ (Underlying) ของตราสารแสดงสิทธิในหลักทรัพย์ต่างประเทศ (Depositary Receipt) ที่ออกโดย ธนาคารกรุงไทย จำกัด (มหาชน) ของเดือนตุลาคม พ.ศ. 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107312501&symbol=GOOG80",
+      "product": "X"
+    },
+    {
+      "id": "107312501",
+      "datetime": "2026-11-04T08:08:20+07:00",
+      "symbol": "GRAB80",
+      "headline": "แจ้งข้อมูลการถือครองหลักทรัพย์อ้างอิงต่างประเทศ (Underlying) ของตราสารแสดงสิทธิในหลักทรัพย์ต่างประเทศ (Depositary Receipt) ที่ออกโดย ธนาคารกรุงไทย จำกัด (มหาชน) ของเดือนตุลาคม พ.ศ. 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107312501&symbol=GRAB80",
+      "product": "X"
+    },
+    {
+      "id": "107312501",
+      "datetime": "2026-11-04T08:08:20+07:00",
+      "symbol": "HERMES80",
+      "headline": "แจ้งข้อมูลการถือครองหลักทรัพย์อ้างอิงต่างประเทศ (Underlying) ของตราสารแสดงสิทธิในหลักทรัพย์ต่างประเทศ (Depositary Receipt) ที่ออกโดย ธนาคารกรุงไทย จำกัด (มหาชน) ของเดือนตุลาคม พ.ศ. 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107312501&symbol=HERMES80",
+      "product": "X"
+    },
+    {
+      "id": "107312501",
+      "datetime": "2026-11-04T08:08:20+07:00",
+      "symbol": "HOOD80",
+      "headline": "แจ้งข้อมูลการถือครองหลักทรัพย์อ้างอิงต่างประเทศ (Underlying) ของตราสารแสดงสิทธิในหลักทรัพย์ต่างประเทศ (Depositary Receipt) ที่ออกโดย ธนาคารกรุงไทย จำกัด (มหาชน) ของเดือนตุลาคม พ.ศ. 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107312501&symbol=HOOD80",
+      "product": "X"
+    },
+    {
+      "id": "107312501",
+      "datetime": "2026-11-04T08:08:20+07:00",
+      "symbol": "HPE80",
+      "headline": "แจ้งข้อมูลการถือครองหลักทรัพย์อ้างอิงต่างประเทศ (Underlying) ของตราสารแสดงสิทธิในหลักทรัพย์ต่างประเทศ (Depositary Receipt) ที่ออกโดย ธนาคารกรุงไทย จำกัด (มหาชน) ของเดือนตุลาคม พ.ศ. 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107312501&symbol=HPE80",
+      "product": "X"
+    },
+    {
+      "id": "107312501",
+      "datetime": "2026-11-04T08:08:20+07:00",
+      "symbol": "HUAHONG80",
+      "headline": "แจ้งข้อมูลการถือครองหลักทรัพย์อ้างอิงต่างประเทศ (Underlying) ของตราสารแสดงสิทธิในหลักทรัพย์ต่างประเทศ (Depositary Receipt) ที่ออกโดย ธนาคารกรุงไทย จำกัด (มหาชน) ของเดือนตุลาคม พ.ศ. 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107312501&symbol=HUAHONG80",
+      "product": "X"
+    },
+    {
+      "id": "107312501",
+      "datetime": "2026-11-04T08:08:20+07:00",
+      "symbol": "HYGON80",
+      "headline": "แจ้งข้อมูลการถือครองหลักทรัพย์อ้างอิงต่างประเทศ (Underlying) ของตราสารแสดงสิทธิในหลักทรัพย์ต่างประเทศ (Depositary Receipt) ที่ออกโดย ธนาคารกรุงไทย จำกัด (มหาชน) ของเดือนตุลาคม พ.ศ. 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107312501&symbol=HYGON80",
+      "product": "X"
+    },
+    {
+      "id": "107312501",
+      "datetime": "2026-11-04T08:08:20+07:00",
+      "symbol": "IBIDEN80",
+      "headline": "แจ้งข้อมูลการถือครองหลักทรัพย์อ้างอิงต่างประเทศ (Underlying) ของตราสารแสดงสิทธิในหลักทรัพย์ต่างประเทศ (Depositary Receipt) ที่ออกโดย ธนาคารกรุงไทย จำกัด (มหาชน) ของเดือนตุลาคม พ.ศ. 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107312501&symbol=IBIDEN80",
+      "product": "X"
+    },
+    {
+      "id": "107312501",
+      "datetime": "2026-11-04T08:08:20+07:00",
+      "symbol": "IFLYTEK80",
+      "headline": "แจ้งข้อมูลการถือครองหลักทรัพย์อ้างอิงต่างประเทศ (Underlying) ของตราสารแสดงสิทธิในหลักทรัพย์ต่างประเทศ (Depositary Receipt) ที่ออกโดย ธนาคารกรุงไทย จำกัด (มหาชน) ของเดือนตุลาคม พ.ศ. 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107312501&symbol=IFLYTEK80",
+      "product": "X"
+    },
+    {
+      "id": "107312501",
+      "datetime": "2026-11-04T08:08:20+07:00",
+      "symbol": "INTEL80",
+      "headline": "แจ้งข้อมูลการถือครองหลักทรัพย์อ้างอิงต่างประเทศ (Underlying) ของตราสารแสดงสิทธิในหลักทรัพย์ต่างประเทศ (Depositary Receipt) ที่ออกโดย ธนาคารกรุงไทย จำกัด (มหาชน) ของเดือนตุลาคม พ.ศ. 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107312501&symbol=INTEL80",
+      "product": "X"
+    },
+    {
+      "id": "107312501",
+      "datetime": "2026-11-04T08:08:20+07:00",
+      "symbol": "ISRG80",
+      "headline": "แจ้งข้อมูลการถือครองหลักทรัพย์อ้างอิงต่างประเทศ (Underlying) ของตราสารแสดงสิทธิในหลักทรัพย์ต่างประเทศ (Depositary Receipt) ที่ออกโดย ธนาคารกรุงไทย จำกัด (มหาชน) ของเดือนตุลาคม พ.ศ. 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107312501&symbol=ISRG80",
+      "product": "X"
+    },
+    {
+      "id": "107312501",
+      "datetime": "2026-11-04T08:08:20+07:00",
+      "symbol": "JD80",
+      "headline": "แจ้งข้อมูลการถือครองหลักทรัพย์อ้างอิงต่างประเทศ (Underlying) ของตราสารแสดงสิทธิในหลักทรัพย์ต่างประเทศ (Depositary Receipt) ที่ออกโดย ธนาคารกรุงไทย จำกัด (มหาชน) ของเดือนตุลาคม พ.ศ. 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107312501&symbol=JD80",
+      "product": "X"
+    },
+    {
+      "id": "107312501",
+      "datetime": "2026-11-04T08:08:20+07:00",
+      "symbol": "JLMAG80",
+      "headline": "แจ้งข้อมูลการถือครองหลักทรัพย์อ้างอิงต่างประเทศ (Underlying) ของตราสารแสดงสิทธิในหลักทรัพย์ต่างประเทศ (Depositary Receipt) ที่ออกโดย ธนาคารกรุงไทย จำกัด (มหาชน) ของเดือนตุลาคม พ.ศ. 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107312501&symbol=JLMAG80",
+      "product": "X"
+    },
+    {
+      "id": "107312501",
+      "datetime": "2026-11-04T08:08:20+07:00",
+      "symbol": "KIOXIA80",
+      "headline": "แจ้งข้อมูลการถือครองหลักทรัพย์อ้างอิงต่างประเทศ (Underlying) ของตราสารแสดงสิทธิในหลักทรัพย์ต่างประเทศ (Depositary Receipt) ที่ออกโดย ธนาคารกรุงไทย จำกัด (มหาชน) ของเดือนตุลาคม พ.ศ. 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107312501&symbol=KIOXIA80",
+      "product": "X"
+    },
+    {
+      "id": "107312501",
+      "datetime": "2026-11-04T08:08:20+07:00",
+      "symbol": "KO80",
+      "headline": "แจ้งข้อมูลการถือครองหลักทรัพย์อ้างอิงต่างประเทศ (Underlying) ของตราสารแสดงสิทธิในหลักทรัพย์ต่างประเทศ (Depositary Receipt) ที่ออกโดย ธนาคารกรุงไทย จำกัด (มหาชน) ของเดือนตุลาคม พ.ศ. 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107312501&symbol=KO80",
+      "product": "X"
+    },
+    {
+      "id": "107312501",
+      "datetime": "2026-11-04T08:08:20+07:00",
+      "symbol": "KUAISH80",
+      "headline": "แจ้งข้อมูลการถือครองหลักทรัพย์อ้างอิงต่างประเทศ (Underlying) ของตราสารแสดงสิทธิในหลักทรัพย์ต่างประเทศ (Depositary Receipt) ที่ออกโดย ธนาคารกรุงไทย จำกัด (มหาชน) ของเดือนตุลาคม พ.ศ. 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107312501&symbol=KUAISH80",
+      "product": "X"
+    },
+    {
+      "id": "107312501",
+      "datetime": "2026-11-04T08:08:20+07:00",
+      "symbol": "LITE80",
+      "headline": "แจ้งข้อมูลการถือครองหลักทรัพย์อ้างอิงต่างประเทศ (Underlying) ของตราสารแสดงสิทธิในหลักทรัพย์ต่างประเทศ (Depositary Receipt) ที่ออกโดย ธนาคารกรุงไทย จำกัด (มหาชน) ของเดือนตุลาคม พ.ศ. 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107312501&symbol=LITE80",
+      "product": "X"
+    },
+    {
+      "id": "107312501",
+      "datetime": "2026-11-04T08:08:20+07:00",
+      "symbol": "LLY80",
+      "headline": "แจ้งข้อมูลการถือครองหลักทรัพย์อ้างอิงต่างประเทศ (Underlying) ของตราสารแสดงสิทธิในหลักทรัพย์ต่างประเทศ (Depositary Receipt) ที่ออกโดย ธนาคารกรุงไทย จำกัด (มหาชน) ของเดือนตุลาคม พ.ศ. 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107312501&symbol=LLY80",
+      "product": "X"
+    },
+    {
+      "id": "107312501",
+      "datetime": "2026-11-04T08:08:20+07:00",
+      "symbol": "LOREAL80",
+      "headline": "แจ้งข้อมูลการถือครองหลักทรัพย์อ้างอิงต่างประเทศ (Underlying) ของตราสารแสดงสิทธิในหลักทรัพย์ต่างประเทศ (Depositary Receipt) ที่ออกโดย ธนาคารกรุงไทย จำกัด (มหาชน) ของเดือนตุลาคม พ.ศ. 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107312501&symbol=LOREAL80",
+      "product": "X"
+    },
+    {
+      "id": "107312501",
+      "datetime": "2026-11-04T08:08:20+07:00",
+      "symbol": "LRCX80",
+      "headline": "แจ้งข้อมูลการถือครองหลักทรัพย์อ้างอิงต่างประเทศ (Underlying) ของตราสารแสดงสิทธิในหลักทรัพย์ต่างประเทศ (Depositary Receipt) ที่ออกโดย ธนาคารกรุงไทย จำกัด (มหาชน) ของเดือนตุลาคม พ.ศ. 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107312501&symbol=LRCX80",
+      "product": "X"
+    },
+    {
+      "id": "107312501",
+      "datetime": "2026-11-04T08:08:20+07:00",
+      "symbol": "LUXSHARE80",
+      "headline": "แจ้งข้อมูลการถือครองหลักทรัพย์อ้างอิงต่างประเทศ (Underlying) ของตราสารแสดงสิทธิในหลักทรัพย์ต่างประเทศ (Depositary Receipt) ที่ออกโดย ธนาคารกรุงไทย จำกัด (มหาชน) ของเดือนตุลาคม พ.ศ. 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107312501&symbol=LUXSHARE80",
+      "product": "X"
+    },
+    {
+      "id": "107312501",
+      "datetime": "2026-11-04T08:08:20+07:00",
+      "symbol": "MA80",
+      "headline": "แจ้งข้อมูลการถือครองหลักทรัพย์อ้างอิงต่างประเทศ (Underlying) ของตราสารแสดงสิทธิในหลักทรัพย์ต่างประเทศ (Depositary Receipt) ที่ออกโดย ธนาคารกรุงไทย จำกัด (มหาชน) ของเดือนตุลาคม พ.ศ. 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107312501&symbol=MA80",
+      "product": "X"
+    },
+    {
+      "id": "107312501",
+      "datetime": "2026-11-04T08:08:20+07:00",
+      "symbol": "MAOGEP80",
+      "headline": "แจ้งข้อมูลการถือครองหลักทรัพย์อ้างอิงต่างประเทศ (Underlying) ของตราสารแสดงสิทธิในหลักทรัพย์ต่างประเทศ (Depositary Receipt) ที่ออกโดย ธนาคารกรุงไทย จำกัด (มหาชน) ของเดือนตุลาคม พ.ศ. 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107312501&symbol=MAOGEP80",
+      "product": "X"
+    },
+    {
+      "id": "107312501",
+      "datetime": "2026-11-04T08:08:20+07:00",
+      "symbol": "MEITUAN80",
+      "headline": "แจ้งข้อมูลการถือครองหลักทรัพย์อ้างอิงต่างประเทศ (Underlying) ของตราสารแสดงสิทธิในหลักทรัพย์ต่างประเทศ (Depositary Receipt) ที่ออกโดย ธนาคารกรุงไทย จำกัด (มหาชน) ของเดือนตุลาคม พ.ศ. 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107312501&symbol=MEITUAN80",
+      "product": "X"
+    },
+    {
+      "id": "107312501",
+      "datetime": "2026-11-04T08:08:20+07:00",
+      "symbol": "META80",
+      "headline": "แจ้งข้อมูลการถือครองหลักทรัพย์อ้างอิงต่างประเทศ (Underlying) ของตราสารแสดงสิทธิในหลักทรัพย์ต่างประเทศ (Depositary Receipt) ที่ออกโดย ธนาคารกรุงไทย จำกัด (มหาชน) ของเดือนตุลาคม พ.ศ. 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107312501&symbol=META80",
+      "product": "X"
+    },
+    {
+      "id": "107312501",
+      "datetime": "2026-11-04T08:08:20+07:00",
+      "symbol": "MICRON80",
+      "headline": "แจ้งข้อมูลการถือครองหลักทรัพย์อ้างอิงต่างประเทศ (Underlying) ของตราสารแสดงสิทธิในหลักทรัพย์ต่างประเทศ (Depositary Receipt) ที่ออกโดย ธนาคารกรุงไทย จำกัด (มหาชน) ของเดือนตุลาคม พ.ศ. 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107312501&symbol=MICRON80",
+      "product": "X"
+    },
+    {
+      "id": "107312501",
+      "datetime": "2026-11-04T08:08:20+07:00",
+      "symbol": "MIDEA80",
+      "headline": "แจ้งข้อมูลการถือครองหลักทรัพย์อ้างอิงต่างประเทศ (Underlying) ของตราสารแสดงสิทธิในหลักทรัพย์ต่างประเทศ (Depositary Receipt) ที่ออกโดย ธนาคารกรุงไทย จำกัด (มหาชน) ของเดือนตุลาคม พ.ศ. 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107312501&symbol=MIDEA80",
+      "product": "X"
+    },
+    {
+      "id": "107312501",
+      "datetime": "2026-11-04T08:08:20+07:00",
+      "symbol": "MIXUE80",
+      "headline": "แจ้งข้อมูลการถือครองหลักทรัพย์อ้างอิงต่างประเทศ (Underlying) ของตราสารแสดงสิทธิในหลักทรัพย์ต่างประเทศ (Depositary Receipt) ที่ออกโดย ธนาคารกรุงไทย จำกัด (มหาชน) ของเดือนตุลาคม พ.ศ. 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107312501&symbol=MIXUE80",
+      "product": "X"
+    },
+    {
+      "id": "107312501",
+      "datetime": "2026-11-04T08:08:20+07:00",
+      "symbol": "MNSO80",
+      "headline": "แจ้งข้อมูลการถือครองหลักทรัพย์อ้างอิงต่างประเทศ (Underlying) ของตราสารแสดงสิทธิในหลักทรัพย์ต่างประเทศ (Depositary Receipt) ที่ออกโดย ธนาคารกรุงไทย จำกัด (มหาชน) ของเดือนตุลาคม พ.ศ. 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107312501&symbol=MNSO80",
+      "product": "X"
+    },
+    {
+      "id": "107312501",
+      "datetime": "2026-11-04T08:08:20+07:00",
+      "symbol": "MONTAGE80",
+      "headline": "แจ้งข้อมูลการถือครองหลักทรัพย์อ้างอิงต่างประเทศ (Underlying) ของตราสารแสดงสิทธิในหลักทรัพย์ต่างประเทศ (Depositary Receipt) ที่ออกโดย ธนาคารกรุงไทย จำกัด (มหาชน) ของเดือนตุลาคม พ.ศ. 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107312501&symbol=MONTAGE80",
+      "product": "X"
+    },
+    {
+      "id": "107312501",
+      "datetime": "2026-11-04T08:08:20+07:00",
+      "symbol": "MOUTAI80",
+      "headline": "แจ้งข้อมูลการถือครองหลักทรัพย์อ้างอิงต่างประเทศ (Underlying) ของตราสารแสดงสิทธิในหลักทรัพย์ต่างประเทศ (Depositary Receipt) ที่ออกโดย ธนาคารกรุงไทย จำกัด (มหาชน) ของเดือนตุลาคม พ.ศ. 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107312501&symbol=MOUTAI80",
+      "product": "X"
+    },
+    {
+      "id": "107312501",
+      "datetime": "2026-11-04T08:08:20+07:00",
+      "symbol": "MP80",
+      "headline": "แจ้งข้อมูลการถือครองหลักทรัพย์อ้างอิงต่างประเทศ (Underlying) ของตราสารแสดงสิทธิในหลักทรัพย์ต่างประเทศ (Depositary Receipt) ที่ออกโดย ธนาคารกรุงไทย จำกัด (มหาชน) ของเดือนตุลาคม พ.ศ. 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107312501&symbol=MP80",
+      "product": "X"
+    },
+    {
+      "id": "107312501",
+      "datetime": "2026-11-04T08:08:20+07:00",
+      "symbol": "MRVL80",
+      "headline": "แจ้งข้อมูลการถือครองหลักทรัพย์อ้างอิงต่างประเทศ (Underlying) ของตราสารแสดงสิทธิในหลักทรัพย์ต่างประเทศ (Depositary Receipt) ที่ออกโดย ธนาคารกรุงไทย จำกัด (มหาชน) ของเดือนตุลาคม พ.ศ. 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107312501&symbol=MRVL80",
+      "product": "X"
+    },
+    {
+      "id": "107312501",
+      "datetime": "2026-11-04T08:08:20+07:00",
+      "symbol": "MSFT80",
+      "headline": "แจ้งข้อมูลการถือครองหลักทรัพย์อ้างอิงต่างประเทศ (Underlying) ของตราสารแสดงสิทธิในหลักทรัพย์ต่างประเทศ (Depositary Receipt) ที่ออกโดย ธนาคารกรุงไทย จำกัด (มหาชน) ของเดือนตุลาคม พ.ศ. 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107312501&symbol=MSFT80",
+      "product": "X"
+    },
+    {
+      "id": "107312501",
+      "datetime": "2026-11-04T08:08:20+07:00",
+      "symbol": "NAURA80",
+      "headline": "แจ้งข้อมูลการถือครองหลักทรัพย์อ้างอิงต่างประเทศ (Underlying) ของตราสารแสดงสิทธิในหลักทรัพย์ต่างประเทศ (Depositary Receipt) ที่ออกโดย ธนาคารกรุงไทย จำกัด (มหาชน) ของเดือนตุลาคม พ.ศ. 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107312501&symbol=NAURA80",
+      "product": "X"
+    },
+    {
+      "id": "107312501",
+      "datetime": "2026-11-04T08:08:20+07:00",
+      "symbol": "NBIS80",
+      "headline": "แจ้งข้อมูลการถือครองหลักทรัพย์อ้างอิงต่างประเทศ (Underlying) ของตราสารแสดงสิทธิในหลักทรัพย์ต่างประเทศ (Depositary Receipt) ที่ออกโดย ธนาคารกรุงไทย จำกัด (มหาชน) ของเดือนตุลาคม พ.ศ. 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107312501&symbol=NBIS80",
+      "product": "X"
+    },
+    {
+      "id": "107312501",
+      "datetime": "2026-11-04T08:08:20+07:00",
+      "symbol": "NEE80",
+      "headline": "แจ้งข้อมูลการถือครองหลักทรัพย์อ้างอิงต่างประเทศ (Underlying) ของตราสารแสดงสิทธิในหลักทรัพย์ต่างประเทศ (Depositary Receipt) ที่ออกโดย ธนาคารกรุงไทย จำกัด (มหาชน) ของเดือนตุลาคม พ.ศ. 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107312501&symbol=NEE80",
+      "product": "X"
+    },
+    {
+      "id": "107312501",
+      "datetime": "2026-11-04T08:08:20+07:00",
+      "symbol": "NETEASE80",
+      "headline": "แจ้งข้อมูลการถือครองหลักทรัพย์อ้างอิงต่างประเทศ (Underlying) ของตราสารแสดงสิทธิในหลักทรัพย์ต่างประเทศ (Depositary Receipt) ที่ออกโดย ธนาคารกรุงไทย จำกัด (มหาชน) ของเดือนตุลาคม พ.ศ. 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107312501&symbol=NETEASE80",
+      "product": "X"
+    },
+    {
+      "id": "107312501",
+      "datetime": "2026-11-04T08:08:20+07:00",
+      "symbol": "NFLX80",
+      "headline": "แจ้งข้อมูลการถือครองหลักทรัพย์อ้างอิงต่างประเทศ (Underlying) ของตราสารแสดงสิทธิในหลักทรัพย์ต่างประเทศ (Depositary Receipt) ที่ออกโดย ธนาคารกรุงไทย จำกัด (มหาชน) ของเดือนตุลาคม พ.ศ. 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107312501&symbol=NFLX80",
+      "product": "X"
+    },
+    {
+      "id": "107312501",
+      "datetime": "2026-11-04T08:08:20+07:00",
+      "symbol": "NIKE80",
+      "headline": "แจ้งข้อมูลการถือครองหลักทรัพย์อ้างอิงต่างประเทศ (Underlying) ของตราสารแสดงสิทธิในหลักทรัพย์ต่างประเทศ (Depositary Receipt) ที่ออกโดย ธนาคารกรุงไทย จำกัด (มหาชน) ของเดือนตุลาคม พ.ศ. 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107312501&symbol=NIKE80",
+      "product": "X"
+    },
+    {
+      "id": "107312501",
+      "datetime": "2026-11-04T08:08:20+07:00",
+      "symbol": "NIKKEI80",
+      "headline": "แจ้งข้อมูลการถือครองหลักทรัพย์อ้างอิงต่างประเทศ (Underlying) ของตราสารแสดงสิทธิในหลักทรัพย์ต่างประเทศ (Depositary Receipt) ที่ออกโดย ธนาคารกรุงไทย จำกัด (มหาชน) ของเดือนตุลาคม พ.ศ. 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107312501&symbol=NIKKEI80",
+      "product": "X"
+    },
+    {
+      "id": "107312501",
+      "datetime": "2026-11-04T08:08:20+07:00",
+      "symbol": "NONGFU80",
+      "headline": "แจ้งข้อมูลการถือครองหลักทรัพย์อ้างอิงต่างประเทศ (Underlying) ของตราสารแสดงสิทธิในหลักทรัพย์ต่างประเทศ (Depositary Receipt) ที่ออกโดย ธนาคารกรุงไทย จำกัด (มหาชน) ของเดือนตุลาคม พ.ศ. 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107312501&symbol=NONGFU80",
+      "product": "X"
+    },
+    {
+      "id": "107312501",
+      "datetime": "2026-11-04T08:08:20+07:00",
+      "symbol": "NOVOB80",
+      "headline": "แจ้งข้อมูลการถือครองหลักทรัพย์อ้างอิงต่างประเทศ (Underlying) ของตราสารแสดงสิทธิในหลักทรัพย์ต่างประเทศ (Depositary Receipt) ที่ออกโดย ธนาคารกรุงไทย จำกัด (มหาชน) ของเดือนตุลาคม พ.ศ. 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107312501&symbol=NOVOB80",
+      "product": "X"
+    },
+    {
+      "id": "107312501",
+      "datetime": "2026-11-04T08:08:20+07:00",
+      "symbol": "NVDA80",
+      "headline": "แจ้งข้อมูลการถือครองหลักทรัพย์อ้างอิงต่างประเทศ (Underlying) ของตราสารแสดงสิทธิในหลักทรัพย์ต่างประเทศ (Depositary Receipt) ที่ออกโดย ธนาคารกรุงไทย จำกัด (มหาชน) ของเดือนตุลาคม พ.ศ. 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107312501&symbol=NVDA80",
+      "product": "X"
+    },
+    {
+      "id": "107312501",
+      "datetime": "2026-11-04T08:08:20+07:00",
+      "symbol": "ORCL80",
+      "headline": "แจ้งข้อมูลการถือครองหลักทรัพย์อ้างอิงต่างประเทศ (Underlying) ของตราสารแสดงสิทธิในหลักทรัพย์ต่างประเทศ (Depositary Receipt) ที่ออกโดย ธนาคารกรุงไทย จำกัด (มหาชน) ของเดือนตุลาคม พ.ศ. 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107312501&symbol=ORCL80",
+      "product": "X"
+    },
+    {
+      "id": "107312501",
+      "datetime": "2026-11-04T08:08:20+07:00",
+      "symbol": "PANW80",
+      "headline": "แจ้งข้อมูลการถือครองหลักทรัพย์อ้างอิงต่างประเทศ (Underlying) ของตราสารแสดงสิทธิในหลักทรัพย์ต่างประเทศ (Depositary Receipt) ที่ออกโดย ธนาคารกรุงไทย จำกัด (มหาชน) ของเดือนตุลาคม พ.ศ. 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107312501&symbol=PANW80",
+      "product": "X"
+    },
+    {
+      "id": "107312501",
+      "datetime": "2026-11-04T08:08:20+07:00",
+      "symbol": "PEP80",
+      "headline": "แจ้งข้อมูลการถือครองหลักทรัพย์อ้างอิงต่างประเทศ (Underlying) ของตราสารแสดงสิทธิในหลักทรัพย์ต่างประเทศ (Depositary Receipt) ที่ออกโดย ธนาคารกรุงไทย จำกัด (มหาชน) ของเดือนตุลาคม พ.ศ. 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107312501&symbol=PEP80",
+      "product": "X"
+    },
+    {
+      "id": "107312501",
+      "datetime": "2026-11-04T08:08:20+07:00",
+      "symbol": "PETROCN80",
+      "headline": "แจ้งข้อมูลการถือครองหลักทรัพย์อ้างอิงต่างประเทศ (Underlying) ของตราสารแสดงสิทธิในหลักทรัพย์ต่างประเทศ (Depositary Receipt) ที่ออกโดย ธนาคารกรุงไทย จำกัด (มหาชน) ของเดือนตุลาคม พ.ศ. 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107312501&symbol=PETROCN80",
+      "product": "X"
+    },
+    {
+      "id": "107312501",
+      "datetime": "2026-11-04T08:08:20+07:00",
+      "symbol": "PINGAN80",
+      "headline": "แจ้งข้อมูลการถือครองหลักทรัพย์อ้างอิงต่างประเทศ (Underlying) ของตราสารแสดงสิทธิในหลักทรัพย์ต่างประเทศ (Depositary Receipt) ที่ออกโดย ธนาคารกรุงไทย จำกัด (มหาชน) ของเดือนตุลาคม พ.ศ. 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107312501&symbol=PINGAN80",
+      "product": "X"
+    },
+    {
+      "id": "107312501",
+      "datetime": "2026-11-04T08:08:20+07:00",
+      "symbol": "PLTR80",
+      "headline": "แจ้งข้อมูลการถือครองหลักทรัพย์อ้างอิงต่างประเทศ (Underlying) ของตราสารแสดงสิทธิในหลักทรัพย์ต่างประเทศ (Depositary Receipt) ที่ออกโดย ธนาคารกรุงไทย จำกัด (มหาชน) ของเดือนตุลาคม พ.ศ. 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107312501&symbol=PLTR80",
+      "product": "X"
+    },
+    {
+      "id": "107312501",
+      "datetime": "2026-11-04T08:08:20+07:00",
+      "symbol": "PNG80",
+      "headline": "แจ้งข้อมูลการถือครองหลักทรัพย์อ้างอิงต่างประเทศ (Underlying) ของตราสารแสดงสิทธิในหลักทรัพย์ต่างประเทศ (Depositary Receipt) ที่ออกโดย ธนาคารกรุงไทย จำกัด (มหาชน) ของเดือนตุลาคม พ.ศ. 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107312501&symbol=PNG80",
+      "product": "X"
+    },
+    {
+      "id": "107312501",
+      "datetime": "2026-11-04T08:08:20+07:00",
+      "symbol": "POPMART80",
+      "headline": "แจ้งข้อมูลการถือครองหลักทรัพย์อ้างอิงต่างประเทศ (Underlying) ของตราสารแสดงสิทธิในหลักทรัพย์ต่างประเทศ (Depositary Receipt) ที่ออกโดย ธนาคารกรุงไทย จำกัด (มหาชน) ของเดือนตุลาคม พ.ศ. 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107312501&symbol=POPMART80",
+      "product": "X"
+    },
+    {
+      "id": "107312501",
+      "datetime": "2026-11-04T08:08:20+07:00",
+      "symbol": "PWR80",
+      "headline": "แจ้งข้อมูลการถือครองหลักทรัพย์อ้างอิงต่างประเทศ (Underlying) ของตราสารแสดงสิทธิในหลักทรัพย์ต่างประเทศ (Depositary Receipt) ที่ออกโดย ธนาคารกรุงไทย จำกัด (มหาชน) ของเดือนตุลาคม พ.ศ. 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107312501&symbol=PWR80",
+      "product": "X"
+    },
+    {
+      "id": "107312501",
+      "datetime": "2026-11-04T08:08:20+07:00",
+      "symbol": "QCOM80",
+      "headline": "แจ้งข้อมูลการถือครองหลักทรัพย์อ้างอิงต่างประเทศ (Underlying) ของตราสารแสดงสิทธิในหลักทรัพย์ต่างประเทศ (Depositary Receipt) ที่ออกโดย ธนาคารกรุงไทย จำกัด (มหาชน) ของเดือนตุลาคม พ.ศ. 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107312501&symbol=QCOM80",
+      "product": "X"
+    },
+    {
+      "id": "107312501",
+      "datetime": "2026-11-04T08:08:20+07:00",
+      "symbol": "RKLB80",
+      "headline": "แจ้งข้อมูลการถือครองหลักทรัพย์อ้างอิงต่างประเทศ (Underlying) ของตราสารแสดงสิทธิในหลักทรัพย์ต่างประเทศ (Depositary Receipt) ที่ออกโดย ธนาคารกรุงไทย จำกัด (มหาชน) ของเดือนตุลาคม พ.ศ. 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107312501&symbol=RKLB80",
+      "product": "X"
+    },
+    {
+      "id": "107312501",
+      "datetime": "2026-11-04T08:08:20+07:00",
+      "symbol": "SANOFI80",
+      "headline": "แจ้งข้อมูลการถือครองหลักทรัพย์อ้างอิงต่างประเทศ (Underlying) ของตราสารแสดงสิทธิในหลักทรัพย์ต่างประเทศ (Depositary Receipt) ที่ออกโดย ธนาคารกรุงไทย จำกัด (มหาชน) ของเดือนตุลาคม พ.ศ. 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107312501&symbol=SANOFI80",
+      "product": "X"
+    },
+    {
+      "id": "107312501",
+      "datetime": "2026-11-04T08:08:20+07:00",
+      "symbol": "SANRIO80",
+      "headline": "แจ้งข้อมูลการถือครองหลักทรัพย์อ้างอิงต่างประเทศ (Underlying) ของตราสารแสดงสิทธิในหลักทรัพย์ต่างประเทศ (Depositary Receipt) ที่ออกโดย ธนาคารกรุงไทย จำกัด (มหาชน) ของเดือนตุลาคม พ.ศ. 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107312501&symbol=SANRIO80",
+      "product": "X"
+    },
+    {
+      "id": "107312501",
+      "datetime": "2026-11-04T08:08:20+07:00",
+      "symbol": "SBUX80",
+      "headline": "แจ้งข้อมูลการถือครองหลักทรัพย์อ้างอิงต่างประเทศ (Underlying) ของตราสารแสดงสิทธิในหลักทรัพย์ต่างประเทศ (Depositary Receipt) ที่ออกโดย ธนาคารกรุงไทย จำกัด (มหาชน) ของเดือนตุลาคม พ.ศ. 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107312501&symbol=SBUX80",
+      "product": "X"
+    },
+    {
+      "id": "107312501",
+      "datetime": "2026-11-04T08:08:20+07:00",
+      "symbol": "SCHDER80",
+      "headline": "แจ้งข้อมูลการถือครองหลักทรัพย์อ้างอิงต่างประเทศ (Underlying) ของตราสารแสดงสิทธิในหลักทรัพย์ต่างประเทศ (Depositary Receipt) ที่ออกโดย ธนาคารกรุงไทย จำกัด (มหาชน) ของเดือนตุลาคม พ.ศ. 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107312501&symbol=SCHDER80",
+      "product": "X"
+    },
+    {
+      "id": "107312501",
+      "datetime": "2026-11-04T08:08:20+07:00",
+      "symbol": "SEAGATE80",
+      "headline": "แจ้งข้อมูลการถือครองหลักทรัพย์อ้างอิงต่างประเทศ (Underlying) ของตราสารแสดงสิทธิในหลักทรัพย์ต่างประเทศ (Depositary Receipt) ที่ออกโดย ธนาคารกรุงไทย จำกัด (มหาชน) ของเดือนตุลาคม พ.ศ. 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107312501&symbol=SEAGATE80",
+      "product": "X"
+    },
+    {
+      "id": "107312501",
+      "datetime": "2026-11-04T08:08:20+07:00",
+      "symbol": "SHINCHEM80",
+      "headline": "แจ้งข้อมูลการถือครองหลักทรัพย์อ้างอิงต่างประเทศ (Underlying) ของตราสารแสดงสิทธิในหลักทรัพย์ต่างประเทศ (Depositary Receipt) ที่ออกโดย ธนาคารกรุงไทย จำกัด (มหาชน) ของเดือนตุลาคม พ.ศ. 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107312501&symbol=SHINCHEM80",
+      "product": "X"
+    },
+    {
+      "id": "107312501",
+      "datetime": "2026-11-04T08:08:20+07:00",
+      "symbol": "SINGTEL80",
+      "headline": "แจ้งข้อมูลการถือครองหลักทรัพย์อ้างอิงต่างประเทศ (Underlying) ของตราสารแสดงสิทธิในหลักทรัพย์ต่างประเทศ (Depositary Receipt) ที่ออกโดย ธนาคารกรุงไทย จำกัด (มหาชน) ของเดือนตุลาคม พ.ศ. 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107312501&symbol=SINGTEL80",
+      "product": "X"
+    },
+    {
+      "id": "107312501",
+      "datetime": "2026-11-04T08:08:20+07:00",
+      "symbol": "SNDK80",
+      "headline": "แจ้งข้อมูลการถือครองหลักทรัพย์อ้างอิงต่างประเทศ (Underlying) ของตราสารแสดงสิทธิในหลักทรัพย์ต่างประเทศ (Depositary Receipt) ที่ออกโดย ธนาคารกรุงไทย จำกัด (มหาชน) ของเดือนตุลาคม พ.ศ. 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107312501&symbol=SNDK80",
+      "product": "X"
+    },
+    {
+      "id": "107312501",
+      "datetime": "2026-11-04T08:08:20+07:00",
+      "symbol": "SOFTBANK80",
+      "headline": "แจ้งข้อมูลการถือครองหลักทรัพย์อ้างอิงต่างประเทศ (Underlying) ของตราสารแสดงสิทธิในหลักทรัพย์ต่างประเทศ (Depositary Receipt) ที่ออกโดย ธนาคารกรุงไทย จำกัด (มหาชน) ของเดือนตุลาคม พ.ศ. 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107312501&symbol=SOFTBANK80",
+      "product": "X"
+    },
+    {
+      "id": "107312501",
+      "datetime": "2026-11-04T08:08:20+07:00",
+      "symbol": "SONY80",
+      "headline": "แจ้งข้อมูลการถือครองหลักทรัพย์อ้างอิงต่างประเทศ (Underlying) ของตราสารแสดงสิทธิในหลักทรัพย์ต่างประเทศ (Depositary Receipt) ที่ออกโดย ธนาคารกรุงไทย จำกัด (มหาชน) ของเดือนตุลาคม พ.ศ. 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107312501&symbol=SONY80",
+      "product": "X"
+    },
+    {
+      "id": "107312501",
+      "datetime": "2026-11-04T08:08:20+07:00",
+      "symbol": "SP500US80",
+      "headline": "แจ้งข้อมูลการถือครองหลักทรัพย์อ้างอิงต่างประเทศ (Underlying) ของตราสารแสดงสิทธิในหลักทรัพย์ต่างประเทศ (Depositary Receipt) ที่ออกโดย ธนาคารกรุงไทย จำกัด (มหาชน) ของเดือนตุลาคม พ.ศ. 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107312501&symbol=SP500US80",
+      "product": "X"
+    },
+    {
+      "id": "107312501",
+      "datetime": "2026-11-04T08:08:20+07:00",
+      "symbol": "SPACEX80",
+      "headline": "แจ้งข้อมูลการถือครองหลักทรัพย์อ้างอิงต่างประเทศ (Underlying) ของตราสารแสดงสิทธิในหลักทรัพย์ต่างประเทศ (Depositary Receipt) ที่ออกโดย ธนาคารกรุงไทย จำกัด (มหาชน) ของเดือนตุลาคม พ.ศ. 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107312501&symbol=SPACEX80",
+      "product": "X"
+    },
+    {
+      "id": "107312501",
+      "datetime": "2026-11-04T08:08:20+07:00",
+      "symbol": "SPBOND80",
+      "headline": "แจ้งข้อมูลการถือครองหลักทรัพย์อ้างอิงต่างประเทศ (Underlying) ของตราสารแสดงสิทธิในหลักทรัพย์ต่างประเทศ (Depositary Receipt) ที่ออกโดย ธนาคารกรุงไทย จำกัด (มหาชน) ของเดือนตุลาคม พ.ศ. 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107312501&symbol=SPBOND80",
+      "product": "X"
+    },
+    {
+      "id": "107312501",
+      "datetime": "2026-11-04T08:08:20+07:00",
+      "symbol": "SPCOM80",
+      "headline": "แจ้งข้อมูลการถือครองหลักทรัพย์อ้างอิงต่างประเทศ (Underlying) ของตราสารแสดงสิทธิในหลักทรัพย์ต่างประเทศ (Depositary Receipt) ที่ออกโดย ธนาคารกรุงไทย จำกัด (มหาชน) ของเดือนตุลาคม พ.ศ. 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107312501&symbol=SPCOM80",
+      "product": "X"
+    },
+    {
+      "id": "107312501",
+      "datetime": "2026-11-04T08:08:20+07:00",
+      "symbol": "SPENGY80",
+      "headline": "แจ้งข้อมูลการถือครองหลักทรัพย์อ้างอิงต่างประเทศ (Underlying) ของตราสารแสดงสิทธิในหลักทรัพย์ต่างประเทศ (Depositary Receipt) ที่ออกโดย ธนาคารกรุงไทย จำกัด (มหาชน) ของเดือนตุลาคม พ.ศ. 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107312501&symbol=SPENGY80",
+      "product": "X"
+    },
+    {
+      "id": "107312501",
+      "datetime": "2026-11-04T08:08:20+07:00",
+      "symbol": "SPFIN80",
+      "headline": "แจ้งข้อมูลการถือครองหลักทรัพย์อ้างอิงต่างประเทศ (Underlying) ของตราสารแสดงสิทธิในหลักทรัพย์ต่างประเทศ (Depositary Receipt) ที่ออกโดย ธนาคารกรุงไทย จำกัด (มหาชน) ของเดือนตุลาคม พ.ศ. 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107312501&symbol=SPFIN80",
+      "product": "X"
+    },
+    {
+      "id": "107312501",
+      "datetime": "2026-11-04T08:08:20+07:00",
+      "symbol": "SPHLTH80",
+      "headline": "แจ้งข้อมูลการถือครองหลักทรัพย์อ้างอิงต่างประเทศ (Underlying) ของตราสารแสดงสิทธิในหลักทรัพย์ต่างประเทศ (Depositary Receipt) ที่ออกโดย ธนาคารกรุงไทย จำกัด (มหาชน) ของเดือนตุลาคม พ.ศ. 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107312501&symbol=SPHLTH80",
+      "product": "X"
+    },
+    {
       "id": "107312511",
       "datetime": "2026-11-04T08:08:20+07:00",
       "symbol": "SPTECH80",
       "headline": "แจ้งข้อมูลการถือครองหลักทรัพย์อ้างอิงต่างประเทศ (Underlying) ของตราสารแสดงสิทธิในหลักทรัพย์ต่างประเทศ (Depositary Receipt) ที่ออกโดย ธนาคารกรุงไทย จำกัด (มหาชน) ของเดือนตุลาคม พ.ศ. 2569",
       "tag": "",
       "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107312511&symbol=SPTECH80",
+      "product": "X"
+    },
+    {
+      "id": "107312511",
+      "datetime": "2026-11-04T08:08:20+07:00",
+      "symbol": "SUNGROW80",
+      "headline": "แจ้งข้อมูลการถือครองหลักทรัพย์อ้างอิงต่างประเทศ (Underlying) ของตราสารแสดงสิทธิในหลักทรัพย์ต่างประเทศ (Depositary Receipt) ที่ออกโดย ธนาคารกรุงไทย จำกัด (มหาชน) ของเดือนตุลาคม พ.ศ. 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107312511&symbol=SUNGROW80",
+      "product": "X"
+    },
+    {
+      "id": "107312511",
+      "datetime": "2026-11-04T08:08:20+07:00",
+      "symbol": "SUNNY80",
+      "headline": "แจ้งข้อมูลการถือครองหลักทรัพย์อ้างอิงต่างประเทศ (Underlying) ของตราสารแสดงสิทธิในหลักทรัพย์ต่างประเทศ (Depositary Receipt) ที่ออกโดย ธนาคารกรุงไทย จำกัด (มหาชน) ของเดือนตุลาคม พ.ศ. 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107312511&symbol=SUNNY80",
+      "product": "X"
+    },
+    {
+      "id": "107312511",
+      "datetime": "2026-11-04T08:08:20+07:00",
+      "symbol": "TEL80",
+      "headline": "แจ้งข้อมูลการถือครองหลักทรัพย์อ้างอิงต่างประเทศ (Underlying) ของตราสารแสดงสิทธิในหลักทรัพย์ต่างประเทศ (Depositary Receipt) ที่ออกโดย ธนาคารกรุงไทย จำกัด (มหาชน) ของเดือนตุลาคม พ.ศ. 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107312511&symbol=TEL80",
+      "product": "X"
+    },
+    {
+      "id": "107312511",
+      "datetime": "2026-11-04T08:08:20+07:00",
+      "symbol": "TENCENT80",
+      "headline": "แจ้งข้อมูลการถือครองหลักทรัพย์อ้างอิงต่างประเทศ (Underlying) ของตราสารแสดงสิทธิในหลักทรัพย์ต่างประเทศ (Depositary Receipt) ที่ออกโดย ธนาคารกรุงไทย จำกัด (มหาชน) ของเดือนตุลาคม พ.ศ. 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107312511&symbol=TENCENT80",
+      "product": "X"
+    },
+    {
+      "id": "107312511",
+      "datetime": "2026-11-04T08:08:20+07:00",
+      "symbol": "TER80",
+      "headline": "แจ้งข้อมูลการถือครองหลักทรัพย์อ้างอิงต่างประเทศ (Underlying) ของตราสารแสดงสิทธิในหลักทรัพย์ต่างประเทศ (Depositary Receipt) ที่ออกโดย ธนาคารกรุงไทย จำกัด (มหาชน) ของเดือนตุลาคม พ.ศ. 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107312511&symbol=TER80",
+      "product": "X"
+    },
+    {
+      "id": "107312511",
+      "datetime": "2026-11-04T08:08:20+07:00",
+      "symbol": "TOYOTA80",
+      "headline": "แจ้งข้อมูลการถือครองหลักทรัพย์อ้างอิงต่างประเทศ (Underlying) ของตราสารแสดงสิทธิในหลักทรัพย์ต่างประเทศ (Depositary Receipt) ที่ออกโดย ธนาคารกรุงไทย จำกัด (มหาชน) ของเดือนตุลาคม พ.ศ. 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107312511&symbol=TOYOTA80",
+      "product": "X"
+    },
+    {
+      "id": "107312511",
+      "datetime": "2026-11-04T08:08:20+07:00",
+      "symbol": "TRIPCOM80",
+      "headline": "แจ้งข้อมูลการถือครองหลักทรัพย์อ้างอิงต่างประเทศ (Underlying) ของตราสารแสดงสิทธิในหลักทรัพย์ต่างประเทศ (Depositary Receipt) ที่ออกโดย ธนาคารกรุงไทย จำกัด (มหาชน) ของเดือนตุลาคม พ.ศ. 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107312511&symbol=TRIPCOM80",
+      "product": "X"
+    },
+    {
+      "id": "107312511",
+      "datetime": "2026-11-04T08:08:20+07:00",
+      "symbol": "TSEMI80",
+      "headline": "แจ้งข้อมูลการถือครองหลักทรัพย์อ้างอิงต่างประเทศ (Underlying) ของตราสารแสดงสิทธิในหลักทรัพย์ต่างประเทศ (Depositary Receipt) ที่ออกโดย ธนาคารกรุงไทย จำกัด (มหาชน) ของเดือนตุลาคม พ.ศ. 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107312511&symbol=TSEMI80",
+      "product": "X"
+    },
+    {
+      "id": "107312511",
+      "datetime": "2026-11-04T08:08:20+07:00",
+      "symbol": "TSLA80",
+      "headline": "แจ้งข้อมูลการถือครองหลักทรัพย์อ้างอิงต่างประเทศ (Underlying) ของตราสารแสดงสิทธิในหลักทรัพย์ต่างประเทศ (Depositary Receipt) ที่ออกโดย ธนาคารกรุงไทย จำกัด (มหาชน) ของเดือนตุลาคม พ.ศ. 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107312511&symbol=TSLA80",
+      "product": "X"
+    },
+    {
+      "id": "107312511",
+      "datetime": "2026-11-04T08:08:20+07:00",
+      "symbol": "TTMI80",
+      "headline": "แจ้งข้อมูลการถือครองหลักทรัพย์อ้างอิงต่างประเทศ (Underlying) ของตราสารแสดงสิทธิในหลักทรัพย์ต่างประเทศ (Depositary Receipt) ที่ออกโดย ธนาคารกรุงไทย จำกัด (มหาชน) ของเดือนตุลาคม พ.ศ. 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107312511&symbol=TTMI80",
+      "product": "X"
+    },
+    {
+      "id": "107312511",
+      "datetime": "2026-11-04T08:08:20+07:00",
+      "symbol": "UNIQLO80",
+      "headline": "แจ้งข้อมูลการถือครองหลักทรัพย์อ้างอิงต่างประเทศ (Underlying) ของตราสารแสดงสิทธิในหลักทรัพย์ต่างประเทศ (Depositary Receipt) ที่ออกโดย ธนาคารกรุงไทย จำกัด (มหาชน) ของเดือนตุลาคม พ.ศ. 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107312511&symbol=UNIQLO80",
+      "product": "X"
+    },
+    {
+      "id": "107312511",
+      "datetime": "2026-11-04T08:08:20+07:00",
+      "symbol": "VGT80",
+      "headline": "แจ้งข้อมูลการถือครองหลักทรัพย์อ้างอิงต่างประเทศ (Underlying) ของตราสารแสดงสิทธิในหลักทรัพย์ต่างประเทศ (Depositary Receipt) ที่ออกโดย ธนาคารกรุงไทย จำกัด (มหาชน) ของเดือนตุลาคม พ.ศ. 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107312511&symbol=VGT80",
+      "product": "X"
+    },
+    {
+      "id": "107312511",
+      "datetime": "2026-11-04T08:08:20+07:00",
+      "symbol": "VICR80",
+      "headline": "แจ้งข้อมูลการถือครองหลักทรัพย์อ้างอิงต่างประเทศ (Underlying) ของตราสารแสดงสิทธิในหลักทรัพย์ต่างประเทศ (Depositary Receipt) ที่ออกโดย ธนาคารกรุงไทย จำกัด (มหาชน) ของเดือนตุลาคม พ.ศ. 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107312511&symbol=VICR80",
+      "product": "X"
+    },
+    {
+      "id": "107312511",
+      "datetime": "2026-11-04T08:08:20+07:00",
+      "symbol": "VISA80",
+      "headline": "แจ้งข้อมูลการถือครองหลักทรัพย์อ้างอิงต่างประเทศ (Underlying) ของตราสารแสดงสิทธิในหลักทรัพย์ต่างประเทศ (Depositary Receipt) ที่ออกโดย ธนาคารกรุงไทย จำกัด (มหาชน) ของเดือนตุลาคม พ.ศ. 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107312511&symbol=VISA80",
+      "product": "X"
+    },
+    {
+      "id": "107312511",
+      "datetime": "2026-11-04T08:08:20+07:00",
+      "symbol": "VRT80",
+      "headline": "แจ้งข้อมูลการถือครองหลักทรัพย์อ้างอิงต่างประเทศ (Underlying) ของตราสารแสดงสิทธิในหลักทรัพย์ต่างประเทศ (Depositary Receipt) ที่ออกโดย ธนาคารกรุงไทย จำกัด (มหาชน) ของเดือนตุลาคม พ.ศ. 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107312511&symbol=VRT80",
+      "product": "X"
+    },
+    {
+      "id": "107312511",
+      "datetime": "2026-11-04T08:08:20+07:00",
+      "symbol": "WMT80",
+      "headline": "แจ้งข้อมูลการถือครองหลักทรัพย์อ้างอิงต่างประเทศ (Underlying) ของตราสารแสดงสิทธิในหลักทรัพย์ต่างประเทศ (Depositary Receipt) ที่ออกโดย ธนาคารกรุงไทย จำกัด (มหาชน) ของเดือนตุลาคม พ.ศ. 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107312511&symbol=WMT80",
+      "product": "X"
+    },
+    {
+      "id": "107312511",
+      "datetime": "2026-11-04T08:08:20+07:00",
+      "symbol": "WUXIAT80",
+      "headline": "แจ้งข้อมูลการถือครองหลักทรัพย์อ้างอิงต่างประเทศ (Underlying) ของตราสารแสดงสิทธิในหลักทรัพย์ต่างประเทศ (Depositary Receipt) ที่ออกโดย ธนาคารกรุงไทย จำกัด (มหาชน) ของเดือนตุลาคม พ.ศ. 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107312511&symbol=WUXIAT80",
+      "product": "X"
+    },
+    {
+      "id": "107312511",
+      "datetime": "2026-11-04T08:08:20+07:00",
+      "symbol": "XIAOMI80",
+      "headline": "แจ้งข้อมูลการถือครองหลักทรัพย์อ้างอิงต่างประเทศ (Underlying) ของตราสารแสดงสิทธิในหลักทรัพย์ต่างประเทศ (Depositary Receipt) ที่ออกโดย ธนาคารกรุงไทย จำกัด (มหาชน) ของเดือนตุลาคม พ.ศ. 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107312511&symbol=XIAOMI80",
+      "product": "X"
+    },
+    {
+      "id": "107312511",
+      "datetime": "2026-11-04T08:08:20+07:00",
+      "symbol": "ZIJIN80",
+      "headline": "แจ้งข้อมูลการถือครองหลักทรัพย์อ้างอิงต่างประเทศ (Underlying) ของตราสารแสดงสิทธิในหลักทรัพย์ต่างประเทศ (Depositary Receipt) ที่ออกโดย ธนาคารกรุงไทย จำกัด (มหาชน) ของเดือนตุลาคม พ.ศ. 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107312511&symbol=ZIJIN80",
+      "product": "X"
+    },
+    {
+      "id": "107312511",
+      "datetime": "2026-11-04T08:08:20+07:00",
+      "symbol": "ZJINNO80",
+      "headline": "แจ้งข้อมูลการถือครองหลักทรัพย์อ้างอิงต่างประเทศ (Underlying) ของตราสารแสดงสิทธิในหลักทรัพย์ต่างประเทศ (Depositary Receipt) ที่ออกโดย ธนาคารกรุงไทย จำกัด (มหาชน) ของเดือนตุลาคม พ.ศ. 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107312511&symbol=ZJINNO80",
       "product": "X"
     },
     {
@@ -165,6 +1416,24 @@
       "headline": "SEC News : สรุปแบบ 59 ประจำวันที่ 3 พฤศจิกายน 2569",
       "tag": "",
       "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107325001&symbol=DELTA",
+      "product": "S"
+    },
+    {
+      "id": "107325001",
+      "datetime": "2026-11-04T07:00:32+07:00",
+      "symbol": "NKT",
+      "headline": "SEC News : สรุปแบบ 59 ประจำวันที่ 3 พฤศจิกายน 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107325001&symbol=NKT",
+      "product": "S"
+    },
+    {
+      "id": "107325001",
+      "datetime": "2026-11-04T07:00:32+07:00",
+      "symbol": "SCGP",
+      "headline": "SEC News : สรุปแบบ 59 ประจำวันที่ 3 พฤศจิกายน 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107325001&symbol=SCGP",
       "product": "S"
     },
     {
@@ -339,6 +1608,96 @@
       "product": "X"
     },
     {
+      "id": "107321101",
+      "datetime": "2026-11-03T19:00:00+07:00",
+      "symbol": "TAIWANHD13",
+      "headline": "รายงานผลการปฏิบัติหน้าที่ผู้ดูแลสภาพคล่อง เดือน ตุลาคม 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107321101&symbol=TAIWANHD13",
+      "product": "X"
+    },
+    {
+      "id": "107321101",
+      "datetime": "2026-11-03T19:00:00+07:00",
+      "symbol": "BABA13",
+      "headline": "รายงานผลการปฏิบัติหน้าที่ผู้ดูแลสภาพคล่อง เดือน ตุลาคม 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107321101&symbol=BABA13",
+      "product": "X"
+    },
+    {
+      "id": "107321101",
+      "datetime": "2026-11-03T19:00:00+07:00",
+      "symbol": "XIAOMI13",
+      "headline": "รายงานผลการปฏิบัติหน้าที่ผู้ดูแลสภาพคล่อง เดือน ตุลาคม 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107321101&symbol=XIAOMI13",
+      "product": "X"
+    },
+    {
+      "id": "107321101",
+      "datetime": "2026-11-03T19:00:00+07:00",
+      "symbol": "TENCENT13",
+      "headline": "รายงานผลการปฏิบัติหน้าที่ผู้ดูแลสภาพคล่อง เดือน ตุลาคม 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107321101&symbol=TENCENT13",
+      "product": "X"
+    },
+    {
+      "id": "107321101",
+      "datetime": "2026-11-03T19:00:00+07:00",
+      "symbol": "LENOVO13",
+      "headline": "รายงานผลการปฏิบัติหน้าที่ผู้ดูแลสภาพคล่อง เดือน ตุลาคม 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107321101&symbol=LENOVO13",
+      "product": "X"
+    },
+    {
+      "id": "107321101",
+      "datetime": "2026-11-03T19:00:00+07:00",
+      "symbol": "LPGOLD13",
+      "headline": "รายงานผลการปฏิบัติหน้าที่ผู้ดูแลสภาพคล่อง เดือน ตุลาคม 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107321101&symbol=LPGOLD13",
+      "product": "X"
+    },
+    {
+      "id": "107321101",
+      "datetime": "2026-11-03T19:00:00+07:00",
+      "symbol": "ANTA13",
+      "headline": "รายงานผลการปฏิบัติหน้าที่ผู้ดูแลสภาพคล่อง เดือน ตุลาคม 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107321101&symbol=ANTA13",
+      "product": "X"
+    },
+    {
+      "id": "107321101",
+      "datetime": "2026-11-03T19:00:00+07:00",
+      "symbol": "WUXI13",
+      "headline": "รายงานผลการปฏิบัติหน้าที่ผู้ดูแลสภาพคล่อง เดือน ตุลาคม 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107321101&symbol=WUXI13",
+      "product": "X"
+    },
+    {
+      "id": "107321101",
+      "datetime": "2026-11-03T19:00:00+07:00",
+      "symbol": "ZIJIN13",
+      "headline": "รายงานผลการปฏิบัติหน้าที่ผู้ดูแลสภาพคล่อง เดือน ตุลาคม 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107321101&symbol=ZIJIN13",
+      "product": "X"
+    },
+    {
+      "id": "107321101",
+      "datetime": "2026-11-03T19:00:00+07:00",
+      "symbol": "SMIC13",
+      "headline": "รายงานผลการปฏิบัติหน้าที่ผู้ดูแลสภาพคล่อง เดือน ตุลาคม 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107321101&symbol=SMIC13",
+      "product": "X"
+    },
+    {
       "id": "107317901",
       "datetime": "2026-11-03T18:59:00+07:00",
       "symbol": "BSET100",
@@ -384,6 +1743,123 @@
       "product": "X"
     },
     {
+      "id": "107319801",
+      "datetime": "2026-11-03T18:22:00+07:00",
+      "symbol": "MSN11",
+      "headline": "แจ้งข้อมูลการถือครองหลักทรัพย์อ้างอิงต่างประเทศของตราสารแสดงสิทธิในหลักทรัพย์ต่างประเทศ ประจำเดือน ตุลาคม 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107319801&symbol=MSN11",
+      "product": "X"
+    },
+    {
+      "id": "107319801",
+      "datetime": "2026-11-03T18:22:00+07:00",
+      "symbol": "VCB11",
+      "headline": "แจ้งข้อมูลการถือครองหลักทรัพย์อ้างอิงต่างประเทศของตราสารแสดงสิทธิในหลักทรัพย์ต่างประเทศ ประจำเดือน ตุลาคม 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107319801&symbol=VCB11",
+      "product": "X"
+    },
+    {
+      "id": "107319801",
+      "datetime": "2026-11-03T18:22:00+07:00",
+      "symbol": "FPTVN11",
+      "headline": "แจ้งข้อมูลการถือครองหลักทรัพย์อ้างอิงต่างประเทศของตราสารแสดงสิทธิในหลักทรัพย์ต่างประเทศ ประจำเดือน ตุลาคม 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107319801&symbol=FPTVN11",
+      "product": "X"
+    },
+    {
+      "id": "107319801",
+      "datetime": "2026-11-03T18:22:00+07:00",
+      "symbol": "MWG11",
+      "headline": "แจ้งข้อมูลการถือครองหลักทรัพย์อ้างอิงต่างประเทศของตราสารแสดงสิทธิในหลักทรัพย์ต่างประเทศ ประจำเดือน ตุลาคม 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107319801&symbol=MWG11",
+      "product": "X"
+    },
+    {
+      "id": "107319801",
+      "datetime": "2026-11-03T18:22:00+07:00",
+      "symbol": "V3011",
+      "headline": "แจ้งข้อมูลการถือครองหลักทรัพย์อ้างอิงต่างประเทศของตราสารแสดงสิทธิในหลักทรัพย์ต่างประเทศ ประจำเดือน ตุลาคม 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107319801&symbol=V3011",
+      "product": "X"
+    },
+    {
+      "id": "107319801",
+      "datetime": "2026-11-03T18:22:00+07:00",
+      "symbol": "VDIAMOND11",
+      "headline": "แจ้งข้อมูลการถือครองหลักทรัพย์อ้างอิงต่างประเทศของตราสารแสดงสิทธิในหลักทรัพย์ต่างประเทศ ประจำเดือน ตุลาคม 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107319801&symbol=VDIAMOND11",
+      "product": "X"
+    },
+    {
+      "id": "107319801",
+      "datetime": "2026-11-03T18:22:00+07:00",
+      "symbol": "TENCENT11",
+      "headline": "แจ้งข้อมูลการถือครองหลักทรัพย์อ้างอิงต่างประเทศของตราสารแสดงสิทธิในหลักทรัพย์ต่างประเทศ ประจำเดือน ตุลาคม 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107319801&symbol=TENCENT11",
+      "product": "X"
+    },
+    {
+      "id": "107319801",
+      "datetime": "2026-11-03T18:22:00+07:00",
+      "symbol": "XIAOMI11",
+      "headline": "แจ้งข้อมูลการถือครองหลักทรัพย์อ้างอิงต่างประเทศของตราสารแสดงสิทธิในหลักทรัพย์ต่างประเทศ ประจำเดือน ตุลาคม 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107319801&symbol=XIAOMI11",
+      "product": "X"
+    },
+    {
+      "id": "107319801",
+      "datetime": "2026-11-03T18:22:00+07:00",
+      "symbol": "BABA11",
+      "headline": "แจ้งข้อมูลการถือครองหลักทรัพย์อ้างอิงต่างประเทศของตราสารแสดงสิทธิในหลักทรัพย์ต่างประเทศ ประจำเดือน ตุลาคม 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107319801&symbol=BABA11",
+      "product": "X"
+    },
+    {
+      "id": "107319801",
+      "datetime": "2026-11-03T18:22:00+07:00",
+      "symbol": "NETEASE11",
+      "headline": "แจ้งข้อมูลการถือครองหลักทรัพย์อ้างอิงต่างประเทศของตราสารแสดงสิทธิในหลักทรัพย์ต่างประเทศ ประจำเดือน ตุลาคม 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107319801&symbol=NETEASE11",
+      "product": "X"
+    },
+    {
+      "id": "107319801",
+      "datetime": "2026-11-03T18:22:00+07:00",
+      "symbol": "KUAISH11",
+      "headline": "แจ้งข้อมูลการถือครองหลักทรัพย์อ้างอิงต่างประเทศของตราสารแสดงสิทธิในหลักทรัพย์ต่างประเทศ ประจำเดือน ตุลาคม 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107319801&symbol=KUAISH11",
+      "product": "X"
+    },
+    {
+      "id": "107319801",
+      "datetime": "2026-11-03T18:22:00+07:00",
+      "symbol": "PINGAN11",
+      "headline": "แจ้งข้อมูลการถือครองหลักทรัพย์อ้างอิงต่างประเทศของตราสารแสดงสิทธิในหลักทรัพย์ต่างประเทศ ประจำเดือน ตุลาคม 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107319801&symbol=PINGAN11",
+      "product": "X"
+    },
+    {
+      "id": "107319801",
+      "datetime": "2026-11-03T18:22:00+07:00",
+      "symbol": "POPMART11",
+      "headline": "แจ้งข้อมูลการถือครองหลักทรัพย์อ้างอิงต่างประเทศของตราสารแสดงสิทธิในหลักทรัพย์ต่างประเทศ ประจำเดือน ตุลาคม 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107319801&symbol=POPMART11",
+      "product": "X"
+    },
+    {
       "id": "107320001",
       "datetime": "2026-11-03T18:21:00+07:00",
       "symbol": "1DIV",
@@ -399,6 +1875,42 @@
       "headline": "รายงานผลการปฏิบัติหน้าที่ผู้ดูแลสภาพคล่องเดือน ตุลาคม 2569",
       "tag": "",
       "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107319601&symbol=GASVN11",
+      "product": "X"
+    },
+    {
+      "id": "107319601",
+      "datetime": "2026-11-03T18:20:00+07:00",
+      "symbol": "VCB11",
+      "headline": "รายงานผลการปฏิบัติหน้าที่ผู้ดูแลสภาพคล่องเดือน ตุลาคม 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107319601&symbol=VCB11",
+      "product": "X"
+    },
+    {
+      "id": "107319601",
+      "datetime": "2026-11-03T18:20:00+07:00",
+      "symbol": "V3011",
+      "headline": "รายงานผลการปฏิบัติหน้าที่ผู้ดูแลสภาพคล่องเดือน ตุลาคม 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107319601&symbol=V3011",
+      "product": "X"
+    },
+    {
+      "id": "107319601",
+      "datetime": "2026-11-03T18:20:00+07:00",
+      "symbol": "VDIAMOND11",
+      "headline": "รายงานผลการปฏิบัติหน้าที่ผู้ดูแลสภาพคล่องเดือน ตุลาคม 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107319601&symbol=VDIAMOND11",
+      "product": "X"
+    },
+    {
+      "id": "107319601",
+      "datetime": "2026-11-03T18:20:00+07:00",
+      "symbol": "TENCENT11",
+      "headline": "รายงานผลการปฏิบัติหน้าที่ผู้ดูแลสภาพคล่องเดือน ตุลาคม 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107319601&symbol=TENCENT11",
       "product": "X"
     },
     {
@@ -735,12 +2247,930 @@
       "product": "X"
     },
     {
+      "id": "107312701",
+      "datetime": "2026-11-03T17:08:00+07:00",
+      "symbol": "STEG19",
+      "headline": "แจ้งข้อมูลการถือครองหลักทรัพย์อ้างอิงต่างประเทศของตราสารแสดงสิทธิในหลักทรัพย์ต่างประเทศ ที่ออกโดย บริษัทหลักทรัพย์ หยวนต้า (ประเทศไทย) จำกัด ประจำเดือนตุลาคม 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107312701&symbol=STEG19",
+      "product": "X"
+    },
+    {
+      "id": "107312701",
+      "datetime": "2026-11-03T17:08:00+07:00",
+      "symbol": "VENTURE19",
+      "headline": "แจ้งข้อมูลการถือครองหลักทรัพย์อ้างอิงต่างประเทศของตราสารแสดงสิทธิในหลักทรัพย์ต่างประเทศ ที่ออกโดย บริษัทหลักทรัพย์ หยวนต้า (ประเทศไทย) จำกัด ประจำเดือนตุลาคม 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107312701&symbol=VENTURE19",
+      "product": "X"
+    },
+    {
+      "id": "107312701",
+      "datetime": "2026-11-03T17:08:00+07:00",
+      "symbol": "NINTENDO19",
+      "headline": "แจ้งข้อมูลการถือครองหลักทรัพย์อ้างอิงต่างประเทศของตราสารแสดงสิทธิในหลักทรัพย์ต่างประเทศ ที่ออกโดย บริษัทหลักทรัพย์ หยวนต้า (ประเทศไทย) จำกัด ประจำเดือนตุลาคม 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107312701&symbol=NINTENDO19",
+      "product": "X"
+    },
+    {
+      "id": "107312701",
+      "datetime": "2026-11-03T17:08:00+07:00",
+      "symbol": "SMFG19",
+      "headline": "แจ้งข้อมูลการถือครองหลักทรัพย์อ้างอิงต่างประเทศของตราสารแสดงสิทธิในหลักทรัพย์ต่างประเทศ ที่ออกโดย บริษัทหลักทรัพย์ หยวนต้า (ประเทศไทย) จำกัด ประจำเดือนตุลาคม 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107312701&symbol=SMFG19",
+      "product": "X"
+    },
+    {
+      "id": "107312701",
+      "datetime": "2026-11-03T17:08:00+07:00",
+      "symbol": "GOLD19",
+      "headline": "แจ้งข้อมูลการถือครองหลักทรัพย์อ้างอิงต่างประเทศของตราสารแสดงสิทธิในหลักทรัพย์ต่างประเทศ ที่ออกโดย บริษัทหลักทรัพย์ หยวนต้า (ประเทศไทย) จำกัด ประจำเดือนตุลาคม 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107312701&symbol=GOLD19",
+      "product": "X"
+    },
+    {
+      "id": "107312701",
+      "datetime": "2026-11-03T17:08:00+07:00",
+      "symbol": "INDIAESG19",
+      "headline": "แจ้งข้อมูลการถือครองหลักทรัพย์อ้างอิงต่างประเทศของตราสารแสดงสิทธิในหลักทรัพย์ต่างประเทศ ที่ออกโดย บริษัทหลักทรัพย์ หยวนต้า (ประเทศไทย) จำกัด ประจำเดือนตุลาคม 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107312701&symbol=INDIAESG19",
+      "product": "X"
+    },
+    {
+      "id": "107312701",
+      "datetime": "2026-11-03T17:08:00+07:00",
+      "symbol": "DBS19",
+      "headline": "แจ้งข้อมูลการถือครองหลักทรัพย์อ้างอิงต่างประเทศของตราสารแสดงสิทธิในหลักทรัพย์ต่างประเทศ ที่ออกโดย บริษัทหลักทรัพย์ หยวนต้า (ประเทศไทย) จำกัด ประจำเดือนตุลาคม 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107312701&symbol=DBS19",
+      "product": "X"
+    },
+    {
+      "id": "107312701",
+      "datetime": "2026-11-03T17:08:00+07:00",
+      "symbol": "THAIBEV19",
+      "headline": "แจ้งข้อมูลการถือครองหลักทรัพย์อ้างอิงต่างประเทศของตราสารแสดงสิทธิในหลักทรัพย์ต่างประเทศ ที่ออกโดย บริษัทหลักทรัพย์ หยวนต้า (ประเทศไทย) จำกัด ประจำเดือนตุลาคม 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107312701&symbol=THAIBEV19",
+      "product": "X"
+    },
+    {
+      "id": "107312701",
+      "datetime": "2026-11-03T17:08:00+07:00",
+      "symbol": "UOB19",
+      "headline": "แจ้งข้อมูลการถือครองหลักทรัพย์อ้างอิงต่างประเทศของตราสารแสดงสิทธิในหลักทรัพย์ต่างประเทศ ที่ออกโดย บริษัทหลักทรัพย์ หยวนต้า (ประเทศไทย) จำกัด ประจำเดือนตุลาคม 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107312701&symbol=UOB19",
+      "product": "X"
+    },
+    {
+      "id": "107312701",
+      "datetime": "2026-11-03T17:08:00+07:00",
+      "symbol": "MUFG19",
+      "headline": "แจ้งข้อมูลการถือครองหลักทรัพย์อ้างอิงต่างประเทศของตราสารแสดงสิทธิในหลักทรัพย์ต่างประเทศ ที่ออกโดย บริษัทหลักทรัพย์ หยวนต้า (ประเทศไทย) จำกัด ประจำเดือนตุลาคม 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107312701&symbol=MUFG19",
+      "product": "X"
+    },
+    {
+      "id": "107312701",
+      "datetime": "2026-11-03T17:08:00+07:00",
+      "symbol": "MITSU19",
+      "headline": "แจ้งข้อมูลการถือครองหลักทรัพย์อ้างอิงต่างประเทศของตราสารแสดงสิทธิในหลักทรัพย์ต่างประเทศ ที่ออกโดย บริษัทหลักทรัพย์ หยวนต้า (ประเทศไทย) จำกัด ประจำเดือนตุลาคม 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107312701&symbol=MITSU19",
+      "product": "X"
+    },
+    {
+      "id": "107312701",
+      "datetime": "2026-11-03T17:08:00+07:00",
+      "symbol": "HONDA19",
+      "headline": "แจ้งข้อมูลการถือครองหลักทรัพย์อ้างอิงต่างประเทศของตราสารแสดงสิทธิในหลักทรัพย์ต่างประเทศ ที่ออกโดย บริษัทหลักทรัพย์ หยวนต้า (ประเทศไทย) จำกัด ประจำเดือนตุลาคม 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107312701&symbol=HONDA19",
+      "product": "X"
+    },
+    {
+      "id": "107312701",
+      "datetime": "2026-11-03T17:08:00+07:00",
+      "symbol": "VNM19",
+      "headline": "แจ้งข้อมูลการถือครองหลักทรัพย์อ้างอิงต่างประเทศของตราสารแสดงสิทธิในหลักทรัพย์ต่างประเทศ ที่ออกโดย บริษัทหลักทรัพย์ หยวนต้า (ประเทศไทย) จำกัด ประจำเดือนตุลาคม 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107312701&symbol=VNM19",
+      "product": "X"
+    },
+    {
+      "id": "107312701",
+      "datetime": "2026-11-03T17:08:00+07:00",
+      "symbol": "TAIWAN19",
+      "headline": "แจ้งข้อมูลการถือครองหลักทรัพย์อ้างอิงต่างประเทศของตราสารแสดงสิทธิในหลักทรัพย์ต่างประเทศ ที่ออกโดย บริษัทหลักทรัพย์ หยวนต้า (ประเทศไทย) จำกัด ประจำเดือนตุลาคม 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107312701&symbol=TAIWAN19",
+      "product": "X"
+    },
+    {
+      "id": "107312701",
+      "datetime": "2026-11-03T17:08:00+07:00",
+      "symbol": "FPTVN19",
+      "headline": "แจ้งข้อมูลการถือครองหลักทรัพย์อ้างอิงต่างประเทศของตราสารแสดงสิทธิในหลักทรัพย์ต่างประเทศ ที่ออกโดย บริษัทหลักทรัพย์ หยวนต้า (ประเทศไทย) จำกัด ประจำเดือนตุลาคม 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107312701&symbol=FPTVN19",
+      "product": "X"
+    },
+    {
+      "id": "107312701",
+      "datetime": "2026-11-03T17:08:00+07:00",
+      "symbol": "MWG19",
+      "headline": "แจ้งข้อมูลการถือครองหลักทรัพย์อ้างอิงต่างประเทศของตราสารแสดงสิทธิในหลักทรัพย์ต่างประเทศ ที่ออกโดย บริษัทหลักทรัพย์ หยวนต้า (ประเทศไทย) จำกัด ประจำเดือนตุลาคม 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107312701&symbol=MWG19",
+      "product": "X"
+    },
+    {
+      "id": "107312701",
+      "datetime": "2026-11-03T17:08:00+07:00",
+      "symbol": "VCB19",
+      "headline": "แจ้งข้อมูลการถือครองหลักทรัพย์อ้างอิงต่างประเทศของตราสารแสดงสิทธิในหลักทรัพย์ต่างประเทศ ที่ออกโดย บริษัทหลักทรัพย์ หยวนต้า (ประเทศไทย) จำกัด ประจำเดือนตุลาคม 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107312701&symbol=VCB19",
+      "product": "X"
+    },
+    {
+      "id": "107312701",
+      "datetime": "2026-11-03T17:08:00+07:00",
+      "symbol": "TENCENT19",
+      "headline": "แจ้งข้อมูลการถือครองหลักทรัพย์อ้างอิงต่างประเทศของตราสารแสดงสิทธิในหลักทรัพย์ต่างประเทศ ที่ออกโดย บริษัทหลักทรัพย์ หยวนต้า (ประเทศไทย) จำกัด ประจำเดือนตุลาคม 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107312701&symbol=TENCENT19",
+      "product": "X"
+    },
+    {
+      "id": "107312701",
+      "datetime": "2026-11-03T17:08:00+07:00",
+      "symbol": "MEITUAN19",
+      "headline": "แจ้งข้อมูลการถือครองหลักทรัพย์อ้างอิงต่างประเทศของตราสารแสดงสิทธิในหลักทรัพย์ต่างประเทศ ที่ออกโดย บริษัทหลักทรัพย์ หยวนต้า (ประเทศไทย) จำกัด ประจำเดือนตุลาคม 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107312701&symbol=MEITUAN19",
+      "product": "X"
+    },
+    {
+      "id": "107312701",
+      "datetime": "2026-11-03T17:08:00+07:00",
+      "symbol": "XIAOMI19",
+      "headline": "แจ้งข้อมูลการถือครองหลักทรัพย์อ้างอิงต่างประเทศของตราสารแสดงสิทธิในหลักทรัพย์ต่างประเทศ ที่ออกโดย บริษัทหลักทรัพย์ หยวนต้า (ประเทศไทย) จำกัด ประจำเดือนตุลาคม 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107312701&symbol=XIAOMI19",
+      "product": "X"
+    },
+    {
+      "id": "107312701",
+      "datetime": "2026-11-03T17:08:00+07:00",
+      "symbol": "CHMOBILE19",
+      "headline": "แจ้งข้อมูลการถือครองหลักทรัพย์อ้างอิงต่างประเทศของตราสารแสดงสิทธิในหลักทรัพย์ต่างประเทศ ที่ออกโดย บริษัทหลักทรัพย์ หยวนต้า (ประเทศไทย) จำกัด ประจำเดือนตุลาคม 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107312701&symbol=CHMOBILE19",
+      "product": "X"
+    },
+    {
+      "id": "107312701",
+      "datetime": "2026-11-03T17:08:00+07:00",
+      "symbol": "HAIERS19",
+      "headline": "แจ้งข้อมูลการถือครองหลักทรัพย์อ้างอิงต่างประเทศของตราสารแสดงสิทธิในหลักทรัพย์ต่างประเทศ ที่ออกโดย บริษัทหลักทรัพย์ หยวนต้า (ประเทศไทย) จำกัด ประจำเดือนตุลาคม 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107312701&symbol=HAIERS19",
+      "product": "X"
+    },
+    {
+      "id": "107312701",
+      "datetime": "2026-11-03T17:08:00+07:00",
+      "symbol": "GOLDUS19",
+      "headline": "แจ้งข้อมูลการถือครองหลักทรัพย์อ้างอิงต่างประเทศของตราสารแสดงสิทธิในหลักทรัพย์ต่างประเทศ ที่ออกโดย บริษัทหลักทรัพย์ หยวนต้า (ประเทศไทย) จำกัด ประจำเดือนตุลาคม 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107312701&symbol=GOLDUS19",
+      "product": "X"
+    },
+    {
+      "id": "107312701",
+      "datetime": "2026-11-03T17:08:00+07:00",
+      "symbol": "NVDA19",
+      "headline": "แจ้งข้อมูลการถือครองหลักทรัพย์อ้างอิงต่างประเทศของตราสารแสดงสิทธิในหลักทรัพย์ต่างประเทศ ที่ออกโดย บริษัทหลักทรัพย์ หยวนต้า (ประเทศไทย) จำกัด ประจำเดือนตุลาคม 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107312701&symbol=NVDA19",
+      "product": "X"
+    },
+    {
+      "id": "107312701",
+      "datetime": "2026-11-03T17:08:00+07:00",
+      "symbol": "PFIZER19",
+      "headline": "แจ้งข้อมูลการถือครองหลักทรัพย์อ้างอิงต่างประเทศของตราสารแสดงสิทธิในหลักทรัพย์ต่างประเทศ ที่ออกโดย บริษัทหลักทรัพย์ หยวนต้า (ประเทศไทย) จำกัด ประจำเดือนตุลาคม 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107312701&symbol=PFIZER19",
+      "product": "X"
+    },
+    {
+      "id": "107312701",
+      "datetime": "2026-11-03T17:08:00+07:00",
+      "symbol": "DISNEY19",
+      "headline": "แจ้งข้อมูลการถือครองหลักทรัพย์อ้างอิงต่างประเทศของตราสารแสดงสิทธิในหลักทรัพย์ต่างประเทศ ที่ออกโดย บริษัทหลักทรัพย์ หยวนต้า (ประเทศไทย) จำกัด ประจำเดือนตุลาคม 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107312701&symbol=DISNEY19",
+      "product": "X"
+    },
+    {
+      "id": "107312701",
+      "datetime": "2026-11-03T17:08:00+07:00",
+      "symbol": "JPMUS19",
+      "headline": "แจ้งข้อมูลการถือครองหลักทรัพย์อ้างอิงต่างประเทศของตราสารแสดงสิทธิในหลักทรัพย์ต่างประเทศ ที่ออกโดย บริษัทหลักทรัพย์ หยวนต้า (ประเทศไทย) จำกัด ประจำเดือนตุลาคม 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107312701&symbol=JPMUS19",
+      "product": "X"
+    },
+    {
+      "id": "107312701",
+      "datetime": "2026-11-03T17:08:00+07:00",
+      "symbol": "COSTCO19",
+      "headline": "แจ้งข้อมูลการถือครองหลักทรัพย์อ้างอิงต่างประเทศของตราสารแสดงสิทธิในหลักทรัพย์ต่างประเทศ ที่ออกโดย บริษัทหลักทรัพย์ หยวนต้า (ประเทศไทย) จำกัด ประจำเดือนตุลาคม 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107312701&symbol=COSTCO19",
+      "product": "X"
+    },
+    {
+      "id": "107312701",
+      "datetime": "2026-11-03T17:08:00+07:00",
+      "symbol": "QQQM19",
+      "headline": "แจ้งข้อมูลการถือครองหลักทรัพย์อ้างอิงต่างประเทศของตราสารแสดงสิทธิในหลักทรัพย์ต่างประเทศ ที่ออกโดย บริษัทหลักทรัพย์ หยวนต้า (ประเทศไทย) จำกัด ประจำเดือนตุลาคม 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107312701&symbol=QQQM19",
+      "product": "X"
+    },
+    {
+      "id": "107312701",
+      "datetime": "2026-11-03T17:08:00+07:00",
+      "symbol": "SUNNY19",
+      "headline": "แจ้งข้อมูลการถือครองหลักทรัพย์อ้างอิงต่างประเทศของตราสารแสดงสิทธิในหลักทรัพย์ต่างประเทศ ที่ออกโดย บริษัทหลักทรัพย์ หยวนต้า (ประเทศไทย) จำกัด ประจำเดือนตุลาคม 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107312701&symbol=SUNNY19",
+      "product": "X"
+    },
+    {
+      "id": "107312701",
+      "datetime": "2026-11-03T17:08:00+07:00",
+      "symbol": "CHHONGQ19",
+      "headline": "แจ้งข้อมูลการถือครองหลักทรัพย์อ้างอิงต่างประเทศของตราสารแสดงสิทธิในหลักทรัพย์ต่างประเทศ ที่ออกโดย บริษัทหลักทรัพย์ หยวนต้า (ประเทศไทย) จำกัด ประจำเดือนตุลาคม 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107312701&symbol=CHHONGQ19",
+      "product": "X"
+    },
+    {
+      "id": "107312701",
+      "datetime": "2026-11-03T17:08:00+07:00",
+      "symbol": "ICBC19",
+      "headline": "แจ้งข้อมูลการถือครองหลักทรัพย์อ้างอิงต่างประเทศของตราสารแสดงสิทธิในหลักทรัพย์ต่างประเทศ ที่ออกโดย บริษัทหลักทรัพย์ หยวนต้า (ประเทศไทย) จำกัด ประจำเดือนตุลาคม 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107312701&symbol=ICBC19",
+      "product": "X"
+    },
+    {
+      "id": "107312701",
+      "datetime": "2026-11-03T17:08:00+07:00",
+      "symbol": "JDHEAL19",
+      "headline": "แจ้งข้อมูลการถือครองหลักทรัพย์อ้างอิงต่างประเทศของตราสารแสดงสิทธิในหลักทรัพย์ต่างประเทศ ที่ออกโดย บริษัทหลักทรัพย์ หยวนต้า (ประเทศไทย) จำกัด ประจำเดือนตุลาคม 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107312701&symbol=JDHEAL19",
+      "product": "X"
+    },
+    {
+      "id": "107312701",
+      "datetime": "2026-11-03T17:08:00+07:00",
+      "symbol": "ITOCHU19",
+      "headline": "แจ้งข้อมูลการถือครองหลักทรัพย์อ้างอิงต่างประเทศของตราสารแสดงสิทธิในหลักทรัพย์ต่างประเทศ ที่ออกโดย บริษัทหลักทรัพย์ หยวนต้า (ประเทศไทย) จำกัด ประจำเดือนตุลาคม 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107312701&symbol=ITOCHU19",
+      "product": "X"
+    },
+    {
+      "id": "107312701",
+      "datetime": "2026-11-03T17:08:00+07:00",
+      "symbol": "HPG19",
+      "headline": "แจ้งข้อมูลการถือครองหลักทรัพย์อ้างอิงต่างประเทศของตราสารแสดงสิทธิในหลักทรัพย์ต่างประเทศ ที่ออกโดย บริษัทหลักทรัพย์ หยวนต้า (ประเทศไทย) จำกัด ประจำเดือนตุลาคม 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107312701&symbol=HPG19",
+      "product": "X"
+    },
+    {
+      "id": "107312701",
+      "datetime": "2026-11-03T17:08:00+07:00",
+      "symbol": "VHM19",
+      "headline": "แจ้งข้อมูลการถือครองหลักทรัพย์อ้างอิงต่างประเทศของตราสารแสดงสิทธิในหลักทรัพย์ต่างประเทศ ที่ออกโดย บริษัทหลักทรัพย์ หยวนต้า (ประเทศไทย) จำกัด ประจำเดือนตุลาคม 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107312701&symbol=VHM19",
+      "product": "X"
+    },
+    {
+      "id": "107312701",
+      "datetime": "2026-11-03T17:08:00+07:00",
+      "symbol": "AIA19",
+      "headline": "แจ้งข้อมูลการถือครองหลักทรัพย์อ้างอิงต่างประเทศของตราสารแสดงสิทธิในหลักทรัพย์ต่างประเทศ ที่ออกโดย บริษัทหลักทรัพย์ หยวนต้า (ประเทศไทย) จำกัด ประจำเดือนตุลาคม 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107312701&symbol=AIA19",
+      "product": "X"
+    },
+    {
+      "id": "107312701",
+      "datetime": "2026-11-03T17:08:00+07:00",
+      "symbol": "ORCL19",
+      "headline": "แจ้งข้อมูลการถือครองหลักทรัพย์อ้างอิงต่างประเทศของตราสารแสดงสิทธิในหลักทรัพย์ต่างประเทศ ที่ออกโดย บริษัทหลักทรัพย์ หยวนต้า (ประเทศไทย) จำกัด ประจำเดือนตุลาคม 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107312701&symbol=ORCL19",
+      "product": "X"
+    },
+    {
+      "id": "107312701",
+      "datetime": "2026-11-03T17:08:00+07:00",
+      "symbol": "DELL19",
+      "headline": "แจ้งข้อมูลการถือครองหลักทรัพย์อ้างอิงต่างประเทศของตราสารแสดงสิทธิในหลักทรัพย์ต่างประเทศ ที่ออกโดย บริษัทหลักทรัพย์ หยวนต้า (ประเทศไทย) จำกัด ประจำเดือนตุลาคม 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107312701&symbol=DELL19",
+      "product": "X"
+    },
+    {
+      "id": "107312701",
+      "datetime": "2026-11-03T17:08:00+07:00",
+      "symbol": "ABBV19",
+      "headline": "แจ้งข้อมูลการถือครองหลักทรัพย์อ้างอิงต่างประเทศของตราสารแสดงสิทธิในหลักทรัพย์ต่างประเทศ ที่ออกโดย บริษัทหลักทรัพย์ หยวนต้า (ประเทศไทย) จำกัด ประจำเดือนตุลาคม 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107312701&symbol=ABBV19",
+      "product": "X"
+    },
+    {
+      "id": "107312701",
+      "datetime": "2026-11-03T17:08:00+07:00",
+      "symbol": "SP500US19",
+      "headline": "แจ้งข้อมูลการถือครองหลักทรัพย์อ้างอิงต่างประเทศของตราสารแสดงสิทธิในหลักทรัพย์ต่างประเทศ ที่ออกโดย บริษัทหลักทรัพย์ หยวนต้า (ประเทศไทย) จำกัด ประจำเดือนตุลาคม 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107312701&symbol=SP500US19",
+      "product": "X"
+    },
+    {
+      "id": "107312701",
+      "datetime": "2026-11-03T17:08:00+07:00",
+      "symbol": "BONDAS19",
+      "headline": "แจ้งข้อมูลการถือครองหลักทรัพย์อ้างอิงต่างประเทศของตราสารแสดงสิทธิในหลักทรัพย์ต่างประเทศ ที่ออกโดย บริษัทหลักทรัพย์ หยวนต้า (ประเทศไทย) จำกัด ประจำเดือนตุลาคม 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107312701&symbol=BONDAS19",
+      "product": "X"
+    },
+    {
+      "id": "107312701",
+      "datetime": "2026-11-03T17:08:00+07:00",
+      "symbol": "SEMB19",
+      "headline": "แจ้งข้อมูลการถือครองหลักทรัพย์อ้างอิงต่างประเทศของตราสารแสดงสิทธิในหลักทรัพย์ต่างประเทศ ที่ออกโดย บริษัทหลักทรัพย์ หยวนต้า (ประเทศไทย) จำกัด ประจำเดือนตุลาคม 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107312701&symbol=SEMB19",
+      "product": "X"
+    },
+    {
+      "id": "107312701",
+      "datetime": "2026-11-03T17:08:00+07:00",
+      "symbol": "SGX19",
+      "headline": "แจ้งข้อมูลการถือครองหลักทรัพย์อ้างอิงต่างประเทศของตราสารแสดงสิทธิในหลักทรัพย์ต่างประเทศ ที่ออกโดย บริษัทหลักทรัพย์ หยวนต้า (ประเทศไทย) จำกัด ประจำเดือนตุลาคม 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107312701&symbol=SGX19",
+      "product": "X"
+    },
+    {
+      "id": "107312701",
+      "datetime": "2026-11-03T17:08:00+07:00",
+      "symbol": "UNH19",
+      "headline": "แจ้งข้อมูลการถือครองหลักทรัพย์อ้างอิงต่างประเทศของตราสารแสดงสิทธิในหลักทรัพย์ต่างประเทศ ที่ออกโดย บริษัทหลักทรัพย์ หยวนต้า (ประเทศไทย) จำกัด ประจำเดือนตุลาคม 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107312701&symbol=UNH19",
+      "product": "X"
+    },
+    {
+      "id": "107312701",
+      "datetime": "2026-11-03T17:08:00+07:00",
+      "symbol": "MSN19",
+      "headline": "แจ้งข้อมูลการถือครองหลักทรัพย์อ้างอิงต่างประเทศของตราสารแสดงสิทธิในหลักทรัพย์ต่างประเทศ ที่ออกโดย บริษัทหลักทรัพย์ หยวนต้า (ประเทศไทย) จำกัด ประจำเดือนตุลาคม 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107312701&symbol=MSN19",
+      "product": "X"
+    },
+    {
+      "id": "107312701",
+      "datetime": "2026-11-03T17:08:00+07:00",
+      "symbol": "ADVANT19",
+      "headline": "แจ้งข้อมูลการถือครองหลักทรัพย์อ้างอิงต่างประเทศของตราสารแสดงสิทธิในหลักทรัพย์ต่างประเทศ ที่ออกโดย บริษัทหลักทรัพย์ หยวนต้า (ประเทศไทย) จำกัด ประจำเดือนตุลาคม 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107312701&symbol=ADVANT19",
+      "product": "X"
+    },
+    {
+      "id": "107312701",
+      "datetime": "2026-11-03T17:08:00+07:00",
+      "symbol": "HANSOH19",
+      "headline": "แจ้งข้อมูลการถือครองหลักทรัพย์อ้างอิงต่างประเทศของตราสารแสดงสิทธิในหลักทรัพย์ต่างประเทศ ที่ออกโดย บริษัทหลักทรัพย์ หยวนต้า (ประเทศไทย) จำกัด ประจำเดือนตุลาคม 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107312701&symbol=HANSOH19",
+      "product": "X"
+    },
+    {
+      "id": "107312701",
+      "datetime": "2026-11-03T17:08:00+07:00",
+      "symbol": "SINOBIO19",
+      "headline": "แจ้งข้อมูลการถือครองหลักทรัพย์อ้างอิงต่างประเทศของตราสารแสดงสิทธิในหลักทรัพย์ต่างประเทศ ที่ออกโดย บริษัทหลักทรัพย์ หยวนต้า (ประเทศไทย) จำกัด ประจำเดือนตุลาคม 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107312701&symbol=SINOBIO19",
+      "product": "X"
+    },
+    {
+      "id": "107312701",
+      "datetime": "2026-11-03T17:08:00+07:00",
+      "symbol": "MSFT19",
+      "headline": "แจ้งข้อมูลการถือครองหลักทรัพย์อ้างอิงต่างประเทศของตราสารแสดงสิทธิในหลักทรัพย์ต่างประเทศ ที่ออกโดย บริษัทหลักทรัพย์ หยวนต้า (ประเทศไทย) จำกัด ประจำเดือนตุลาคม 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107312701&symbol=MSFT19",
+      "product": "X"
+    },
+    {
+      "id": "107312701",
+      "datetime": "2026-11-03T17:08:00+07:00",
+      "symbol": "AAPL19",
+      "headline": "แจ้งข้อมูลการถือครองหลักทรัพย์อ้างอิงต่างประเทศของตราสารแสดงสิทธิในหลักทรัพย์ต่างประเทศ ที่ออกโดย บริษัทหลักทรัพย์ หยวนต้า (ประเทศไทย) จำกัด ประจำเดือนตุลาคม 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107312701&symbol=AAPL19",
+      "product": "X"
+    },
+    {
+      "id": "107312701",
+      "datetime": "2026-11-03T17:08:00+07:00",
+      "symbol": "ISRG19",
+      "headline": "แจ้งข้อมูลการถือครองหลักทรัพย์อ้างอิงต่างประเทศของตราสารแสดงสิทธิในหลักทรัพย์ต่างประเทศ ที่ออกโดย บริษัทหลักทรัพย์ หยวนต้า (ประเทศไทย) จำกัด ประจำเดือนตุลาคม 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107312701&symbol=ISRG19",
+      "product": "X"
+    },
+    {
+      "id": "107312701",
+      "datetime": "2026-11-03T17:08:00+07:00",
+      "symbol": "NOW19",
+      "headline": "แจ้งข้อมูลการถือครองหลักทรัพย์อ้างอิงต่างประเทศของตราสารแสดงสิทธิในหลักทรัพย์ต่างประเทศ ที่ออกโดย บริษัทหลักทรัพย์ หยวนต้า (ประเทศไทย) จำกัด ประจำเดือนตุลาคม 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107312701&symbol=NOW19",
+      "product": "X"
+    },
+    {
+      "id": "107312701",
+      "datetime": "2026-11-03T17:08:00+07:00",
+      "symbol": "DDOG19",
+      "headline": "แจ้งข้อมูลการถือครองหลักทรัพย์อ้างอิงต่างประเทศของตราสารแสดงสิทธิในหลักทรัพย์ต่างประเทศ ที่ออกโดย บริษัทหลักทรัพย์ หยวนต้า (ประเทศไทย) จำกัด ประจำเดือนตุลาคม 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107312701&symbol=DDOG19",
+      "product": "X"
+    },
+    {
+      "id": "107312701",
+      "datetime": "2026-11-03T17:08:00+07:00",
+      "symbol": "MICRON19",
+      "headline": "แจ้งข้อมูลการถือครองหลักทรัพย์อ้างอิงต่างประเทศของตราสารแสดงสิทธิในหลักทรัพย์ต่างประเทศ ที่ออกโดย บริษัทหลักทรัพย์ หยวนต้า (ประเทศไทย) จำกัด ประจำเดือนตุลาคม 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107312701&symbol=MICRON19",
+      "product": "X"
+    },
+    {
+      "id": "107312701",
+      "datetime": "2026-11-03T17:08:00+07:00",
+      "symbol": "JEPI19",
+      "headline": "แจ้งข้อมูลการถือครองหลักทรัพย์อ้างอิงต่างประเทศของตราสารแสดงสิทธิในหลักทรัพย์ต่างประเทศ ที่ออกโดย บริษัทหลักทรัพย์ หยวนต้า (ประเทศไทย) จำกัด ประจำเดือนตุลาคม 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107312701&symbol=JEPI19",
+      "product": "X"
+    },
+    {
+      "id": "107312701",
+      "datetime": "2026-11-03T17:08:00+07:00",
+      "symbol": "JTEK19",
+      "headline": "แจ้งข้อมูลการถือครองหลักทรัพย์อ้างอิงต่างประเทศของตราสารแสดงสิทธิในหลักทรัพย์ต่างประเทศ ที่ออกโดย บริษัทหลักทรัพย์ หยวนต้า (ประเทศไทย) จำกัด ประจำเดือนตุลาคม 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107312701&symbol=JTEK19",
+      "product": "X"
+    },
+    {
+      "id": "107312701",
+      "datetime": "2026-11-03T17:08:00+07:00",
+      "symbol": "JGRO19",
+      "headline": "แจ้งข้อมูลการถือครองหลักทรัพย์อ้างอิงต่างประเทศของตราสารแสดงสิทธิในหลักทรัพย์ต่างประเทศ ที่ออกโดย บริษัทหลักทรัพย์ หยวนต้า (ประเทศไทย) จำกัด ประจำเดือนตุลาคม 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107312701&symbol=JGRO19",
+      "product": "X"
+    },
+    {
+      "id": "107312701",
+      "datetime": "2026-11-03T17:08:00+07:00",
+      "symbol": "DEAM19",
+      "headline": "แจ้งข้อมูลการถือครองหลักทรัพย์อ้างอิงต่างประเทศของตราสารแสดงสิทธิในหลักทรัพย์ต่างประเทศ ที่ออกโดย บริษัทหลักทรัพย์ หยวนต้า (ประเทศไทย) จำกัด ประจำเดือนตุลาคม 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107312701&symbol=DEAM19",
+      "product": "X"
+    },
+    {
+      "id": "107312701",
+      "datetime": "2026-11-03T17:08:00+07:00",
+      "symbol": "CAT19",
+      "headline": "แจ้งข้อมูลการถือครองหลักทรัพย์อ้างอิงต่างประเทศของตราสารแสดงสิทธิในหลักทรัพย์ต่างประเทศ ที่ออกโดย บริษัทหลักทรัพย์ หยวนต้า (ประเทศไทย) จำกัด ประจำเดือนตุลาคม 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107312701&symbol=CAT19",
+      "product": "X"
+    },
+    {
+      "id": "107312701",
+      "datetime": "2026-11-03T17:08:00+07:00",
+      "symbol": "BABA19",
+      "headline": "แจ้งข้อมูลการถือครองหลักทรัพย์อ้างอิงต่างประเทศของตราสารแสดงสิทธิในหลักทรัพย์ต่างประเทศ ที่ออกโดย บริษัทหลักทรัพย์ หยวนต้า (ประเทศไทย) จำกัด ประจำเดือนตุลาคม 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107312701&symbol=BABA19",
+      "product": "X"
+    },
+    {
+      "id": "107312701",
+      "datetime": "2026-11-03T17:08:00+07:00",
+      "symbol": "INTEL19",
+      "headline": "แจ้งข้อมูลการถือครองหลักทรัพย์อ้างอิงต่างประเทศของตราสารแสดงสิทธิในหลักทรัพย์ต่างประเทศ ที่ออกโดย บริษัทหลักทรัพย์ หยวนต้า (ประเทศไทย) จำกัด ประจำเดือนตุลาคม 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107312701&symbol=INTEL19",
+      "product": "X"
+    },
+    {
+      "id": "107312701",
+      "datetime": "2026-11-03T17:08:00+07:00",
+      "symbol": "PANW19",
+      "headline": "แจ้งข้อมูลการถือครองหลักทรัพย์อ้างอิงต่างประเทศของตราสารแสดงสิทธิในหลักทรัพย์ต่างประเทศ ที่ออกโดย บริษัทหลักทรัพย์ หยวนต้า (ประเทศไทย) จำกัด ประจำเดือนตุลาคม 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107312701&symbol=PANW19",
+      "product": "X"
+    },
+    {
+      "id": "107312701",
+      "datetime": "2026-11-03T17:08:00+07:00",
+      "symbol": "AMAT19",
+      "headline": "แจ้งข้อมูลการถือครองหลักทรัพย์อ้างอิงต่างประเทศของตราสารแสดงสิทธิในหลักทรัพย์ต่างประเทศ ที่ออกโดย บริษัทหลักทรัพย์ หยวนต้า (ประเทศไทย) จำกัด ประจำเดือนตุลาคม 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107312701&symbol=AMAT19",
+      "product": "X"
+    },
+    {
+      "id": "107312701",
+      "datetime": "2026-11-03T17:08:00+07:00",
+      "symbol": "SHINCHEM19",
+      "headline": "แจ้งข้อมูลการถือครองหลักทรัพย์อ้างอิงต่างประเทศของตราสารแสดงสิทธิในหลักทรัพย์ต่างประเทศ ที่ออกโดย บริษัทหลักทรัพย์ หยวนต้า (ประเทศไทย) จำกัด ประจำเดือนตุลาคม 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107312701&symbol=SHINCHEM19",
+      "product": "X"
+    },
+    {
+      "id": "107312701",
+      "datetime": "2026-11-03T17:08:00+07:00",
+      "symbol": "AMZN19",
+      "headline": "แจ้งข้อมูลการถือครองหลักทรัพย์อ้างอิงต่างประเทศของตราสารแสดงสิทธิในหลักทรัพย์ต่างประเทศ ที่ออกโดย บริษัทหลักทรัพย์ หยวนต้า (ประเทศไทย) จำกัด ประจำเดือนตุลาคม 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107312701&symbol=AMZN19",
+      "product": "X"
+    },
+    {
+      "id": "107312701",
+      "datetime": "2026-11-03T17:08:00+07:00",
+      "symbol": "LRCX19",
+      "headline": "แจ้งข้อมูลการถือครองหลักทรัพย์อ้างอิงต่างประเทศของตราสารแสดงสิทธิในหลักทรัพย์ต่างประเทศ ที่ออกโดย บริษัทหลักทรัพย์ หยวนต้า (ประเทศไทย) จำกัด ประจำเดือนตุลาคม 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107312701&symbol=LRCX19",
+      "product": "X"
+    },
+    {
+      "id": "107312701",
+      "datetime": "2026-11-03T17:08:00+07:00",
+      "symbol": "GOOGL19",
+      "headline": "แจ้งข้อมูลการถือครองหลักทรัพย์อ้างอิงต่างประเทศของตราสารแสดงสิทธิในหลักทรัพย์ต่างประเทศ ที่ออกโดย บริษัทหลักทรัพย์ หยวนต้า (ประเทศไทย) จำกัด ประจำเดือนตุลาคม 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107312701&symbol=GOOGL19",
+      "product": "X"
+    },
+    {
+      "id": "107312701",
+      "datetime": "2026-11-03T17:08:00+07:00",
+      "symbol": "KLAC19",
+      "headline": "แจ้งข้อมูลการถือครองหลักทรัพย์อ้างอิงต่างประเทศของตราสารแสดงสิทธิในหลักทรัพย์ต่างประเทศ ที่ออกโดย บริษัทหลักทรัพย์ หยวนต้า (ประเทศไทย) จำกัด ประจำเดือนตุลาคม 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107312701&symbol=KLAC19",
+      "product": "X"
+    },
+    {
       "id": "107312901",
       "datetime": "2026-11-03T17:07:00+07:00",
       "symbol": "STEG19",
       "headline": "รายงานผลการปฏิบัติหน้าที่ผู้ดูแลสภาพคล่อง เดือน ตุลาคม 2569",
       "tag": "",
       "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107312901&symbol=STEG19",
+      "product": "X"
+    },
+    {
+      "id": "107312901",
+      "datetime": "2026-11-03T17:07:00+07:00",
+      "symbol": "NINTENDO19",
+      "headline": "รายงานผลการปฏิบัติหน้าที่ผู้ดูแลสภาพคล่อง เดือน ตุลาคม 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107312901&symbol=NINTENDO19",
+      "product": "X"
+    },
+    {
+      "id": "107312901",
+      "datetime": "2026-11-03T17:07:00+07:00",
+      "symbol": "MITSU19",
+      "headline": "รายงานผลการปฏิบัติหน้าที่ผู้ดูแลสภาพคล่อง เดือน ตุลาคม 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107312901&symbol=MITSU19",
+      "product": "X"
+    },
+    {
+      "id": "107312901",
+      "datetime": "2026-11-03T17:07:00+07:00",
+      "symbol": "VCB19",
+      "headline": "รายงานผลการปฏิบัติหน้าที่ผู้ดูแลสภาพคล่อง เดือน ตุลาคม 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107312901&symbol=VCB19",
+      "product": "X"
+    },
+    {
+      "id": "107312901",
+      "datetime": "2026-11-03T17:07:00+07:00",
+      "symbol": "DISNEY19",
+      "headline": "รายงานผลการปฏิบัติหน้าที่ผู้ดูแลสภาพคล่อง เดือน ตุลาคม 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107312901&symbol=DISNEY19",
+      "product": "X"
+    },
+    {
+      "id": "107312901",
+      "datetime": "2026-11-03T17:07:00+07:00",
+      "symbol": "JPMUS19",
+      "headline": "รายงานผลการปฏิบัติหน้าที่ผู้ดูแลสภาพคล่อง เดือน ตุลาคม 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107312901&symbol=JPMUS19",
+      "product": "X"
+    },
+    {
+      "id": "107312901",
+      "datetime": "2026-11-03T17:07:00+07:00",
+      "symbol": "COSTCO19",
+      "headline": "รายงานผลการปฏิบัติหน้าที่ผู้ดูแลสภาพคล่อง เดือน ตุลาคม 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107312901&symbol=COSTCO19",
+      "product": "X"
+    },
+    {
+      "id": "107312901",
+      "datetime": "2026-11-03T17:07:00+07:00",
+      "symbol": "SUNNY19",
+      "headline": "รายงานผลการปฏิบัติหน้าที่ผู้ดูแลสภาพคล่อง เดือน ตุลาคม 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107312901&symbol=SUNNY19",
+      "product": "X"
+    },
+    {
+      "id": "107312901",
+      "datetime": "2026-11-03T17:07:00+07:00",
+      "symbol": "ICBC19",
+      "headline": "รายงานผลการปฏิบัติหน้าที่ผู้ดูแลสภาพคล่อง เดือน ตุลาคม 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107312901&symbol=ICBC19",
+      "product": "X"
+    },
+    {
+      "id": "107312901",
+      "datetime": "2026-11-03T17:07:00+07:00",
+      "symbol": "ITOCHU19",
+      "headline": "รายงานผลการปฏิบัติหน้าที่ผู้ดูแลสภาพคล่อง เดือน ตุลาคม 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107312901&symbol=ITOCHU19",
+      "product": "X"
+    },
+    {
+      "id": "107312901",
+      "datetime": "2026-11-03T17:07:00+07:00",
+      "symbol": "AIA19",
+      "headline": "รายงานผลการปฏิบัติหน้าที่ผู้ดูแลสภาพคล่อง เดือน ตุลาคม 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107312901&symbol=AIA19",
+      "product": "X"
+    },
+    {
+      "id": "107312901",
+      "datetime": "2026-11-03T17:07:00+07:00",
+      "symbol": "ABBV19",
+      "headline": "รายงานผลการปฏิบัติหน้าที่ผู้ดูแลสภาพคล่อง เดือน ตุลาคม 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107312901&symbol=ABBV19",
+      "product": "X"
+    },
+    {
+      "id": "107312901",
+      "datetime": "2026-11-03T17:07:00+07:00",
+      "symbol": "BONDAS19",
+      "headline": "รายงานผลการปฏิบัติหน้าที่ผู้ดูแลสภาพคล่อง เดือน ตุลาคม 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107312901&symbol=BONDAS19",
+      "product": "X"
+    },
+    {
+      "id": "107312901",
+      "datetime": "2026-11-03T17:07:00+07:00",
+      "symbol": "SEMB19",
+      "headline": "รายงานผลการปฏิบัติหน้าที่ผู้ดูแลสภาพคล่อง เดือน ตุลาคม 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107312901&symbol=SEMB19",
+      "product": "X"
+    },
+    {
+      "id": "107312901",
+      "datetime": "2026-11-03T17:07:00+07:00",
+      "symbol": "SGX19",
+      "headline": "รายงานผลการปฏิบัติหน้าที่ผู้ดูแลสภาพคล่อง เดือน ตุลาคม 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107312901&symbol=SGX19",
+      "product": "X"
+    },
+    {
+      "id": "107312901",
+      "datetime": "2026-11-03T17:07:00+07:00",
+      "symbol": "MSN19",
+      "headline": "รายงานผลการปฏิบัติหน้าที่ผู้ดูแลสภาพคล่อง เดือน ตุลาคม 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107312901&symbol=MSN19",
+      "product": "X"
+    },
+    {
+      "id": "107312901",
+      "datetime": "2026-11-03T17:07:00+07:00",
+      "symbol": "HANSOH19",
+      "headline": "รายงานผลการปฏิบัติหน้าที่ผู้ดูแลสภาพคล่อง เดือน ตุลาคม 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107312901&symbol=HANSOH19",
+      "product": "X"
+    },
+    {
+      "id": "107312901",
+      "datetime": "2026-11-03T17:07:00+07:00",
+      "symbol": "SINOBIO19",
+      "headline": "รายงานผลการปฏิบัติหน้าที่ผู้ดูแลสภาพคล่อง เดือน ตุลาคม 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107312901&symbol=SINOBIO19",
+      "product": "X"
+    },
+    {
+      "id": "107312901",
+      "datetime": "2026-11-03T17:07:00+07:00",
+      "symbol": "MSFT19",
+      "headline": "รายงานผลการปฏิบัติหน้าที่ผู้ดูแลสภาพคล่อง เดือน ตุลาคม 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107312901&symbol=MSFT19",
+      "product": "X"
+    },
+    {
+      "id": "107312901",
+      "datetime": "2026-11-03T17:07:00+07:00",
+      "symbol": "AAPL19",
+      "headline": "รายงานผลการปฏิบัติหน้าที่ผู้ดูแลสภาพคล่อง เดือน ตุลาคม 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107312901&symbol=AAPL19",
+      "product": "X"
+    },
+    {
+      "id": "107312901",
+      "datetime": "2026-11-03T17:07:00+07:00",
+      "symbol": "ISRG19",
+      "headline": "รายงานผลการปฏิบัติหน้าที่ผู้ดูแลสภาพคล่อง เดือน ตุลาคม 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107312901&symbol=ISRG19",
+      "product": "X"
+    },
+    {
+      "id": "107312901",
+      "datetime": "2026-11-03T17:07:00+07:00",
+      "symbol": "DDOG19",
+      "headline": "รายงานผลการปฏิบัติหน้าที่ผู้ดูแลสภาพคล่อง เดือน ตุลาคม 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107312901&symbol=DDOG19",
+      "product": "X"
+    },
+    {
+      "id": "107312901",
+      "datetime": "2026-11-03T17:07:00+07:00",
+      "symbol": "JTEK19",
+      "headline": "รายงานผลการปฏิบัติหน้าที่ผู้ดูแลสภาพคล่อง เดือน ตุลาคม 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107312901&symbol=JTEK19",
+      "product": "X"
+    },
+    {
+      "id": "107312901",
+      "datetime": "2026-11-03T17:07:00+07:00",
+      "symbol": "JGRO19",
+      "headline": "รายงานผลการปฏิบัติหน้าที่ผู้ดูแลสภาพคล่อง เดือน ตุลาคม 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107312901&symbol=JGRO19",
+      "product": "X"
+    },
+    {
+      "id": "107312901",
+      "datetime": "2026-11-03T17:07:00+07:00",
+      "symbol": "DEAM19",
+      "headline": "รายงานผลการปฏิบัติหน้าที่ผู้ดูแลสภาพคล่อง เดือน ตุลาคม 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107312901&symbol=DEAM19",
+      "product": "X"
+    },
+    {
+      "id": "107312901",
+      "datetime": "2026-11-03T17:07:00+07:00",
+      "symbol": "CAT19",
+      "headline": "รายงานผลการปฏิบัติหน้าที่ผู้ดูแลสภาพคล่อง เดือน ตุลาคม 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107312901&symbol=CAT19",
+      "product": "X"
+    },
+    {
+      "id": "107312901",
+      "datetime": "2026-11-03T17:07:00+07:00",
+      "symbol": "BABA19",
+      "headline": "รายงานผลการปฏิบัติหน้าที่ผู้ดูแลสภาพคล่อง เดือน ตุลาคม 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107312901&symbol=BABA19",
+      "product": "X"
+    },
+    {
+      "id": "107312901",
+      "datetime": "2026-11-03T17:07:00+07:00",
+      "symbol": "PANW19",
+      "headline": "รายงานผลการปฏิบัติหน้าที่ผู้ดูแลสภาพคล่อง เดือน ตุลาคม 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107312901&symbol=PANW19",
+      "product": "X"
+    },
+    {
+      "id": "107312901",
+      "datetime": "2026-11-03T17:07:00+07:00",
+      "symbol": "AMAT19",
+      "headline": "รายงานผลการปฏิบัติหน้าที่ผู้ดูแลสภาพคล่อง เดือน ตุลาคม 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107312901&symbol=AMAT19",
+      "product": "X"
+    },
+    {
+      "id": "107312901",
+      "datetime": "2026-11-03T17:07:00+07:00",
+      "symbol": "SHINCHEM19",
+      "headline": "รายงานผลการปฏิบัติหน้าที่ผู้ดูแลสภาพคล่อง เดือน ตุลาคม 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107312901&symbol=SHINCHEM19",
+      "product": "X"
+    },
+    {
+      "id": "107312901",
+      "datetime": "2026-11-03T17:07:00+07:00",
+      "symbol": "AMZN19",
+      "headline": "รายงานผลการปฏิบัติหน้าที่ผู้ดูแลสภาพคล่อง เดือน ตุลาคม 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107312901&symbol=AMZN19",
+      "product": "X"
+    },
+    {
+      "id": "107312901",
+      "datetime": "2026-11-03T17:07:00+07:00",
+      "symbol": "LRCX19",
+      "headline": "รายงานผลการปฏิบัติหน้าที่ผู้ดูแลสภาพคล่อง เดือน ตุลาคม 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107312901&symbol=LRCX19",
+      "product": "X"
+    },
+    {
+      "id": "107312901",
+      "datetime": "2026-11-03T17:07:00+07:00",
+      "symbol": "GOOGL19",
+      "headline": "รายงานผลการปฏิบัติหน้าที่ผู้ดูแลสภาพคล่อง เดือน ตุลาคม 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107312901&symbol=GOOGL19",
+      "product": "X"
+    },
+    {
+      "id": "107312901",
+      "datetime": "2026-11-03T17:07:00+07:00",
+      "symbol": "KLAC19",
+      "headline": "รายงานผลการปฏิบัติหน้าที่ผู้ดูแลสภาพคล่อง เดือน ตุลาคม 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107312901&symbol=KLAC19",
       "product": "X"
     },
     {
@@ -753,12 +3183,516 @@
       "product": "X"
     },
     {
+      "id": "107312801",
+      "datetime": "2026-11-03T17:05:00+07:00",
+      "symbol": "FUEVFVND01",
+      "headline": "แจ้งข้อมูลการถือครองหลักทรัพย์อ้างอิงต่างประเทศของตราสารแสดงสิทธิในหลักทรัพย์ต่างประเทศ ตุลาคม 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107312801&symbol=FUEVFVND01",
+      "product": "X"
+    },
+    {
+      "id": "107312801",
+      "datetime": "2026-11-03T17:05:00+07:00",
+      "symbol": "NDX01",
+      "headline": "แจ้งข้อมูลการถือครองหลักทรัพย์อ้างอิงต่างประเทศของตราสารแสดงสิทธิในหลักทรัพย์ต่างประเทศ ตุลาคม 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107312801&symbol=NDX01",
+      "product": "X"
+    },
+    {
+      "id": "107312801",
+      "datetime": "2026-11-03T17:05:00+07:00",
+      "symbol": "STAR5001",
+      "headline": "แจ้งข้อมูลการถือครองหลักทรัพย์อ้างอิงต่างประเทศของตราสารแสดงสิทธิในหลักทรัพย์ต่างประเทศ ตุลาคม 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107312801&symbol=STAR5001",
+      "product": "X"
+    },
+    {
+      "id": "107312801",
+      "datetime": "2026-11-03T17:05:00+07:00",
+      "symbol": "CN01",
+      "headline": "แจ้งข้อมูลการถือครองหลักทรัพย์อ้างอิงต่างประเทศของตราสารแสดงสิทธิในหลักทรัพย์ต่างประเทศ ตุลาคม 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107312801&symbol=CN01",
+      "product": "X"
+    },
+    {
+      "id": "107312801",
+      "datetime": "2026-11-03T17:05:00+07:00",
+      "symbol": "CNTECH01",
+      "headline": "แจ้งข้อมูลการถือครองหลักทรัพย์อ้างอิงต่างประเทศของตราสารแสดงสิทธิในหลักทรัพย์ต่างประเทศ ตุลาคม 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107312801&symbol=CNTECH01",
+      "product": "X"
+    },
+    {
+      "id": "107312801",
+      "datetime": "2026-11-03T17:05:00+07:00",
+      "symbol": "ASML01",
+      "headline": "แจ้งข้อมูลการถือครองหลักทรัพย์อ้างอิงต่างประเทศของตราสารแสดงสิทธิในหลักทรัพย์ต่างประเทศ ตุลาคม 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107312801&symbol=ASML01",
+      "product": "X"
+    },
+    {
+      "id": "107312801",
+      "datetime": "2026-11-03T17:05:00+07:00",
+      "symbol": "LVMH01",
+      "headline": "แจ้งข้อมูลการถือครองหลักทรัพย์อ้างอิงต่างประเทศของตราสารแสดงสิทธิในหลักทรัพย์ต่างประเทศ ตุลาคม 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107312801&symbol=LVMH01",
+      "product": "X"
+    },
+    {
+      "id": "107312801",
+      "datetime": "2026-11-03T17:05:00+07:00",
+      "symbol": "HK01",
+      "headline": "แจ้งข้อมูลการถือครองหลักทรัพย์อ้างอิงต่างประเทศของตราสารแสดงสิทธิในหลักทรัพย์ต่างประเทศ ตุลาคม 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107312801&symbol=HK01",
+      "product": "X"
+    },
+    {
+      "id": "107312801",
+      "datetime": "2026-11-03T17:05:00+07:00",
+      "symbol": "HKCE01",
+      "headline": "แจ้งข้อมูลการถือครองหลักทรัพย์อ้างอิงต่างประเทศของตราสารแสดงสิทธิในหลักทรัพย์ต่างประเทศ ตุลาคม 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107312801&symbol=HKCE01",
+      "product": "X"
+    },
+    {
+      "id": "107312801",
+      "datetime": "2026-11-03T17:05:00+07:00",
+      "symbol": "SP50001",
+      "headline": "แจ้งข้อมูลการถือครองหลักทรัพย์อ้างอิงต่างประเทศของตราสารแสดงสิทธิในหลักทรัพย์ต่างประเทศ ตุลาคม 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107312801&symbol=SP50001",
+      "product": "X"
+    },
+    {
+      "id": "107312801",
+      "datetime": "2026-11-03T17:05:00+07:00",
+      "symbol": "JAPAN10001",
+      "headline": "แจ้งข้อมูลการถือครองหลักทรัพย์อ้างอิงต่างประเทศของตราสารแสดงสิทธิในหลักทรัพย์ต่างประเทศ ตุลาคม 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107312801&symbol=JAPAN10001",
+      "product": "X"
+    },
+    {
+      "id": "107312801",
+      "datetime": "2026-11-03T17:05:00+07:00",
+      "symbol": "INDIA01",
+      "headline": "แจ้งข้อมูลการถือครองหลักทรัพย์อ้างอิงต่างประเทศของตราสารแสดงสิทธิในหลักทรัพย์ต่างประเทศ ตุลาคม 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107312801&symbol=INDIA01",
+      "product": "X"
+    },
+    {
+      "id": "107312801",
+      "datetime": "2026-11-03T17:05:00+07:00",
+      "symbol": "XIAOMI01",
+      "headline": "แจ้งข้อมูลการถือครองหลักทรัพย์อ้างอิงต่างประเทศของตราสารแสดงสิทธิในหลักทรัพย์ต่างประเทศ ตุลาคม 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107312801&symbol=XIAOMI01",
+      "product": "X"
+    },
+    {
+      "id": "107312801",
+      "datetime": "2026-11-03T17:05:00+07:00",
+      "symbol": "TENCENT01",
+      "headline": "แจ้งข้อมูลการถือครองหลักทรัพย์อ้างอิงต่างประเทศของตราสารแสดงสิทธิในหลักทรัพย์ต่างประเทศ ตุลาคม 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107312801&symbol=TENCENT01",
+      "product": "X"
+    },
+    {
+      "id": "107312801",
+      "datetime": "2026-11-03T17:05:00+07:00",
+      "symbol": "PINGAN01",
+      "headline": "แจ้งข้อมูลการถือครองหลักทรัพย์อ้างอิงต่างประเทศของตราสารแสดงสิทธิในหลักทรัพย์ต่างประเทศ ตุลาคม 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107312801&symbol=PINGAN01",
+      "product": "X"
+    },
+    {
+      "id": "107312801",
+      "datetime": "2026-11-03T17:05:00+07:00",
+      "symbol": "BYDCOM01",
+      "headline": "แจ้งข้อมูลการถือครองหลักทรัพย์อ้างอิงต่างประเทศของตราสารแสดงสิทธิในหลักทรัพย์ต่างประเทศ ตุลาคม 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107312801&symbol=BYDCOM01",
+      "product": "X"
+    },
+    {
+      "id": "107312801",
+      "datetime": "2026-11-03T17:05:00+07:00",
+      "symbol": "BIDU01",
+      "headline": "แจ้งข้อมูลการถือครองหลักทรัพย์อ้างอิงต่างประเทศของตราสารแสดงสิทธิในหลักทรัพย์ต่างประเทศ ตุลาคม 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107312801&symbol=BIDU01",
+      "product": "X"
+    },
+    {
+      "id": "107312801",
+      "datetime": "2026-11-03T17:05:00+07:00",
+      "symbol": "BABA01",
+      "headline": "แจ้งข้อมูลการถือครองหลักทรัพย์อ้างอิงต่างประเทศของตราสารแสดงสิทธิในหลักทรัพย์ต่างประเทศ ตุลาคม 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107312801&symbol=BABA01",
+      "product": "X"
+    },
+    {
+      "id": "107312801",
+      "datetime": "2026-11-03T17:05:00+07:00",
+      "symbol": "TSLA01",
+      "headline": "แจ้งข้อมูลการถือครองหลักทรัพย์อ้างอิงต่างประเทศของตราสารแสดงสิทธิในหลักทรัพย์ต่างประเทศ ตุลาคม 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107312801&symbol=TSLA01",
+      "product": "X"
+    },
+    {
+      "id": "107312801",
+      "datetime": "2026-11-03T17:05:00+07:00",
+      "symbol": "NVDA01",
+      "headline": "แจ้งข้อมูลการถือครองหลักทรัพย์อ้างอิงต่างประเทศของตราสารแสดงสิทธิในหลักทรัพย์ต่างประเทศ ตุลาคม 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107312801&symbol=NVDA01",
+      "product": "X"
+    },
+    {
+      "id": "107312801",
+      "datetime": "2026-11-03T17:05:00+07:00",
+      "symbol": "MSFT01",
+      "headline": "แจ้งข้อมูลการถือครองหลักทรัพย์อ้างอิงต่างประเทศของตราสารแสดงสิทธิในหลักทรัพย์ต่างประเทศ ตุลาคม 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107312801&symbol=MSFT01",
+      "product": "X"
+    },
+    {
+      "id": "107312801",
+      "datetime": "2026-11-03T17:05:00+07:00",
+      "symbol": "AAPL01",
+      "headline": "แจ้งข้อมูลการถือครองหลักทรัพย์อ้างอิงต่างประเทศของตราสารแสดงสิทธิในหลักทรัพย์ต่างประเทศ ตุลาคม 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107312801&symbol=AAPL01",
+      "product": "X"
+    },
+    {
+      "id": "107312801",
+      "datetime": "2026-11-03T17:05:00+07:00",
+      "symbol": "AMZN01",
+      "headline": "แจ้งข้อมูลการถือครองหลักทรัพย์อ้างอิงต่างประเทศของตราสารแสดงสิทธิในหลักทรัพย์ต่างประเทศ ตุลาคม 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107312801&symbol=AMZN01",
+      "product": "X"
+    },
+    {
+      "id": "107312801",
+      "datetime": "2026-11-03T17:05:00+07:00",
+      "symbol": "GOOGL01",
+      "headline": "แจ้งข้อมูลการถือครองหลักทรัพย์อ้างอิงต่างประเทศของตราสารแสดงสิทธิในหลักทรัพย์ต่างประเทศ ตุลาคม 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107312801&symbol=GOOGL01",
+      "product": "X"
+    },
+    {
+      "id": "107312801",
+      "datetime": "2026-11-03T17:05:00+07:00",
+      "symbol": "META01",
+      "headline": "แจ้งข้อมูลการถือครองหลักทรัพย์อ้างอิงต่างประเทศของตราสารแสดงสิทธิในหลักทรัพย์ต่างประเทศ ตุลาคม 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107312801&symbol=META01",
+      "product": "X"
+    },
+    {
+      "id": "107312801",
+      "datetime": "2026-11-03T17:05:00+07:00",
+      "symbol": "CATL01",
+      "headline": "แจ้งข้อมูลการถือครองหลักทรัพย์อ้างอิงต่างประเทศของตราสารแสดงสิทธิในหลักทรัพย์ต่างประเทศ ตุลาคม 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107312801&symbol=CATL01",
+      "product": "X"
+    },
+    {
+      "id": "107312801",
+      "datetime": "2026-11-03T17:05:00+07:00",
+      "symbol": "SMIC01",
+      "headline": "แจ้งข้อมูลการถือครองหลักทรัพย์อ้างอิงต่างประเทศของตราสารแสดงสิทธิในหลักทรัพย์ต่างประเทศ ตุลาคม 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107312801&symbol=SMIC01",
+      "product": "X"
+    },
+    {
+      "id": "107312801",
+      "datetime": "2026-11-03T17:05:00+07:00",
+      "symbol": "CRM01",
+      "headline": "แจ้งข้อมูลการถือครองหลักทรัพย์อ้างอิงต่างประเทศของตราสารแสดงสิทธิในหลักทรัพย์ต่างประเทศ ตุลาคม 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107312801&symbol=CRM01",
+      "product": "X"
+    },
+    {
+      "id": "107312801",
+      "datetime": "2026-11-03T17:05:00+07:00",
+      "symbol": "ISRG01",
+      "headline": "แจ้งข้อมูลการถือครองหลักทรัพย์อ้างอิงต่างประเทศของตราสารแสดงสิทธิในหลักทรัพย์ต่างประเทศ ตุลาคม 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107312801&symbol=ISRG01",
+      "product": "X"
+    },
+    {
+      "id": "107312801",
+      "datetime": "2026-11-03T17:05:00+07:00",
+      "symbol": "ORCL01",
+      "headline": "แจ้งข้อมูลการถือครองหลักทรัพย์อ้างอิงต่างประเทศของตราสารแสดงสิทธิในหลักทรัพย์ต่างประเทศ ตุลาคม 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107312801&symbol=ORCL01",
+      "product": "X"
+    },
+    {
+      "id": "107312801",
+      "datetime": "2026-11-03T17:05:00+07:00",
+      "symbol": "BILIBILI01",
+      "headline": "แจ้งข้อมูลการถือครองหลักทรัพย์อ้างอิงต่างประเทศของตราสารแสดงสิทธิในหลักทรัพย์ต่างประเทศ ตุลาคม 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107312801&symbol=BILIBILI01",
+      "product": "X"
+    },
+    {
+      "id": "107312801",
+      "datetime": "2026-11-03T17:05:00+07:00",
+      "symbol": "KUAISH01",
+      "headline": "แจ้งข้อมูลการถือครองหลักทรัพย์อ้างอิงต่างประเทศของตราสารแสดงสิทธิในหลักทรัพย์ต่างประเทศ ตุลาคม 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107312801&symbol=KUAISH01",
+      "product": "X"
+    },
+    {
+      "id": "107312801",
+      "datetime": "2026-11-03T17:05:00+07:00",
+      "symbol": "MICRON01",
+      "headline": "แจ้งข้อมูลการถือครองหลักทรัพย์อ้างอิงต่างประเทศของตราสารแสดงสิทธิในหลักทรัพย์ต่างประเทศ ตุลาคม 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107312801&symbol=MICRON01",
+      "product": "X"
+    },
+    {
+      "id": "107312801",
+      "datetime": "2026-11-03T17:05:00+07:00",
+      "symbol": "PLTR01",
+      "headline": "แจ้งข้อมูลการถือครองหลักทรัพย์อ้างอิงต่างประเทศของตราสารแสดงสิทธิในหลักทรัพย์ต่างประเทศ ตุลาคม 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107312801&symbol=PLTR01",
+      "product": "X"
+    },
+    {
+      "id": "107312801",
+      "datetime": "2026-11-03T17:05:00+07:00",
+      "symbol": "WORLDA01",
+      "headline": "แจ้งข้อมูลการถือครองหลักทรัพย์อ้างอิงต่างประเทศของตราสารแสดงสิทธิในหลักทรัพย์ต่างประเทศ ตุลาคม 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107312801&symbol=WORLDA01",
+      "product": "X"
+    },
+    {
+      "id": "107312801",
+      "datetime": "2026-11-03T17:05:00+07:00",
+      "symbol": "KLAC01",
+      "headline": "แจ้งข้อมูลการถือครองหลักทรัพย์อ้างอิงต่างประเทศของตราสารแสดงสิทธิในหลักทรัพย์ต่างประเทศ ตุลาคม 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107312801&symbol=KLAC01",
+      "product": "X"
+    },
+    {
+      "id": "107312801",
+      "datetime": "2026-11-03T17:05:00+07:00",
+      "symbol": "VRT01",
+      "headline": "แจ้งข้อมูลการถือครองหลักทรัพย์อ้างอิงต่างประเทศของตราสารแสดงสิทธิในหลักทรัพย์ต่างประเทศ ตุลาคม 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107312801&symbol=VRT01",
+      "product": "X"
+    },
+    {
+      "id": "107312801",
+      "datetime": "2026-11-03T17:05:00+07:00",
+      "symbol": "COIN01",
+      "headline": "แจ้งข้อมูลการถือครองหลักทรัพย์อ้างอิงต่างประเทศของตราสารแสดงสิทธิในหลักทรัพย์ต่างประเทศ ตุลาคม 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107312801&symbol=COIN01",
+      "product": "X"
+    },
+    {
+      "id": "107312801",
+      "datetime": "2026-11-03T17:05:00+07:00",
+      "symbol": "ALAB01",
+      "headline": "แจ้งข้อมูลการถือครองหลักทรัพย์อ้างอิงต่างประเทศของตราสารแสดงสิทธิในหลักทรัพย์ต่างประเทศ ตุลาคม 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107312801&symbol=ALAB01",
+      "product": "X"
+    },
+    {
+      "id": "107312801",
+      "datetime": "2026-11-03T17:05:00+07:00",
+      "symbol": "AMAT01",
+      "headline": "แจ้งข้อมูลการถือครองหลักทรัพย์อ้างอิงต่างประเทศของตราสารแสดงสิทธิในหลักทรัพย์ต่างประเทศ ตุลาคม 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107312801&symbol=AMAT01",
+      "product": "X"
+    },
+    {
+      "id": "107312801",
+      "datetime": "2026-11-03T17:05:00+07:00",
+      "symbol": "TER01",
+      "headline": "แจ้งข้อมูลการถือครองหลักทรัพย์อ้างอิงต่างประเทศของตราสารแสดงสิทธิในหลักทรัพย์ต่างประเทศ ตุลาคม 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107312801&symbol=TER01",
+      "product": "X"
+    },
+    {
+      "id": "107312801",
+      "datetime": "2026-11-03T17:05:00+07:00",
+      "symbol": "LRCX01",
+      "headline": "แจ้งข้อมูลการถือครองหลักทรัพย์อ้างอิงต่างประเทศของตราสารแสดงสิทธิในหลักทรัพย์ต่างประเทศ ตุลาคม 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107312801&symbol=LRCX01",
+      "product": "X"
+    },
+    {
+      "id": "107312801",
+      "datetime": "2026-11-03T17:05:00+07:00",
+      "symbol": "RKLB01",
+      "headline": "แจ้งข้อมูลการถือครองหลักทรัพย์อ้างอิงต่างประเทศของตราสารแสดงสิทธิในหลักทรัพย์ต่างประเทศ ตุลาคม 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107312801&symbol=RKLB01",
+      "product": "X"
+    },
+    {
+      "id": "107312801",
+      "datetime": "2026-11-03T17:05:00+07:00",
+      "symbol": "NBIS01",
+      "headline": "แจ้งข้อมูลการถือครองหลักทรัพย์อ้างอิงต่างประเทศของตราสารแสดงสิทธิในหลักทรัพย์ต่างประเทศ ตุลาคม 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107312801&symbol=NBIS01",
+      "product": "X"
+    },
+    {
+      "id": "107312801",
+      "datetime": "2026-11-03T17:05:00+07:00",
+      "symbol": "LITE01",
+      "headline": "แจ้งข้อมูลการถือครองหลักทรัพย์อ้างอิงต่างประเทศของตราสารแสดงสิทธิในหลักทรัพย์ต่างประเทศ ตุลาคม 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107312801&symbol=LITE01",
+      "product": "X"
+    },
+    {
+      "id": "107312801",
+      "datetime": "2026-11-03T17:05:00+07:00",
+      "symbol": "INTEL01",
+      "headline": "แจ้งข้อมูลการถือครองหลักทรัพย์อ้างอิงต่างประเทศของตราสารแสดงสิทธิในหลักทรัพย์ต่างประเทศ ตุลาคม 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107312801&symbol=INTEL01",
+      "product": "X"
+    },
+    {
+      "id": "107312801",
+      "datetime": "2026-11-03T17:05:00+07:00",
+      "symbol": "ASTS01",
+      "headline": "แจ้งข้อมูลการถือครองหลักทรัพย์อ้างอิงต่างประเทศของตราสารแสดงสิทธิในหลักทรัพย์ต่างประเทศ ตุลาคม 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107312801&symbol=ASTS01",
+      "product": "X"
+    },
+    {
+      "id": "107312801",
+      "datetime": "2026-11-03T17:05:00+07:00",
+      "symbol": "BONDUS01",
+      "headline": "แจ้งข้อมูลการถือครองหลักทรัพย์อ้างอิงต่างประเทศของตราสารแสดงสิทธิในหลักทรัพย์ต่างประเทศ ตุลาคม 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107312801&symbol=BONDUS01",
+      "product": "X"
+    },
+    {
+      "id": "107312801",
+      "datetime": "2026-11-03T17:05:00+07:00",
+      "symbol": "GOLDM01",
+      "headline": "แจ้งข้อมูลการถือครองหลักทรัพย์อ้างอิงต่างประเทศของตราสารแสดงสิทธิในหลักทรัพย์ต่างประเทศ ตุลาคม 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107312801&symbol=GOLDM01",
+      "product": "X"
+    },
+    {
+      "id": "107312801",
+      "datetime": "2026-11-03T17:05:00+07:00",
+      "symbol": "SPACEX01",
+      "headline": "แจ้งข้อมูลการถือครองหลักทรัพย์อ้างอิงต่างประเทศของตราสารแสดงสิทธิในหลักทรัพย์ต่างประเทศ ตุลาคม 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107312801&symbol=SPACEX01",
+      "product": "X"
+    },
+    {
+      "id": "107312801",
+      "datetime": "2026-11-03T17:05:00+07:00",
+      "symbol": "KOREA01",
+      "headline": "แจ้งข้อมูลการถือครองหลักทรัพย์อ้างอิงต่างประเทศของตราสารแสดงสิทธิในหลักทรัพย์ต่างประเทศ ตุลาคม 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107312801&symbol=KOREA01",
+      "product": "X"
+    },
+    {
       "id": "107313001",
       "datetime": "2026-11-03T17:05:00+07:00",
       "symbol": "PINGAN01",
       "headline": "รายงานผลการปฏิบัติหน้าที่ผู้ดูแลสภาพคล่อง เดือน ตุลาคม 2569",
       "tag": "",
       "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107313001&symbol=PINGAN01",
+      "product": "X"
+    },
+    {
+      "id": "107313001",
+      "datetime": "2026-11-03T17:05:00+07:00",
+      "symbol": "BYDCOM01",
+      "headline": "รายงานผลการปฏิบัติหน้าที่ผู้ดูแลสภาพคล่อง เดือน ตุลาคม 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107313001&symbol=BYDCOM01",
+      "product": "X"
+    },
+    {
+      "id": "107313001",
+      "datetime": "2026-11-03T17:05:00+07:00",
+      "symbol": "CRM01",
+      "headline": "รายงานผลการปฏิบัติหน้าที่ผู้ดูแลสภาพคล่อง เดือน ตุลาคม 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107313001&symbol=CRM01",
+      "product": "X"
+    },
+    {
+      "id": "107313001",
+      "datetime": "2026-11-03T17:05:00+07:00",
+      "symbol": "KLAC01",
+      "headline": "รายงานผลการปฏิบัติหน้าที่ผู้ดูแลสภาพคล่อง เดือน ตุลาคม 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107313001&symbol=KLAC01",
+      "product": "X"
+    },
+    {
+      "id": "107313001",
+      "datetime": "2026-11-03T17:05:00+07:00",
+      "symbol": "COIN01",
+      "headline": "รายงานผลการปฏิบัติหน้าที่ผู้ดูแลสภาพคล่อง เดือน ตุลาคม 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107313001&symbol=COIN01",
+      "product": "X"
+    },
+    {
+      "id": "107313001",
+      "datetime": "2026-11-03T17:05:00+07:00",
+      "symbol": "TER01",
+      "headline": "รายงานผลการปฏิบัติหน้าที่ผู้ดูแลสภาพคล่อง เดือน ตุลาคม 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107313001&symbol=TER01",
       "product": "X"
     },
     {
@@ -1230,6 +4164,15 @@
       "product": "S"
     },
     {
+      "id": "107301201",
+      "datetime": "2026-11-03T07:00:00+07:00",
+      "symbol": "SCGP",
+      "headline": "SEC News : สรุปแบบ 59 ประจำวันที่ 2 พฤศจิกายน 2569",
+      "tag": "",
+      "url": "https://www.set.or.th/th/market/news-and-alert/newsdetails?id=107301201&symbol=SCGP",
+      "product": "S"
+    },
+    {
       "id": "107301211",
       "datetime": "2026-11-03T07:00:00+07:00",
       "symbol": "PACO",
@@ -1240,10 +4183,10 @@
     }
   ],
   "totalCount": 464,
-  "complete": false,
+  "complete": true,
   "method": "url-query",
   "pagesRead": 24,
-  "stop": "next-disabled",
+  "stop": "complete",
   "paginationLabels": [
     "Go to previous page",
     "Go to page 1",
@@ -1601,7 +4544,7 @@
               "viewClarification": null,
               "marketAlertTypeId": null,
               "tag": "",
-              "percentPriceChange": -3.846154,
+              "percentPriceChange": -4.395604,
               "view": 0,
               "product": "X"
             },
@@ -1631,7 +4574,7 @@
               "viewClarification": null,
               "marketAlertTypeId": null,
               "tag": "",
-              "percentPriceChange": 7.97546,
+              "percentPriceChange": 7.361963,
               "view": 0,
               "product": "X"
             },
@@ -1706,7 +4649,7 @@
               "viewClarification": null,
               "marketAlertTypeId": null,
               "tag": "",
-              "percentPriceChange": 0,
+              "percentPriceChange": 0.46729,
               "view": 0,
               "product": "X"
             },
@@ -1853,7 +4796,7 @@
               "viewClarification": null,
               "marketAlertTypeId": null,
               "tag": "",
-              "percentPriceChange": 3.225806,
+              "percentPriceChange": 2.580645,
               "view": 0,
               "product": "X"
             },
@@ -1943,7 +4886,7 @@
               "viewClarification": null,
               "marketAlertTypeId": null,
               "tag": "",
-              "percentPriceChange": 1.117318,
+              "percentPriceChange": 1.675978,
               "view": 0,
               "product": "X"
             },
@@ -2105,7 +5048,7 @@
               "viewClarification": null,
               "marketAlertTypeId": null,
               "tag": "",
-              "percentPriceChange": 1.282051,
+              "percentPriceChange": 1.923077,
               "view": 0,
               "product": "X"
             },
@@ -2165,7 +5108,7 @@
               "viewClarification": null,
               "marketAlertTypeId": null,
               "tag": "",
-              "percentPriceChange": 12.99435,
+              "percentPriceChange": 15.254237,
               "view": 0,
               "product": "X"
             },
@@ -2372,7 +5315,7 @@
               "viewClarification": null,
               "marketAlertTypeId": null,
               "tag": "",
-              "percentPriceChange": 8.433735,
+              "percentPriceChange": 11.445783,
               "view": 0,
               "product": "X"
             },
@@ -2462,7 +5405,7 @@
               "viewClarification": null,
               "marketAlertTypeId": null,
               "tag": "",
-              "percentPriceChange": -0.438596,
+              "percentPriceChange": 0,
               "view": 0,
               "product": "X"
             },
@@ -2537,7 +5480,7 @@
               "viewClarification": null,
               "marketAlertTypeId": null,
               "tag": "",
-              "percentPriceChange": -5.084746,
+              "percentPriceChange": -3.389831,
               "view": 0,
               "product": "X"
             },
@@ -2744,7 +5687,7 @@
               "viewClarification": null,
               "marketAlertTypeId": null,
               "tag": "",
-              "percentPriceChange": 1.176471,
+              "percentPriceChange": 3.529412,
               "view": 0,
               "product": "X"
             },
@@ -2759,7 +5702,7 @@
               "viewClarification": null,
               "marketAlertTypeId": null,
               "tag": "",
-              "percentPriceChange": -2.631579,
+              "percentPriceChange": -3.947368,
               "view": 0,
               "product": "X"
             },
@@ -2939,7 +5882,7 @@
               "viewClarification": null,
               "marketAlertTypeId": null,
               "tag": "",
-              "percentPriceChange": 0.740741,
+              "percentPriceChange": 0,
               "view": 0,
               "product": "X"
             },
@@ -3131,7 +6074,7 @@
               "viewClarification": null,
               "marketAlertTypeId": null,
               "tag": "",
-              "percentPriceChange": 1.675978,
+              "percentPriceChange": 2.793296,
               "view": 0,
               "product": "X"
             },
@@ -3266,7 +6209,7 @@
               "viewClarification": null,
               "marketAlertTypeId": null,
               "tag": "",
-              "percentPriceChange": -4.736842,
+              "percentPriceChange": -5.263158,
               "view": 0,
               "product": "X"
             },
@@ -3518,7 +6461,7 @@
               "viewClarification": null,
               "marketAlertTypeId": null,
               "tag": "",
-              "percentPriceChange": -0.704225,
+              "percentPriceChange": -1.408451,
               "view": 0,
               "product": "X"
             },
@@ -3593,7 +6536,7 @@
               "viewClarification": null,
               "marketAlertTypeId": null,
               "tag": "",
-              "percentPriceChange": 2,
+              "percentPriceChange": 3,
               "view": 0,
               "product": "X"
             }
