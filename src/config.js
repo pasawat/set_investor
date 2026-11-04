@@ -9,6 +9,7 @@ const NUMERIC = {
   retries: ['RETRIES', 3],
   delayMs: ['DELAY_MS', 2500],
   lookbackDays: ['LOOKBACK_DAYS', 5],
+  detailBudgetMs: ['DETAIL_BUDGET_MS', 20 * 60 * 1000],
 };
 
 function num(env, name, fallback) {

@@ -106,7 +106,8 @@ test('--dry-run --capture publishes the report files only (no state, no LINE)', 
   const { calls } = await go({}, ['--dry-run', '--capture']);
   assert.equal(calls.push.length, 0);
   const files = published(calls);
-  assert.ok(files['reports/2026-11-04.md']);
+  assert.ok(files['reports/dry-run/2026-11-04.md'], 'dry-run must not overwrite the real daily report');
+  assert.equal('reports/2026-11-04.md' in files, false);
   assert.equal('state/state.json' in files, false);
 });
 
@@ -169,4 +170,44 @@ test('an incomplete listing is flagged at the top of the LINE digest', async () 
 test('cost estimate is added to the report', async () => {
   const { calls } = await go();
   assert.match(published(calls)['reports/2026-11-04.md'], /ค่าใช้จ่ายโดยประมาณ/);
+});
+
+test('readDetails failing as a whole: digest still goes out, but the run fails and the state is not advanced', async () => {
+  const { result, calls } = await go({ deps: { readDetails: async () => { throw new Error('chromium crashed'); } } });
+  assert.equal(result.exitCode, 1);
+  assert.equal(calls.push.length, 1);
+  assert.equal('state/state.json' in published(calls), false);
+});
+
+test('every attempted page unreadable counts as a failed run too', async () => {
+  const { result, calls } = await go({ failIds: ['S1', 'S2'] });
+  assert.equal(result.exitCode, 1);
+  assert.equal('state/state.json' in published(calls), false);
+});
+
+test('unparsable datetimes in the whole listing are a listing failure, not "no news"', async () => {
+  const bad = [row(1, { datetime: '04/11/2569 08:02' }), row(2, { datetime: '04/11/2569 08:03' })];
+  const { result, calls } = await go({ rows: bad });
+  assert.equal(result.exitCode, 1);
+  assert.match(calls.push[0].join(' '), /วันที่/);
+  assert.equal('state/state.json' in published(calls), false);
+  assert.equal(calls.push.flat().some((m) => /ไม่มีข่าวใหม่/.test(m)), false);
+});
+
+test('an incomplete listing keeps the previous lastSuccessAt so the missed rows are re-read next run', async () => {
+  const { calls } = await go({ complete: false, totalCount: 464, stateText: JSON.stringify({ sentIds: ['9|Z'], lastSuccessAt: '2026-11-03T00:30:00.000Z' }) });
+  const state = JSON.parse(published(calls)['state/state.json']);
+  assert.equal(state.lastSuccessAt, '2026-11-03T00:30:00.000Z');
+  assert.ok(state.sentIds.includes('1001|S1') && state.sentIds.includes('9|Z'));
+});
+
+test('pages skipped by the time budget are reported as overflow and not summarized', async () => {
+  const rows = [row(1), row(2), row(3), row(4), row(5)];
+  const readDetails = async (items) => items.map((it, i) => (i < 2
+    ? { id: newsKey(it), ok: true, text: 'เนื้อหา', attachments: [], attachmentOnly: false }
+    : { id: newsKey(it), ok: false, skipped: true, text: '', attachments: [], attachmentOnly: false, error: 'budget' }));
+  const { result, calls } = await go({ rows, deps: { readDetails } });
+  assert.equal(result.exitCode, 0);
+  assert.equal(calls.itemSummaries, 2);
+  assert.match(published(calls)['reports/2026-11-04.md'], /เกินเพดาน 3/);
 });

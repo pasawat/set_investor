@@ -141,3 +141,8 @@ test('composeLine puts counts, the report link, categories and the unverified wa
   assert.match(all, /ตัวเลขยังไม่ยืนยัน/);
   assert.match(all, /ไฟล์แนบ — ไม่ได้อ่าน|เนื้อหาอยู่ในไฟล์แนบ/);
 });
+
+test('the empty-day message has no report link (no report is written that day)', () => {
+  const [msg] = composeEmpty(input(), REPORT);
+  assert.doesNotMatch(msg, /https?:\/\//);
+});

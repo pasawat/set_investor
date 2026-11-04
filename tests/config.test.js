@@ -38,3 +38,8 @@ test('secrets are read from env and optional', () => {
 test('SEND_WHEN_EMPTY=false disables empty-day message', () => {
   assert.equal(loadConfig({ SEND_WHEN_EMPTY: 'false' }).sendWhenEmpty, false);
 });
+
+test('detail reading has a time budget (20 minutes by default) that env can change', () => {
+  assert.equal(loadConfig({}).detailBudgetMs, 20 * 60 * 1000);
+  assert.equal(loadConfig({ DETAIL_BUDGET_MS: '60000' }).detailBudgetMs, 60000);
+});

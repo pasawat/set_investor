@@ -226,6 +226,7 @@ export function composeLine(input, reportUrl) {
   return blocks;
 }
 
-export function composeEmpty(input, reportUrl) {
-  return [`ไม่มีข่าวใหม่\nช่วงเวลา ${windowLine(input.window)}\nรายงาน: ${reportUrl}`];
+// No report file is written on an empty day, so the message carries no report link.
+export function composeEmpty(input) {
+  return [`ไม่มีข่าวใหม่\nช่วงเวลา ${windowLine(input.window)}`];
 }

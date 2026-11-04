@@ -8,12 +8,11 @@
 //   2. fallback: press ETF / DR / a date preset / "ค้นหา" on the default page
 import { chromium } from 'playwright';
 import { parseNewsResponse, uniqueItems } from './news.js';
+import { sleep } from './retry.js';
 
 const LIST_API = '/api/cms/v1/news/set';
 const DAY_MS = 24 * 3600 * 1000;
 const BKK_MS = 7 * 3600 * 1000;
-
-const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 
 async function retry(fn, times, delayMs) {
   let last;
@@ -22,7 +21,7 @@ async function retry(fn, times, delayMs) {
       return await fn();
     } catch (e) {
       last = e;
-      await sleep(delayMs);
+      if (i < times - 1) await sleep(delayMs * 2 ** i);
     }
   }
   throw last;
@@ -83,7 +82,7 @@ async function readListing(browser, config, window) {
     }
     return null;
   };
-  const press = (name) => retry(() => page.getByRole('button', { name, exact: true }).first().click({ timeout: 8000 }), config.retries, 1500);
+  const press = (name) => retry(() => page.getByRole('button', { name, exact: true }).first().click({ timeout: 8000 }), config.retries, Math.max(config.delayMs, 1500));
 
   // ---- 1. URL query strategy
   const target = `${config.site.newsUrl}?source=company&securityType=${config.securityTypes.join(',')}&fromDate=${ymd(window.from)}&toDate=${ymd(window.to)}`;

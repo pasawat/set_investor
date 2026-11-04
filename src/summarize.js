@@ -1,9 +1,11 @@
 // Summaries via the Claude API (spec §7). News text is data, never instructions.
 import { findUnverified } from './numbers.js';
 import { newsKey } from './news.js';
+import { backoffDelay, sleep } from './retry.js';
 
 const NOTE_ATTACHMENT = 'เนื้อหาอยู่ในไฟล์แนบ — ไม่ได้อ่าน';
-const MAX_OUTPUT_TOKENS = 2048;
+// Thinking is always on for these models and counts toward max_tokens; you pay only for tokens generated.
+const MAX_OUTPUT_TOKENS = 8192;
 
 const SYSTEM_BASE = `คุณสรุปข่าวตลาดหลักทรัพย์ไทยจากข้อความที่ให้มาเท่านั้น
 กฎ:
@@ -55,8 +57,8 @@ async function callModel(client, model, { system, user }, config) {
       });
     } catch (e) {
       last = e;
-      if (!retryable(e)) break;
-      await new Promise((r) => setTimeout(r, config.retryDelayMs ?? 1500));
+      if (!retryable(e) || attempt === config.retries) break;
+      await sleep(backoffDelay(attempt, config.retryDelayMs ?? 2000, e));
     }
   }
   throw last;

@@ -23,6 +23,12 @@ const FORBIDDEN = [
   "waitForEvent('download'",
   'waitForEvent("download"',
   'acceptDownloads',
+  'extraHTTPHeaders',
+  'addCookies',
+  'storageState',
+  '.route(',
+  '.evaluate(',
+  'fetch(',
 ];
 
 // robots.js legitimately names the robots.txt field "User-agent" (it parses it; it never sets one).
@@ -46,4 +52,12 @@ test('only guards.js may mention the attachment host (to reject it)', () => {
     if (file.endsWith('/guards.js')) continue;
     assert.equal(readFileSync(file, 'utf8').includes('weblink.set.or.th'), false, `${file} mentions the attachment host`);
   }
+});
+
+test('detail.js opens a page only after isSetNewsUrl allowed it', () => {
+  const text = readFileSync(join(SRC, 'detail.js'), 'utf8');
+  assert.match(text, /import \{ isSetNewsUrl \} from '\.\/guards\.js'/);
+  const guard = text.indexOf('isSetNewsUrl(item.url)');
+  const open = text.indexOf('page.goto(');
+  assert.ok(guard > 0 && open > guard, 'the url guard must come before page.goto');
 });

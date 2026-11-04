@@ -131,3 +131,32 @@ test('an empty div.news before the real news block (seen on the live page) does 
     assert.equal(d.attachments.length, 1, name);
   }
 });
+
+test('a retry never comes sooner than the pacing delay between page loads', async () => {
+  const f = fakeLaunch({ failTimes: 1 });
+  const t0 = Date.now();
+  await readDetails([item(GOOD)], { ...cfg, delayMs: 60 }, { launch: f.launch });
+  assert.ok(Date.now() - t0 >= 55, `waited ${Date.now() - t0}ms`);
+});
+
+test('when the time budget runs out the remaining pages are skipped, not read', async () => {
+  const calls = [];
+  const slow = {
+    launch: async () => ({
+      newContext: async () => ({
+        newPage: async () => ({
+          goto: async (url) => { calls.push(url); await new Promise((r) => setTimeout(r, 80)); },
+          waitForSelector: async () => {},
+          content: async () => fixture('nav'),
+          close: async () => {},
+        }),
+      }),
+      close: async () => {},
+    }),
+  };
+  const items = [1, 2, 3].map((n) => item(`https://www.set.or.th/th/market/news-and-alert/newsdetails?id=${n}&symbol=S${n}`, String(n), `S${n}`));
+  const out = await readDetails(items, { ...cfg, detailBudgetMs: 30 }, slow);
+  assert.equal(calls.length, 1);
+  assert.equal(out[0].ok, true);
+  assert.deepEqual(out.slice(1).map((r) => [r.ok, r.skipped]), [[false, true], [false, true]]);
+});

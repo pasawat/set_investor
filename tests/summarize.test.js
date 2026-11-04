@@ -153,3 +153,20 @@ test('symbols shown to the model in the sample labels (e.g. ABBV80) are not flag
   assert.equal(s.status, 'ok');
   assert.deepEqual(s.unverified, []);
 });
+
+test('max_tokens leaves room for always-on thinking plus the summary', async () => {
+  const c = fakeClient([reply('สรุป')]);
+  await summarizeItem(c, item(), detail(), config);
+  assert.ok(c.calls[0].max_tokens >= 8192, `max_tokens ${c.calls[0].max_tokens}`);
+});
+
+test('retries wait longer each time (exponential backoff)', async () => {
+  const waits = [];
+  const real = globalThis.setTimeout;
+  globalThis.setTimeout = (fn, ms, ...a) => { waits.push(ms); return real(fn, 0, ...a); };
+  try {
+    const c = fakeClient([httpError(429), httpError(429), reply('สรุป')]);
+    await summarizeItem(c, item(), detail(), { ...config, retryDelayMs: 100 });
+  } finally { globalThis.setTimeout = real; }
+  assert.deepEqual(waits.filter((w) => w >= 100), [100, 200]);
+});

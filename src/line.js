@@ -1,9 +1,9 @@
 // LINE Messaging API: split the digest into allowed message sizes and push it (spec §8).
 import { randomUUID } from 'node:crypto';
+import { backoffDelay, sleep } from './retry.js';
 
 const PUSH_URL = 'https://api.line.me/v2/bot/message/push';
 const MAX_PER_PUSH = 5;
-const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 
 // Hard-split text into chunks of at most `max` UTF-16 units without splitting a surrogate pair.
 function chunk(text, max) {
@@ -75,7 +75,7 @@ export async function pushLine({ token, userId, messages, fetchImpl = fetch, ret
       res = await fetchImpl(PUSH_URL, { method: 'POST', headers, body });
     } catch (e) {
       last = new Error(`LINE push failed: ${clean(e.message)}`);
-      await sleep(retryDelayMs);
+      if (attempt < retries) await sleep(backoffDelay(attempt, retryDelayMs, e));
       continue;
     }
     if (res.ok) return;
@@ -83,7 +83,7 @@ export async function pushLine({ token, userId, messages, fetchImpl = fetch, ret
     const error = new Error(`LINE push failed: HTTP ${res.status} ${detail}`);
     if (res.status !== 429 && res.status < 500) throw error;
     last = error;
-    await sleep(retryDelayMs);
+    if (attempt < retries) await sleep(backoffDelay(attempt, retryDelayMs, { headers: res.headers }));
   }
   throw last;
 }

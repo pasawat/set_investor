@@ -4,8 +4,7 @@ import { chromium } from 'playwright';
 import { parse } from 'node-html-parser';
 import { isSetNewsUrl } from './guards.js';
 import { newsKey } from './news.js';
-
-const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
+import { backoffDelay, sleep } from './retry.js';
 
 // The boilerplate disclaimer SET prints on every announcement (exchange liability notice).
 const DISCLAIMER = /สารสนเทศฉบับนี้จัดทำและเผยแพร่[\s\S]*?เผยแพร่สารสนเทศฉบับนี้/;
@@ -45,7 +44,8 @@ const failure = (id, error) => ({ id, ok: false, text: '', attachments: [], atta
  */
 export async function readDetails(items, config, deps = {}) {
   const launch = deps.launch || (() => chromium.launch());
-  const retryDelay = config.retryDelayMs ?? 1500;
+  const retryBase = config.retryDelayMs ?? 2000;
+  const deadline = config.detailBudgetMs ? Date.now() + config.detailBudgetMs : Infinity;
   const results = [];
   let browser = null;
   let context = null;
@@ -55,6 +55,10 @@ export async function readDetails(items, config, deps = {}) {
       const id = newsKey(item);
       if (!isSetNewsUrl(item.url)) {
         results.push(failure(id, `Refused url (not a SET news detail page): ${item.url}`));
+        continue;
+      }
+      if (Date.now() > deadline) {
+        results.push({ ...failure(id, 'เกินงบเวลาอ่านหน้าข่าวต่อรอบ'), skipped: true });
         continue;
       }
       if (!browser) {
@@ -68,13 +72,14 @@ export async function readDetails(items, config, deps = {}) {
       for (let attempt = 1; attempt <= config.retries && !done; attempt++) {
         const page = await context.newPage();
         try {
-          await page.goto(item.url, { waitUntil: 'domcontentloaded', timeout: 60000 });
+          await page.goto(item.url, { waitUntil: 'domcontentloaded', timeout: 30000 });
           await page.waitForSelector('div.news .title h2', { timeout: 20000 });
           await page.waitForSelector('.card-content .raw-html', { timeout: 20000 });
           done = { id, ok: true, ...extractDetail(await page.content()) };
         } catch (e) {
           lastError = e.message.split('\n')[0];
-          await sleep(retryDelay);
+          // a retry is another page load: never sooner than the pacing delay
+          if (attempt < config.retries) await sleep(Math.max(config.delayMs, backoffDelay(attempt, retryBase, e)));
         } finally {
           await page.close();
         }
