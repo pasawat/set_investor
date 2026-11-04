@@ -1,6 +1,6 @@
 # NOTES — SET News Daily Digest (บริบทสำหรับเริ่มงานต่อ)
 
-อัปเดตล่าสุด 2026-11-04 · branch `claude/stoic-faraday-m33yg9` (เป็น default ของ repo; branch `data` เก็บรายงาน/state/fixture) · ผู้ใช้: `psuetanu@cpaxtra.co.th` (GitHub `pasawat`) · คุยภาษาไทย
+อัปเดตล่าสุด 2026-11-04 · repo `pasawat/set_investor` มี 2 branch: **`main`** (default; โค้ดทั้งหมด) และ `data` (ระบบเขียนรายงาน/state/fixture เอง — ห้ามลบ) · branch เดิมชื่อ `claude/stoic-faraday-m33yg9` ถูกลบแล้ว · ผู้ใช้: `psuetanu@cpaxtra.co.th` (GitHub `pasawat`) · คุยภาษาไทย
 
 ## 1. เป้าหมาย
 สรุปข่าวตลาดหลักทรัพย์ไทย (หุ้น, ETF, DR) จาก **หน้า SET News and Alert เท่านั้น**
@@ -9,8 +9,8 @@
 ธีมสีองค์กร CP AXTRA (คำสั่งองค์กร): น้ำเงิน `#306FC7`, เหลือง `#F6C24A`, เขียว `#43938F`, แดง `#DA3832`
 
 ## 2. สถานะ
-**สร้างเสร็จและ push แล้วครบ 12 งานของแผน; ทดสอบ 139/139 ผ่าน; dry-run บนเว็บจริงผ่าน 2 รอบ** (ปิด AI) ผู้ตรวจอิสระหนึ่งคนตรวจทั้ง branch: ไม่มี Critical,
-ข้อแนะนำสำคัญแก้ครบแล้ว **ยังไม่มี PR และยังไม่ได้ merge** (ผู้ใช้ยังไม่ได้เลือกตัวเลือกปิดงาน: merge / PR / เก็บไว้ — แนะนำเก็บไว้ก่อน)
+**สร้างเสร็จครบ 12 งานของแผน; ทดสอบ 139/139 ผ่าน; dry-run บนเว็บจริงผ่าน 2 รอบ** (ปิด AI) ผู้ตรวจอิสระหนึ่งคนตรวจทั้ง branch: ไม่มี Critical,
+ข้อแนะนำสำคัญแก้ครบแล้ว **เรื่อง branch จบแล้ว:** สร้าง `main` จากโค้ดชุดนี้ → ผู้ใช้ตั้งเป็น default branch (ตรวจแล้วว่า HEAD ของ remote ชี้ `main`; Actions เห็น workflow ทั้งสอง) → ผู้ใช้ลบ branch ชื่อยาวเองแล้ว ไม่มี PR และไม่ต้องมี (ไม่มี branch ฐานให้เทียบ) ถ้าจะแก้โค้ดต่อ ให้แตก branch จาก `main`
 
 ยังไม่เคยรันจริงแบบครบวงจร: การเรียก **Claude API** และการส่ง **LINE** (ทดสอบกับตัวจำลองเท่านั้น)
 
@@ -45,7 +45,7 @@ Workflows: `.github/workflows/dry-run.yml` (สั่งมือ ไม่ส�
 - วันไม่มีข่าวใหม่: ส่ง "ไม่มีข่าวใหม่" (ไม่มีลิงก์) ตาม `SEND_WHEN_EMPTY` (ค่าเริ่มต้น true)
 
 ## 7. ขั้นตอนต่อไป (ส่วนใหญ่เป็นงานของผู้ใช้)
-1. ตัดสินใจเรื่อง branch: merge / PR / เก็บไว้ (ยังไม่เคยสร้าง PR; ห้ามสร้างถ้าผู้ใช้ไม่สั่ง)
+1. ~~ตัดสินใจเรื่อง branch~~ — **เสร็จแล้ว** (ดูหัวข้อ 2) ห้ามสร้าง PR ถ้าผู้ใช้ไม่สั่ง
 2. ตรวจ ToS ของ SET; พิจารณาขอสิทธิ์อ่านไฟล์แนบ (ถ้าได้ ค่อยออกแบบส่วนอ่านไฟล์แนบ — ตอนนี้ปิดตามค่าเริ่มต้น)
 3. สร้าง LINE OA + ตั้ง Secrets `ANTHROPIC_API_KEY`, `LINE_CHANNEL_ACCESS_TOKEN`, `LINE_USER_ID` (ดู `docs/setup.md`)
 4. สั่ง `daily-digest` รันมือ 1 ครั้งพร้อม key จริง → ตรวจข้อความ LINE, อัตราธง "ตัวเลขยังไม่ยืนยัน", ค่าใช้จ่ายจริง แล้วค่อยตั้ง `DIGEST_ENABLED=true`
@@ -58,6 +58,7 @@ Workflows: `.github/workflows/dry-run.yml` (สั่งมือ ไม่ส�
 
 ## 9. หมายเหตุสภาพแวดล้อม
 - sandbox ของ Claude เข้า `set.or.th` ไม่ได้ (proxy 403) ทดสอบกับเว็บจริงผ่าน GitHub Actions เท่านั้น (รอบละ ~2–10 นาที) อ่านผลด้วยเครื่องมือ GitHub MCP (`actions_run_trigger`, `actions_list`, `get_job_logs`) ล็อกของงานที่ยังรันอยู่ดึงไม่ได้ ต้องรอให้จบ
-- สิทธิ์ push ต้องให้ผู้ใช้เชื่อม GitHub ใหม่ที่ https://claude.ai/connect-github (ทำแล้วใน session นี้)
+- สิทธิ์ push ต้องให้ผู้ใช้เชื่อม GitHub ใหม่ที่ https://claude.ai/connect-github (ทำแล้วใน session ก่อน) session ใหม่ควรเลือก repo `pasawat/set_investor` ตั้งแต่เริ่ม และทำงานบน `main`/branch ที่แตกจาก `main` (session เดิมถูกตั้งให้ push ไป branch ที่ถูกลบแล้ว)
+- การเปลี่ยน default branch และการลบ branch ทำผ่านเครื่องมือของ Claude ไม่ได้ (GitHub ตอบ 403 เมื่อลบ branch; ไม่มีคำสั่งแก้ตั้งค่า repo) ผู้ใช้ทำเองที่หน้า Settings > General (default branch) และ /branches (ลบ)
 - แต่ละโมดูลมี fixture/ตัวอย่างจริง: `tests/fixtures/detail-*.html`; ข้อมูลรายการข่าวจริงอยู่ที่ `origin/data:fixtures/listing.json`
 - ประวัติการตัดสินใจละเอียด (ledger ของการลงมือ) ถูกลบตามขั้นตอนแล้ว ดูประวัติใน `git log` และคอมเมนต์หัวไฟล์
